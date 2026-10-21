@@ -27,7 +27,7 @@ jobs:
       - name: Collect all pages
         env:
           NKIS_API_KEY: ${{ secrets.NKIS_API_KEY }}
-        run: python scripts/collect_nkis.py
+        run: python scripts/collect_nkis.py --rows 100
       - name: Validate public data
         run: node scripts/validate-data.cjs
       - name: Commit collected data

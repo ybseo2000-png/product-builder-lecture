@@ -110,10 +110,10 @@ def fetch_page(key, page, rows):
     return parse_page(payload)
 
 
-def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
+def collect(key, max_pages, rows=100, fetch=fetch_page, pause=time.sleep):
     all_records, seen = [], {}
     page_signatures = set()
-    received = duplicates = 0
+    received = duplicates = conflicts = repeated_pages = 0
     expected = None
     for page in range(1, max_pages + 1):
         print(f'NKIS 요청 페이지: {page}', flush=True)
@@ -128,14 +128,15 @@ def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
             raise CollectorError('요청한 페이지 크기와 응답 불일치')
         signature = tuple(sorted(item['id'] for item in records))
         if records and signature in page_signatures:
-            raise CollectorError('PAGINATION_REPEAT: 동일한 보고서 페이지가 반복됐습니다. 페이지 번호 적용 여부를 확인하세요')
+            repeated_pages += 1
+            print(f'페이지 {page}: 동일 페이지 반복 감지; 건너뛰고 다음 페이지로 진행', flush=True)
         page_signatures.add(signature)
         received += len(records)
         page_duplicates = 0
         for item in records:
             if item['id'] in seen:
                 if seen[item['id']] != item:
-                    raise CollectorError('DUPLICATE_CONFLICT: 같은 보고서 ID에 서로 다른 정보가 있습니다')
+                    conflicts += 1  # 먼저 수집한 내용을 유지하고 후속 중복은 건너뜁니다.
                 duplicates += 1
                 page_duplicates += 1
                 continue
@@ -155,6 +156,8 @@ def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
                 'recordType': 'research-report', 'expectedCount': expected,
                 'receivedCount': received, 'duplicateCount': duplicates,
                 'uniqueCount': len(all_records),
+                'repeatedPageCount': repeated_pages, 'conflictingDuplicateCount': conflicts,
+                'requestedRowsPerPage': rows,
                 'coverageNote': ('API 페이지에 중복이 있어 일부 보고서 누락 가능성이 있습니다. 전체 과제/보고서의 완전한 목록으로 해석하지 마세요.' if duplicates else 'API가 반환한 페이지 기준이며 전체 연구과제 목록이 아닙니다.'),
                 'items': sorted(all_records, key=lambda x: (-x['year'], x['id'])),
             }
@@ -168,6 +171,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', default='data/research.json')
     parser.add_argument('--max-pages', type=int, default=10000)
+    parser.add_argument('--rows', type=int, default=100, help='페이지당 요청 건수 (1~100)')
     args = parser.parse_args()
     key = os.environ.get('NKIS_API_KEY', '').strip()
     if not key:
@@ -176,8 +180,12 @@ def main():
     if args.max_pages < 1:
         print('--max-pages는 양수여야 합니다.', file=sys.stderr)
         return 1
+    if not 1 <= args.rows <= 100:
+        print('--rows는 1~100 사이여야 합니다.', file=sys.stderr)
+        return 1
+    print(f'NKIS 조회: 발행연도 2022~2026 / 페이지당 요청 {args.rows}건', flush=True)
     try:
-        data = collect(key, args.max_pages)
+        data = collect(key, args.max_pages, rows=args.rows)
         serialized = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
         if key in serialized:
             raise CollectorError('응답에 인증키가 포함되어 공개할 수 없습니다')

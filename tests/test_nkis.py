@@ -70,14 +70,15 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(data['items']), 3)
         self.assertIn('누락 가능성', data['coverageNote'])
 
-    def test_conflicting_duplicate_is_rejected(self):
+    def test_conflicting_duplicate_keeps_first_and_continues(self):
         def fetch(key, page, rows):
             ids = ['OTP_A', 'OTP_B'] if page == 1 else ['OTP_B', 'OTP_C']
             records = [parse_page(xml(identifier=i))[1][0] for i in ids]
             if page == 2: records[0]['title'] = '변경된 제목'
             return 4, records
-        with self.assertRaises(CollectorError):
-            collect('fixture', 2, rows=2, fetch=fetch, pause=lambda _:None)
+        data = collect('fixture', 2, rows=2, fetch=fetch, pause=lambda _:None)
+        self.assertEqual(data['conflictingDuplicateCount'], 1)
+        self.assertEqual(next(x for x in data['items'] if x['id']=='OTP_B:0')['title'], '테스트 보고서')
 
     def test_changed_total_and_early_empty_fail(self):
         for mode in ['changed', 'empty']:
@@ -87,11 +88,30 @@ class CollectorTests(unittest.TestCase):
             with self.assertRaises(CollectorError):
                 collect('fixture', 2, rows=1, fetch=fetch, pause=lambda _:None)
 
-    def test_incomplete_and_duplicate_fail(self):
-        fetch = lambda *_: parse_page(xml(total=2))
-        for pages in [1, 2]:
-            with self.assertRaises(CollectorError):
-                collect('fixture', pages, rows=1, fetch=fetch, pause=lambda _:None)
+    def test_repeated_page_is_skipped_then_new_records_are_collected(self):
+        calls = []
+        def fetch(key, page, rows):
+            calls.append(page)
+            return parse_page(xml(total=3, identifier='OTP_A' if page < 3 else 'OTP_B'))
+        data = collect('fixture', 3, rows=1, fetch=fetch, pause=lambda _:None)
+        self.assertEqual(calls, [1, 2, 3])
+        self.assertEqual(data['repeatedPageCount'], 1)
+        self.assertEqual(data['duplicateCount'], 1)
+        self.assertEqual(data['uniqueCount'], 2)
+
+    def test_max_pages_still_stops_unbounded_collection(self):
+        fetch = lambda *_: parse_page(xml(total=100))
+        with self.assertRaises(CollectorError):
+            collect('fixture', 2, rows=1, fetch=fetch, pause=lambda _:None)
+
+    def test_default_requests_100_and_accepts_smaller_server_page(self):
+        requests = []
+        def fetch(key, page, rows):
+            requests.append(rows)
+            return parse_page(xml(total=2, identifier=f'OTP_{page}'))
+        data = collect('fixture', 2, fetch=fetch, pause=lambda _:None)
+        self.assertEqual(requests, [100, 100])
+        self.assertEqual(data['uniqueCount'], 2)
 
 
 if __name__ == '__main__': unittest.main()
