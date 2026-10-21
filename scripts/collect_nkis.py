@@ -6,7 +6,10 @@ import os
 from pathlib import Path
 import re
 import sys
+import socket
+import ssl
 import time
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 import xml.etree.ElementTree as ET
@@ -14,24 +17,28 @@ import xml.etree.ElementTree as ET
 ENDPOINT = 'https://nkis.re.kr/nkisApi/search/ReportList.do'
 
 
+class CollectorError(Exception):
+    """Only fixed, credential-free diagnostic text may be used here."""
+
+
 class NoRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        raise ValueError('인증 요청의 리다이렉트를 허용하지 않습니다')
+        raise CollectorError('인증 요청의 리다이렉트를 허용하지 않습니다')
 
 
 
 def parse_page(payload):
     if b'<!DOCTYPE' in payload.upper() or b'<!ENTITY' in payload.upper():
-        raise ValueError('지원하지 않는 XML 선언')
+        raise CollectorError('지원하지 않는 XML 선언')
     root = ET.fromstring(payload)
     for node in root.iter():
         node.tag = node.tag.rsplit('}', 1)[-1].upper()
     # 오류 메시지와 응답 원문은 인증정보 유출 방지를 위해 출력하지 않습니다.
     if any(node.tag == 'ERROR' and (node.text or '').strip() not in ('', '0', '000', '00') for node in root.iter()):
-        raise ValueError('NKIS가 오류를 반환했습니다. 인증/요청 조건을 확인하세요')
+        raise CollectorError('API_ERROR: NKIS가 오류 XML을 반환했습니다. 승인된 키 및 연구보고서 API 사용 권한을 확인하세요 (응답 원문 비공개)')
     totals = {(n.text or '').strip() for n in root.iter('TOTAL_COUNT')}
     if len(totals) != 1 or not next(iter(totals)).isdigit():
-        raise ValueError('TOTAL_COUNT 누락 또는 응답 형식 변경')
+        raise CollectorError('SCHEMA_TOTAL: TOTAL_COUNT가 없거나 올바른 정수가 아닙니다. 인증 또는 실제 XML 구조 확인이 필요합니다')
     records = []
     for node in root.iter():
         fields = {c.tag: ''.join(c.itertext()).strip() for c in node}
@@ -39,11 +46,11 @@ def parse_page(payload):
             continue
         required = ['OTP_ID', 'OTP_SEQ', 'OTP_HAN_NM', 'PUBAGC', 'PBL_YY']
         if any(not fields.get(k) for k in required):
-            raise ValueError('필수 보고서 필드 누락')
+            raise CollectorError('SCHEMA_RECORD: 보고서 필수 필드가 비어 있습니다')
         if not re.fullmatch(r'[A-Za-z0-9_-]+', fields['OTP_ID']) or not fields['OTP_SEQ'].isdigit():
-            raise ValueError('보고서 식별자 형식 오류')
+            raise CollectorError('보고서 식별자 형식 오류')
         if not re.fullmatch(r'202[2-6]', fields['PBL_YY']):
-            raise ValueError('조회 범위 밖 발행연도')
+            raise CollectorError('조회 범위 밖 발행연도')
         records.append({
             'id': fields['OTP_ID'] + ':' + fields['OTP_SEQ'],
             'year': int(fields['PBL_YY']),
@@ -52,7 +59,10 @@ def parse_page(payload):
             # 포털 홈에서 확인한 공식 상세 페이지 형식. 인증 URL은 공개하지 않음.
             'url': 'https://nkis.re.kr/subject_view1.do?' + urlencode({'otpId': fields['OTP_ID'], 'otpSeq': fields['OTP_SEQ'], 'menuNo': '103000'}),
         })
-    return int(next(iter(totals))), records
+    total = int(next(iter(totals)))
+    if total > 0 and not records:
+        raise CollectorError('SCHEMA_ROWS: 총 건수는 있지만 문서상 필드의 보고서 행을 찾지 못했습니다')
+    return total, records
 
 
 def fetch_page(key, page, rows):
@@ -63,7 +73,7 @@ def fetch_page(key, page, rows):
     with build_opener(NoRedirect()).open(req, timeout=45) as response:
         payload = response.read(10_000_001)
     if len(payload) > 10_000_000:
-        raise ValueError('응답 크기 제한 초과')
+        raise CollectorError('응답 크기 제한 초과')
     return parse_page(payload)
 
 
@@ -71,20 +81,23 @@ def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
     all_records, seen = [], set()
     expected = None
     for page in range(1, max_pages + 1):
+        print(f'NKIS 요청 페이지: {page}', flush=True)
         total, records = fetch(key, page, rows)
+        if page == 1 or page % 25 == 0:
+            print(f'NKIS 페이지 {page}: 응답 {len(records)}건 / 전체 {total}건', flush=True)
         if expected is None:
             expected = total
         if total != expected:
-            raise ValueError('수집 중 총 건수 변경. 이전 파일을 유지합니다')
+            raise CollectorError('수집 중 총 건수 변경. 이전 파일을 유지합니다')
         if len(records) > rows:
-            raise ValueError('요청한 페이지 크기와 응답 불일치')
+            raise CollectorError('요청한 페이지 크기와 응답 불일치')
         for item in records:
             if item['id'] in seen:
-                raise ValueError('페이지 간 중복. 전체 수집으로 처리할 수 없습니다')
+                raise CollectorError('페이지 간 중복. 전체 수집으로 처리할 수 없습니다')
             seen.add(item['id'])
             all_records.append(item)
         if len(all_records) > expected:
-            raise ValueError('총 건수 초과')
+            raise CollectorError('총 건수 초과')
         if len(all_records) == expected:
             return {
                 'kind': 'research', 'status': 'ready',
@@ -95,9 +108,9 @@ def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
                 'items': sorted(all_records, key=lambda x: (-x['year'], x['id'])),
             }
         if not records:
-            raise ValueError('총 건수에 도달하기 전 빈 페이지')
+            raise CollectorError('총 건수에 도달하기 전 빈 페이지')
         pause(0.3)
-    raise ValueError('페이지 제한 초과. 부분 수집은 저장하지 않습니다')
+    raise CollectorError('페이지 제한 초과. 부분 수집은 저장하지 않습니다')
 
 
 def main():
@@ -116,7 +129,7 @@ def main():
         data = collect(key, args.max_pages)
         serialized = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
         if key in serialized:
-            raise ValueError('응답에 인증키가 포함되어 공개할 수 없습니다')
+            raise CollectorError('응답에 인증키가 포함되어 공개할 수 없습니다')
         output = Path(args.output)
         output.parent.mkdir(parents=True, exist_ok=True)
         temporary = output.with_suffix('.json.tmp')
@@ -124,8 +137,25 @@ def main():
         temporary.replace(output)
         print(f'NKIS 보고서 {len(data["items"])}건 저장 완료')
         return 0
-    except Exception:
-        print('NKIS 수집 실패. 이전 데이터는 유지됩니다. 인증 승인, 접속 및 응답 명세를 확인하세요. 인증정보 보호를 위해 상세 응답은 출력하지 않습니다.', file=sys.stderr)
+    except Exception as exc:
+        # str(HTTPError/URLError)나 traceback은 요청 URL과 키를 노출할 수 있습니다.
+        if isinstance(exc, CollectorError):
+            diagnostic = str(exc)
+        elif isinstance(exc, HTTPError):
+            diagnostic = f'HTTP_ERROR: HTTP 상태 {exc.code}. 인증/접근 제한 또는 서버 상태를 확인하세요'
+        elif isinstance(exc, (TimeoutError, socket.timeout)):
+            diagnostic = 'TIMEOUT: NKIS 응답 대기 시간 초과'
+        elif isinstance(exc, ssl.SSLError):
+            diagnostic = 'TLS_ERROR: 인증서 또는 TLS 연결 오류 (검증은 유지됩니다)'
+        elif isinstance(exc, URLError):
+            diagnostic = 'NETWORK_ERROR: NKIS 연결 실패. DNS/TLS/네트워크 정책을 확인하세요'
+        elif isinstance(exc, ET.ParseError):
+            diagnostic = 'XML_ERROR: XML로 해석할 수 없는 응답입니다'
+        elif isinstance(exc, OSError):
+            diagnostic = 'FILE_ERROR: 공개 데이터 파일 저장 실패'
+        else:
+            diagnostic = 'UNEXPECTED_ERROR: 예상하지 못한 내부 오류 (상세 응답 비공개)'
+        print('NKIS 수집 실패: ' + diagnostic + '. 기존 데이터 파일은 교체하지 않았습니다.', file=sys.stderr)
         return 1
 
 

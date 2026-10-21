@@ -1,6 +1,10 @@
 """인공 XML fixture 테스트이며 실제 API 성공을 의미하지 않습니다."""
 import unittest
-from scripts.collect_nkis import collect, parse_page
+from unittest.mock import patch
+import contextlib
+import io
+from urllib.error import HTTPError
+from scripts.collect_nkis import CollectorError, collect, main, parse_page
 
 
 def xml(total=1, year='2026', identifier='OTP_TEST'):
@@ -19,7 +23,7 @@ class CollectorTests(unittest.TestCase):
 
     def test_error_and_unknown_schema(self):
         for payload in [b'<root><error>200</error></root>', b'<html/>', xml(year='2021')]:
-            with self.assertRaises(ValueError): parse_page(payload)
+            with self.assertRaises(CollectorError): parse_page(payload)
 
     def test_pagination(self):
         calls = []
@@ -30,10 +34,22 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(data['items']), 2)
         self.assertEqual(calls, [1, 2])
 
+    def test_diagnostics_hide_key_and_url(self):
+        secret = 'private-fixture-key-not-real'
+        errors = [HTTPError('https://example.invalid/?serviceKey='+secret,403,secret,None,None),
+                  RuntimeError(secret), CollectorError('SCHEMA_TOTAL: required field absent')]
+        for error in errors:
+            stderr = io.StringIO()
+            with patch.dict('os.environ', {'NKIS_API_KEY': secret}), patch('sys.argv', ['collect_nkis']), patch('scripts.collect_nkis.collect', side_effect=error), contextlib.redirect_stderr(stderr):
+                self.assertEqual(main(), 1)
+            self.assertNotIn(secret, stderr.getvalue())
+            self.assertNotIn('example.invalid', stderr.getvalue())
+            self.assertIn('기존 데이터 파일은 교체하지 않았습니다', stderr.getvalue())
+
     def test_incomplete_and_duplicate_fail(self):
         fetch = lambda *_: parse_page(xml(total=2))
         for pages in [1, 2]:
-            with self.assertRaises(ValueError):
+            with self.assertRaises(CollectorError):
                 collect('fixture', pages, rows=1, fetch=fetch, pause=lambda _:None)
 
 

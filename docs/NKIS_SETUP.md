@@ -37,3 +37,19 @@
 ## 검증 범위
 
 인공 XML fixture 기반 테스트 4개와 데이터 계약 테스트를 실행했습니다. 이것은 실제 API 인증, 실자료 수집 성공, GitHub Actions 실행 및 공개 배포 성공을 의미하지 않습니다. 키 등록 후 최초 실제 실행 결과 확인이 남아 있습니다.
+
+## 수집 실패 시 진단
+
+기존 `Process completed with exit code 1`만으로는 원인을 알 수 없습니다. 최신 코드는 키와 요청 URL을 숨기면서 다음을 구분합니다.
+
+- Secret 미등록: `NKIS_API_KEY Secret이 필요합니다`.
+- API_ERROR: NKIS가 오류 XML을 반환함. 승인 상태/서비스 사용 권한 확인.
+- HTTP_ERROR: HTTP 상태만 출력. 접근 제한이나 서버 오류 확인.
+- NETWORK_ERROR / TIMEOUT / TLS_ERROR: 연결 단계 실패.
+- XML_ERROR / SCHEMA_TOTAL / SCHEMA_ROWS / SCHEMA_RECORD: 실제 응답이 예상 XML/명세와 다름.
+- 그 외 중복, 총 건수 변경, 수집 제한 도달: 원인을 고정 문구로 표시하고 이전 자료 유지.
+
+오류 문구는 진단 범주이며, 예를 들어 API_ERROR만으로 키가 틀렸다고 확정하지 않습니다.
+수정 후에는 예전 실행의 Re-run 대신 Actions → Collect NKIS reports → Run workflow → main으로 새 실행을 만드세요. 예전 실행을 다시 돌리면 예전 코드로 실행될 수 있습니다.
+
+런너는 ubuntu-24.04로 고정했고 checkout/setup-node/setup-python을 공식 v6 태그로 갱신했습니다. 기존 Node 20 경고와 Ubuntu 마이그레이션 안내는 수집 실패 원인과 별개의 항목입니다.
