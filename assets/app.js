@@ -44,6 +44,7 @@ if (tbody) {
       status.textContent = dataset.status === 'pending'
         ? '공식 데이터 연결을 준비 중입니다. 예시 자료는 실제 검색 결과와 혼동되지 않도록 표시하지 않습니다.'
         : `수집 기준: ${dataset.period.start}~${dataset.period.end} (현재까지) · 마지막 수집: ${dataset.updatedAt} · 출처: ${dataset.sources.join(', ')}. 저장된 자료를 표시하며 전체 수집 범위는 수집 기록을 확인해야 합니다.`;
+      if (dataset.status === 'ready' && dataset.coverageNote) status.textContent += ' ' + dataset.coverageNote;
       render();
     } catch {
       status.textContent = '자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';

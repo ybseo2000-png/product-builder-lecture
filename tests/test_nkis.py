@@ -60,6 +60,33 @@ class CollectorTests(unittest.TestCase):
             self.assertNotIn('example.invalid', stderr.getvalue())
             self.assertIn('기존 데이터 파일은 교체하지 않았습니다', stderr.getvalue())
 
+    def test_overlap_is_deduplicated_with_coverage_warning(self):
+        def fetch(key, page, rows):
+            ids = ['OTP_A', 'OTP_B'] if page == 1 else ['OTP_B', 'OTP_C']
+            return 4, [parse_page(xml(identifier=i))[1][0] for i in ids]
+        data = collect('fixture', 2, rows=2, fetch=fetch, pause=lambda _:None)
+        self.assertEqual(data['receivedCount'], 4)
+        self.assertEqual(data['duplicateCount'], 1)
+        self.assertEqual(len(data['items']), 3)
+        self.assertIn('누락 가능성', data['coverageNote'])
+
+    def test_conflicting_duplicate_is_rejected(self):
+        def fetch(key, page, rows):
+            ids = ['OTP_A', 'OTP_B'] if page == 1 else ['OTP_B', 'OTP_C']
+            records = [parse_page(xml(identifier=i))[1][0] for i in ids]
+            if page == 2: records[0]['title'] = '변경된 제목'
+            return 4, records
+        with self.assertRaises(CollectorError):
+            collect('fixture', 2, rows=2, fetch=fetch, pause=lambda _:None)
+
+    def test_changed_total_and_early_empty_fail(self):
+        for mode in ['changed', 'empty']:
+            def fetch(key, page, rows):
+                if page == 1: return parse_page(xml(total=2))
+                return (3, []) if mode == 'changed' else (2, [])
+            with self.assertRaises(CollectorError):
+                collect('fixture', 2, rows=1, fetch=fetch, pause=lambda _:None)
+
     def test_incomplete_and_duplicate_fail(self):
         fetch = lambda *_: parse_page(xml(total=2))
         for pages in [1, 2]:

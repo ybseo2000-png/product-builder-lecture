@@ -111,7 +111,9 @@ def fetch_page(key, page, rows):
 
 
 def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
-    all_records, seen = [], set()
+    all_records, seen = [], {}
+    page_signatures = set()
+    received = duplicates = 0
     expected = None
     for page in range(1, max_pages + 1):
         print(f'NKIS 요청 페이지: {page}', flush=True)
@@ -124,20 +126,36 @@ def collect(key, max_pages, rows=10, fetch=fetch_page, pause=time.sleep):
             raise CollectorError('수집 중 총 건수 변경. 이전 파일을 유지합니다')
         if len(records) > rows:
             raise CollectorError('요청한 페이지 크기와 응답 불일치')
+        signature = tuple(sorted(item['id'] for item in records))
+        if records and signature in page_signatures:
+            raise CollectorError('PAGINATION_REPEAT: 동일한 보고서 페이지가 반복됐습니다. 페이지 번호 적용 여부를 확인하세요')
+        page_signatures.add(signature)
+        received += len(records)
+        page_duplicates = 0
         for item in records:
             if item['id'] in seen:
-                raise CollectorError('페이지 간 중복. 전체 수집으로 처리할 수 없습니다')
-            seen.add(item['id'])
+                if seen[item['id']] != item:
+                    raise CollectorError('DUPLICATE_CONFLICT: 같은 보고서 ID에 서로 다른 정보가 있습니다')
+                duplicates += 1
+                page_duplicates += 1
+                continue
+            seen[item['id']] = item
             all_records.append(item)
-        if len(all_records) > expected:
+        if page_duplicates:
+            print(f'페이지 {page}: 중복 {page_duplicates}건 제거 (누적 {duplicates}건)', flush=True)
+        if received > expected:
             raise CollectorError('총 건수 초과')
-        if len(all_records) == expected:
+        if received == expected:
+            print(f'수집 종료: API 수신 {received}건 / 고유 보고서 {len(all_records)}건 / 중복 {duplicates}건', flush=True)
             return {
                 'kind': 'research', 'status': 'ready',
                 'period': {'start': '2022-01-01', 'end': '2026-12-31'},
                 'updatedAt': datetime.now(timezone.utc).isoformat(),
                 'sources': ['NKIS 연구보고서 목록 API (발행연도 기준)'],
                 'recordType': 'research-report', 'expectedCount': expected,
+                'receivedCount': received, 'duplicateCount': duplicates,
+                'uniqueCount': len(all_records),
+                'coverageNote': ('API 페이지에 중복이 있어 일부 보고서 누락 가능성이 있습니다. 전체 과제/보고서의 완전한 목록으로 해석하지 마세요.' if duplicates else 'API가 반환한 페이지 기준이며 전체 연구과제 목록이 아닙니다.'),
                 'items': sorted(all_records, key=lambda x: (-x['year'], x['id'])),
             }
         if not records:
