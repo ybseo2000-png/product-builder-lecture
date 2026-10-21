@@ -53,3 +53,9 @@
 수정 후에는 예전 실행의 Re-run 대신 Actions → Collect NKIS reports → Run workflow → main으로 새 실행을 만드세요. 예전 실행을 다시 돌리면 예전 코드로 실행될 수 있습니다.
 
 런너는 ubuntu-24.04로 고정했고 checkout/setup-node/setup-python을 공식 v6 태그로 갱신했습니다. 기존 Node 20 경고와 Ubuntu 마이그레이션 안내는 수집 실패 원인과 별개의 항목입니다.
+
+### 추가 진단과 한국어 인코딩
+
+UNEXPECTED_ERROR가 보고되어 예외 메시지를 숨긴 채 예외 클래스 이름과 수집기 내부 함수/줄번호만 출력하도록 보강했습니다. 접속 후 HTTP 상태, 응답 크기 및 XML 해석 시작도 구분합니다. 요청 URL/키/원본 응답/지역변수는 출력하지 않습니다.
+
+ElementTree가 EUC-KR XML bytes를 직접 파싱할 때 ValueError를 내는 문제를 인공 응답으로 재현했습니다. 선언된 UTF-8/EUC-KR/CP949 인코딩을 엄격히 디코딩하도록 수정했습니다. 이것이 사용자 실행의 실제 원인이었는지는 아직 확인되지 않았습니다. HTTP 프로토콜 오류도 별도로 구분합니다.

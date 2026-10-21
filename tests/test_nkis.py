@@ -4,6 +4,7 @@ from unittest.mock import patch
 import contextlib
 import io
 from urllib.error import HTTPError
+from http.client import IncompleteRead
 from scripts.collect_nkis import CollectorError, collect, main, parse_page
 
 
@@ -21,6 +22,19 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(items[0]['year'], 2026)
         self.assertNotIn('serviceKey', items[0]['url'])
 
+    def test_korean_xml_encodings(self):
+        for encoding in ['euc-kr', 'cp949', 'utf-8']:
+            payload = ('<?xml version="1.0" encoding="' + encoding + '"?>').encode() + xml().decode().encode(encoding)
+            total, records = parse_page(payload)
+            self.assertEqual(total, 1)
+            self.assertEqual(records[0]['title'], '테스트 보고서')
+
+    def test_reject_bad_encoding(self):
+        with self.assertRaises(CollectorError):
+            parse_page(b'<?xml version="1.0" encoding="unknown"?><root/>')
+        with self.assertRaises(CollectorError):
+            parse_page(b'<?xml version="1.0" encoding="utf-8"?><root>\xff</root>')
+
     def test_error_and_unknown_schema(self):
         for payload in [b'<root><error>200</error></root>', b'<html/>', xml(year='2021')]:
             with self.assertRaises(CollectorError): parse_page(payload)
@@ -37,7 +51,7 @@ class CollectorTests(unittest.TestCase):
     def test_diagnostics_hide_key_and_url(self):
         secret = 'private-fixture-key-not-real'
         errors = [HTTPError('https://example.invalid/?serviceKey='+secret,403,secret,None,None),
-                  RuntimeError(secret), CollectorError('SCHEMA_TOTAL: required field absent')]
+                  RuntimeError(secret), IncompleteRead(secret.encode(), 100), CollectorError('SCHEMA_TOTAL: required field absent')]
         for error in errors:
             stderr = io.StringIO()
             with patch.dict('os.environ', {'NKIS_API_KEY': secret}), patch('sys.argv', ['collect_nkis']), patch('scripts.collect_nkis.collect', side_effect=error), contextlib.redirect_stderr(stderr):
