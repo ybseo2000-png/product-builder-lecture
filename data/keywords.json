@@ -44805,6 +44805,4368 @@
         "사전예방적 관리"
       ],
       "checkedAt": "2026-10-21T13:20:26.169860+00:00"
+    },
+    "OTP_0000000000011472:0": {
+      "id": "OTP_0000000000011472:0",
+      "year": 2022,
+      "title": "농업분야 소득파악 기반 구축을 위한 정책과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011472&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농업 소득",
+        "소득 파악",
+        "소득"
+      ],
+      "checkedAt": "2026-10-21T17:41:05.210379+00:00"
+    },
+    "OTP_0000000000011475:0": {
+      "id": "OTP_0000000000011475:0",
+      "year": 2022,
+      "title": "2022 한국의 성인지 통계",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011475&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "2022 한국의 성인지 통계"
+      ],
+      "checkedAt": "2026-10-21T17:41:08.596828+00:00"
+    },
+    "OTP_0000000000011476:0": {
+      "id": "OTP_0000000000011476:0",
+      "year": 2022,
+      "title": "보건복지 분야 일자리의 노동시장 성과",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011476&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "보건의료인력",
+        "돌봄직",
+        "임금분포",
+        "이직",
+        "사회적 돌봄",
+        "health care personnels",
+        "Care workers",
+        "Wage distribution",
+        "Turnover",
+        "Social Care"
+      ],
+      "checkedAt": "2026-10-21T17:41:11.934365+00:00"
+    },
+    "OTP_0000000000011477:0": {
+      "id": "OTP_0000000000011477:0",
+      "year": 2022,
+      "title": "보건복지 분야 데이터 경제 활성화를 위한 다출처 데이터 연계, 통합, 활용 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011477&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "데이터 통합",
+        "통합데이터",
+        "자료연계",
+        "통계적 매칭",
+        "data integration",
+        "integrated dataset",
+        "record linkage",
+        "statistical matching"
+      ],
+      "checkedAt": "2026-10-21T17:41:15.616825+00:00"
+    },
+    "OTP_0000000000011482:0": {
+      "id": "OTP_0000000000011482:0",
+      "year": 2022,
+      "title": "유·초 연계교육 운영 모델 개발 연구: 이음교육 시범사업을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011482&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "유초연계",
+        "이음교육",
+        "유보연계",
+        "유보초연계"
+      ],
+      "checkedAt": "2026-10-21T17:41:18.674801+00:00"
+    },
+    "OTP_0000000000011484:0": {
+      "id": "OTP_0000000000011484:0",
+      "year": 2022,
+      "title": "교육서비스 산업 종사자의 노동시간 실태와 삶의 질 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011484&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "교육서비스 산업 종사자의 노동시간 실태와 삶의 질 연구"
+      ],
+      "checkedAt": "2026-10-21T17:41:22.046910+00:00"
+    },
+    "OTP_0000000000011485:0": {
+      "id": "OTP_0000000000011485:0",
+      "year": 2022,
+      "title": "일반식품 기능성 표시제 현황과 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011485&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "일반식품",
+        "기능성 표시제",
+        "식품표시"
+      ],
+      "checkedAt": "2026-10-21T17:41:25.468701+00:00"
+    },
+    "OTP_0000000000011486:0": {
+      "id": "OTP_0000000000011486:0",
+      "year": 2022,
+      "title": "고령 저임금 근로자의 노동공급 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011486&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "고령 저임금 근로자의 노동공급 분석"
+      ],
+      "checkedAt": "2026-10-21T17:41:28.842879+00:00"
+    },
+    "OTP_0000000000011487:0": {
+      "id": "OTP_0000000000011487:0",
+      "year": 2022,
+      "title": "제조업 엔지니어의 인적자원관리와 역량증진 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011487&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "제조업 엔지니어의 인적자원관리와 역량증진 방안"
+      ],
+      "checkedAt": "2026-10-21T17:41:32.354755+00:00"
+    },
+    "OTP_0000000000011493:0": {
+      "id": "OTP_0000000000011493:0",
+      "year": 2022,
+      "title": "아동친화 주거공간 조성·운영을 위한 사업모델 및 지원방안 연구 -소규모 공공임대주택을 중심으로-",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011493&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "아동",
+        "아동친화",
+        "주거공간",
+        "사업모델",
+        "공공임대주택"
+      ],
+      "checkedAt": "2026-10-21T17:41:35.977510+00:00"
+    },
+    "OTP_0000000000011494:0": {
+      "id": "OTP_0000000000011494:0",
+      "year": 2022,
+      "title": "윤석열 정부의 한반도 전략",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011494&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한반도 전략",
+        "대북 통일정책",
+        "외교 안보정책",
+        "신경제",
+        "신안보",
+        "세계전략"
+      ],
+      "checkedAt": "2026-10-21T17:41:39.177211+00:00"
+    },
+    "OTP_0000000000011495:0": {
+      "id": "OTP_0000000000011495:0",
+      "year": 2022,
+      "title": "팬데믹 시대 정책 환경 변화와 북한의 대응",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011495&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "팬데믹",
+        "국경경관",
+        "북한농업",
+        "북한교육",
+        "통치행위",
+        "김정은"
+      ],
+      "checkedAt": "2026-10-21T17:41:42.952442+00:00"
+    },
+    "OTP_0000000000011496:0": {
+      "id": "OTP_0000000000011496:0",
+      "year": 2022,
+      "title": "북한 미래세대를 위한 개발협력 구상: 해외 사례와 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011496&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한 미래세대",
+        "개발협력",
+        "교사 역량강화",
+        "이동도서관",
+        "ICT 교육환경",
+        "기생충 퇴치",
+        "영양개선"
+      ],
+      "checkedAt": "2026-10-21T17:41:46.345141+00:00"
+    },
+    "OTP_0000000000011497:0": {
+      "id": "OTP_0000000000011497:0",
+      "year": 2022,
+      "title": "복지국가와 사회적경제의 조응형태에 대한 국제 비교연구 - 사회적경제조직 유형에 따른 정부 지원방식을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011497&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회적경제",
+        "협동조합",
+        "사회적기업",
+        "social economy",
+        "dependence on the government",
+        "international comparative study"
+      ],
+      "checkedAt": "2026-10-21T17:41:49.995559+00:00"
+    },
+    "OTP_0000000000011500:0": {
+      "id": "OTP_0000000000011500:0",
+      "year": 2022,
+      "title": "일가정 양립 지원 정책 모니터링 및 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011500&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "일·가정 양립 지원 정책",
+        "저출산·고령사회 기본계획",
+        "모니터링",
+        "Work-Life Balance Support Policy",
+        "Plan for Ageing Society and Population Policy",
+        "Monitoring"
+      ],
+      "checkedAt": "2026-10-21T17:41:53.169449+00:00"
+    },
+    "OTP_0000000000011501:0": {
+      "id": "OTP_0000000000011501:0",
+      "year": 2022,
+      "title": "국가치매관리체계 형평성 제고를 위한 기초 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011501&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "치매",
+        "인지기능저하",
+        "서비스 형평성",
+        "국가치매관리종합계획",
+        "dementia",
+        "cognitive decline",
+        "service equity",
+        "national dementia plans"
+      ],
+      "checkedAt": "2026-10-21T17:41:56.856123+00:00"
+    },
+    "OTP_0000000000011502:0": {
+      "id": "OTP_0000000000011502:0",
+      "year": 2022,
+      "title": "사회보장 재정 위기 감지 및 대응을 위한 분석적 기반 연구- (II) 사회보장지출의 적정성 진단",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011502&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회보장 지출",
+        "지출관리",
+        "자동안정화 효과",
+        "참조예산",
+        "새플리 분해",
+        "government social spending",
+        "social expenditure management"
+      ],
+      "checkedAt": "2026-10-21T17:42:00.138853+00:00"
+    },
+    "OTP_0000000000011503:0": {
+      "id": "OTP_0000000000011503:0",
+      "year": 2022,
+      "title": "디지털 전환과 사회불평등에 대응하는 직업능력정책",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011503&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 전환",
+        "사회불평등",
+        "직업능력개발",
+        "평생학습체제",
+        "유연안정성"
+      ],
+      "checkedAt": "2026-10-21T17:42:03.608498+00:00"
+    },
+    "OTP_0000000000011505:0": {
+      "id": "OTP_0000000000011505:0",
+      "year": 2022,
+      "title": "2022년 전국 일-생활 균형 실태조사",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011505&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "일",
+        "생활",
+        "균형",
+        "work",
+        "life",
+        "balance"
+      ],
+      "checkedAt": "2026-10-21T17:42:06.954449+00:00"
+    },
+    "OTP_0000000000011509:0": {
+      "id": "OTP_0000000000011509:0",
+      "year": 2022,
+      "title": "취약청소년의 자립과 취업 지원 방안(2022): 다문화청소년",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011509&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "다문화교육",
+        "직업교육훈련",
+        "사회적 배려자 정책",
+        "교육의 희망사다리 복원",
+        "사회적 가치 실현"
+      ],
+      "checkedAt": "2026-10-21T17:42:10.143203+00:00"
+    },
+    "OTP_0000000000011515:0": {
+      "id": "OTP_0000000000011515:0",
+      "year": 2022,
+      "title": "아시아국가 친환경미래에너지 법제 연구-수소,전기차 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011515&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "Hydrogen Vehicles",
+        "Electric Vehicles",
+        "EVs",
+        "FCEVs",
+        "PHEVs",
+        "Battery",
+        "Energy",
+        "Green Energy",
+        "Sustainable Growth",
+        "Net-Zero Emission",
+        "Carbon Neutrality",
+        "UNFCCC",
+        "ICE",
+        "Internal Combustion Engine Vehicles",
+        "Law",
+        "Policy",
+        "Asia",
+        "NDC",
+        "Battery Waste",
+        "Battery Recycling"
+      ],
+      "checkedAt": "2026-10-21T17:42:13.697688+00:00"
+    },
+    "OTP_0000000000011516:0": {
+      "id": "OTP_0000000000011516:0",
+      "year": 2022,
+      "title": "규제샌드박스 제도 수요자 체감도 조사",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011516&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "규제샌드박스",
+        "규제완화",
+        "경제 활성화",
+        "신산업 규제개선"
+      ],
+      "checkedAt": "2026-10-21T17:42:17.291683+00:00"
+    },
+    "OTP_0000000000011519:0": {
+      "id": "OTP_0000000000011519:0",
+      "year": 2022,
+      "title": "청년과 중고령 세대 간 고용대체 관계 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011519&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "청년과 중고령 세대 간 고용대체 관계 연구"
+      ],
+      "checkedAt": "2026-10-21T17:42:20.253651+00:00"
+    },
+    "OTP_0000000000011521:0": {
+      "id": "OTP_0000000000011521:0",
+      "year": 2022,
+      "title": "지방자치단체의 농지이용계획 실태와 개선과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011521&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지방자치단체",
+        "농지이용계획",
+        "농지이용",
+        "농지"
+      ],
+      "checkedAt": "2026-10-21T17:42:23.573231+00:00"
+    },
+    "OTP_0000000000011522:0": {
+      "id": "OTP_0000000000011522:0",
+      "year": 2022,
+      "title": "데이터 기반 가축전염병 효율적 대응 방안 연구 (1/2차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011522&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "데이터 기반",
+        "가축전염병"
+      ],
+      "checkedAt": "2026-10-21T17:42:27.267351+00:00"
+    },
+    "OTP_0000000000011525:0": {
+      "id": "OTP_0000000000011525:0",
+      "year": 2022,
+      "title": "노숙인의 통합적 의료지원과 지역사회 정착을 위한 정책방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011525&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "노숙인",
+        "의료지원",
+        "하우징 퍼스트",
+        "homeless people",
+        "medical care",
+        "housing first"
+      ],
+      "checkedAt": "2026-10-21T17:42:30.782440+00:00"
+    },
+    "OTP_0000000000011526:0": {
+      "id": "OTP_0000000000011526:0",
+      "year": 2022,
+      "title": "출산전후 휴가 및 육아휴직제도 개편 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011526&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "출산전후휴가",
+        "육아휴직제도",
+        "급여 대상자 확대",
+        "maternity leave",
+        "parental leave",
+        "expansion of beneficiaries"
+      ],
+      "checkedAt": "2026-10-21T17:42:34.190695+00:00"
+    },
+    "OTP_0000000000011527:0": {
+      "id": "OTP_0000000000011527:0",
+      "year": 2022,
+      "title": "보건복지분야 디지털 기술의 적용 가능성과 전망",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011527&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 기술",
+        "적용",
+        "SWOT 분석",
+        "보건복지",
+        "이슈",
+        "Digital Technology",
+        "SWOT Analysis",
+        "Health and Social Welfare",
+        "Issue"
+      ],
+      "checkedAt": "2026-10-21T17:42:37.664770+00:00"
+    },
+    "OTP_0000000000011530:0": {
+      "id": "OTP_0000000000011530:0",
+      "year": 2022,
+      "title": "김정은 집권 이후 북한의 재정금융 제도 변화",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011530&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회주의 경제",
+        "북한경제",
+        "김정은 집권기",
+        "재정제도",
+        "금융제도",
+        "텍스트마이닝"
+      ],
+      "checkedAt": "2026-10-21T17:42:40.930421+00:00"
+    },
+    "OTP_0000000000011533:0": {
+      "id": "OTP_0000000000011533:0",
+      "year": 2022,
+      "title": "직업교육훈련 정책의 중장기 추진 방향 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011533&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "직업교육훈련",
+        "정책 평가",
+        "정책 제안"
+      ],
+      "checkedAt": "2026-10-21T17:42:44.009198+00:00"
+    },
+    "OTP_0000000000011534:0": {
+      "id": "OTP_0000000000011534:0",
+      "year": 2022,
+      "title": "지역인재 투자협약제도 추진을 위한 현황 진단 및 정책방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011534&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역인재양성",
+        "투자협약",
+        "지자체",
+        "고등교육",
+        "지방분권"
+      ],
+      "checkedAt": "2026-10-21T17:42:47.279114+00:00"
+    },
+    "OTP_0000000000011535:0": {
+      "id": "OTP_0000000000011535:0",
+      "year": 2022,
+      "title": "민간자격 등록갱신제 시행방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011535&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "자격",
+        "민간자격",
+        "등록",
+        "등록갱신제"
+      ],
+      "checkedAt": "2026-10-21T17:42:50.247616+00:00"
+    },
+    "OTP_0000000000011536:0": {
+      "id": "OTP_0000000000011536:0",
+      "year": 2022,
+      "title": "대학의 산학협력 특성과 산학협력 성과",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011536&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "고등교육",
+        "산학협력",
+        "지방대학",
+        "지역 불균형",
+        "산학협력 기반 대학 유형화"
+      ],
+      "checkedAt": "2026-10-21T17:42:53.749095+00:00"
+    },
+    "OTP_0000000000011537:0": {
+      "id": "OTP_0000000000011537:0",
+      "year": 2022,
+      "title": "지역균형발전을 위한 미래인재 전략",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011537&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역인재정책",
+        "지역혁신시스템",
+        "지역균형발전",
+        "지역맞춤"
+      ],
+      "checkedAt": "2026-10-21T17:42:56.999378+00:00"
+    },
+    "OTP_0000000000011541:0": {
+      "id": "OTP_0000000000011541:0",
+      "year": 2022,
+      "title": "성폭력 범죄 미성년 피해자의 영상진술 특례규정 위헌결정 관련 개선방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011541&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성폭력범죄",
+        "피해자보호",
+        "헌법재판소",
+        "법률 제21조의 3 제4항",
+        "정부 개정안",
+        "법제사법위원회",
+        "진술조력인",
+        "영상녹화물"
+      ],
+      "checkedAt": "2026-10-21T17:43:00.254902+00:00"
+    },
+    "OTP_0000000000011542:0": {
+      "id": "OTP_0000000000011542:0",
+      "year": 2022,
+      "title": "2020년 한국의료패널 기초분석보고서(II)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011542&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한국의료패널",
+        "의료이용",
+        "의료비 지출",
+        "Korea Health Panel Survey",
+        "health care utilization",
+        "health care expenditures"
+      ],
+      "checkedAt": "2026-10-21T17:43:03.449015+00:00"
+    },
+    "OTP_0000000000011543:0": {
+      "id": "OTP_0000000000011543:0",
+      "year": 2022,
+      "title": "사회재난 영향평가 : 코로나19가 유럽과 한국의 고령층에 미친 영향을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011543&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회재난",
+        "코로나19",
+        "고령자",
+        "고용",
+        "사회적 관계",
+        "건강",
+        "사회지출",
+        "social disaster",
+        "COVID-19 pandemic",
+        "elderly adults",
+        "employment",
+        "social relationship",
+        "health"
+      ],
+      "checkedAt": "2026-10-21T17:43:06.761042+00:00"
+    },
+    "OTP_0000000000011544:0": {
+      "id": "OTP_0000000000011544:0",
+      "year": 2022,
+      "title": "보도의 계획 및 설계기준 개선방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011544&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "보도",
+        "보행환경",
+        "보행행태"
+      ],
+      "checkedAt": "2026-10-21T17:43:09.724966+00:00"
+    },
+    "OTP_0000000000011545:0": {
+      "id": "OTP_0000000000011545:0",
+      "year": 2022,
+      "title": "한옥 공공건축물 지원사업 현황진단 및 개선방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011545&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한옥",
+        "한옥정책",
+        "한옥 공공건축물",
+        "한옥 지원사업"
+      ],
+      "checkedAt": "2026-10-21T17:43:13.455424+00:00"
+    },
+    "OTP_0000000000011550:0": {
+      "id": "OTP_0000000000011550:0",
+      "year": 2022,
+      "title": "공공기관 근로조건의 법적 규율",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011550&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공공기관 근로조건의 법적 규율"
+      ],
+      "checkedAt": "2026-10-21T17:43:16.499878+00:00"
+    },
+    "OTP_0000000000011554:0": {
+      "id": "OTP_0000000000011554:0",
+      "year": 2022,
+      "title": "인공지능 기법을 적용한 소지역단위 장래인구 예측 방법론 개발 기초 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011554&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "소지역 장래인구",
+        "소지역 인구 예측"
+      ],
+      "checkedAt": "2026-10-21T17:43:19.799949+00:00"
+    },
+    "OTP_0000000000011555:0": {
+      "id": "OTP_0000000000011555:0",
+      "year": 2022,
+      "title": "토지의 공공성 제고를 위한 사전(事前) 개발이익환수제도 도입 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011555&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "개발이익환수제도"
+      ],
+      "checkedAt": "2026-10-21T17:43:22.973646+00:00"
+    },
+    "OTP_0000000000011556:0": {
+      "id": "OTP_0000000000011556:0",
+      "year": 2022,
+      "title": "플랫폼 기반의 농산물 유통서비스 활성화 방안(2/3차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011556&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "플랫폼",
+        "농산물 유통"
+      ],
+      "checkedAt": "2026-10-21T17:43:26.126472+00:00"
+    },
+    "OTP_0000000000011557:0": {
+      "id": "OTP_0000000000011557:0",
+      "year": 2022,
+      "title": "주택용 태양광 설치 가구의  전력 생산·소비 특성 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011557&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "태양광",
+        "전력"
+      ],
+      "checkedAt": "2026-10-21T17:43:29.474032+00:00"
+    },
+    "OTP_0000000000011558:0": {
+      "id": "OTP_0000000000011558:0",
+      "year": 2022,
+      "title": "에너지원단위를 이용한 국가 에너지효율 지표 개발 및 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011558&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "에너지원단위",
+        "에너지효율"
+      ],
+      "checkedAt": "2026-10-21T17:43:33.153172+00:00"
+    },
+    "OTP_0000000000011559:0": {
+      "id": "OTP_0000000000011559:0",
+      "year": 2022,
+      "title": "전력시장 탄소중립에 요구되는 유연성 자원의 확보를 위한 공급지장비용(VoLL) 연구(1/3)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011559&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "전력시장",
+        "탄소중립",
+        "공급지장비용"
+      ],
+      "checkedAt": "2026-10-21T17:43:36.668354+00:00"
+    },
+    "OTP_0000000000011560:0": {
+      "id": "OTP_0000000000011560:0",
+      "year": 2022,
+      "title": "상향식 접근법을 활용한 데이터 기반 수요관리시장 강화 및 신산업 육성방안 연구(2/3)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011560&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "수요관리시장",
+        "상향식접근법",
+        "신산업",
+        "육성방안"
+      ],
+      "checkedAt": "2026-10-21T17:43:40.171352+00:00"
+    },
+    "OTP_0000000000011561:0": {
+      "id": "OTP_0000000000011561:0",
+      "year": 2022,
+      "title": "산업부문 에너지효율 성과공유 및 평가체계 구축방안(2/3)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011561&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "산업부분",
+        "에너지효율"
+      ],
+      "checkedAt": "2026-10-21T17:43:43.368438+00:00"
+    },
+    "OTP_0000000000011562:0": {
+      "id": "OTP_0000000000011562:0",
+      "year": 2022,
+      "title": "에너지 정책이 국민 삶의 질에 미치는 영향과 대응 전략 연구(2/3)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011562&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "에너지정책"
+      ],
+      "checkedAt": "2026-10-21T17:43:46.500029+00:00"
+    },
+    "OTP_0000000000011565:0": {
+      "id": "OTP_0000000000011565:0",
+      "year": 2022,
+      "title": "농림업 분야 중점 협력국별 국제개발협력 전략 수립(5차년도): 캄보디아",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011565&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농림업 중점협력국",
+        "국제개발협력",
+        "국제농업개발협력",
+        "캄보디아"
+      ],
+      "checkedAt": "2026-10-21T17:43:49.920226+00:00"
+    },
+    "OTP_0000000000011568:0": {
+      "id": "OTP_0000000000011568:0",
+      "year": 2022,
+      "title": "인재개발 동향분석 연구 사업(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011568&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "직업교육",
+        "직업훈련",
+        "직업능력개발",
+        "고용정책",
+        "노동시장"
+      ],
+      "checkedAt": "2026-10-21T17:43:53.346713+00:00"
+    },
+    "OTP_0000000000011569:0": {
+      "id": "OTP_0000000000011569:0",
+      "year": 2022,
+      "title": "OECD 교육성과 지표(INES LSO) 네트워크 사업(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011569&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "노동시장",
+        "교육의 경제적 성과",
+        "교육의 사회적 성과",
+        "실업"
+      ],
+      "checkedAt": "2026-10-21T17:43:56.780227+00:00"
+    },
+    "OTP_0000000000011570:0": {
+      "id": "OTP_0000000000011570:0",
+      "year": 2022,
+      "title": "민간자격 국가공인을 위한 조사연구 사업(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011570&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "인적자원개발",
+        "평생직업능력개발",
+        "직업교육"
+      ],
+      "checkedAt": "2026-10-21T17:44:00.093933+00:00"
+    },
+    "OTP_0000000000011571:0": {
+      "id": "OTP_0000000000011571:0",
+      "year": 2022,
+      "title": "대학생 핵심역량 진단(K-CESA) 지원과 활용(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011571&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대학생 핵심역량 진단",
+        "핵심역량",
+        "역량 기반",
+        "고등교육",
+        "교육과정"
+      ],
+      "checkedAt": "2026-10-21T17:44:03.422856+00:00"
+    },
+    "OTP_0000000000011573:0": {
+      "id": "OTP_0000000000011573:0",
+      "year": 2022,
+      "title": "사회정책의 투자효과에 대한 분석틀 구축 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011573&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회적 가치",
+        "사회적 투자수익",
+        "노인돌봄",
+        "시스템 다이내믹스",
+        "영향분석",
+        "효과성",
+        "social value",
+        "social return on investment",
+        "elderly care",
+        "system dynamics",
+        "impact analysis",
+        "effectiveness"
+      ],
+      "checkedAt": "2026-10-21T17:44:06.553032+00:00"
+    },
+    "OTP_0000000000011575:0": {
+      "id": "OTP_0000000000011575:0",
+      "year": 2022,
+      "title": "한반도 사회격차 완화를 위한 북한의 건강 및 보건의료 지표 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011575&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한 보건의료",
+        "북한주민생활",
+        "남북교류협력",
+        "North Korean health care",
+        "Inter-Korean exchange and cooperation",
+        "Korea Reunification"
+      ],
+      "checkedAt": "2026-10-21T17:44:09.583210+00:00"
+    },
+    "OTP_0000000000011576:0": {
+      "id": "OTP_0000000000011576:0",
+      "year": 2022,
+      "title": "한국교육고용패널조사Ⅱ(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011576&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "교육",
+        "노동시장 이행",
+        "진로경로",
+        "패널조사",
+        "직업교육훈련"
+      ],
+      "checkedAt": "2026-10-21T17:44:12.989009+00:00"
+    },
+    "OTP_0000000000011577:0": {
+      "id": "OTP_0000000000011577:0",
+      "year": 2022,
+      "title": "글로벌 인재포럼(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011577&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "인적자원개발",
+        "기술교육",
+        "직업교육훈련",
+        "국제 협력"
+      ],
+      "checkedAt": "2026-10-21T17:44:16.357423+00:00"
+    },
+    "OTP_0000000000011578:0": {
+      "id": "OTP_0000000000011578:0",
+      "year": 2022,
+      "title": "UNESCO Regional Center 사업(2022)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011578&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "인적자원개발",
+        "직업교육훈련",
+        "국제협력",
+        "유네스코"
+      ],
+      "checkedAt": "2026-10-21T17:44:19.452098+00:00"
+    },
+    "OTP_0000000000011586:0": {
+      "id": "OTP_0000000000011586:0",
+      "year": 2022,
+      "title": "2022 화물운송시장정보사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011586&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "화물운송시장",
+        "실태조사",
+        "화물차주",
+        "퀵서비스 택배",
+        "화물자동차"
+      ],
+      "checkedAt": "2026-10-21T17:44:22.784205+00:00"
+    },
+    "OTP_0000000000011587:0": {
+      "id": "OTP_0000000000011587:0",
+      "year": 2022,
+      "title": "2022 물류기술정책지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011587&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "물류기술",
+        "물류기술정책",
+        "물류동향",
+        "물류시설장비",
+        "택배업",
+        "창고업"
+      ],
+      "checkedAt": "2026-10-21T17:44:25.814535+00:00"
+    },
+    "OTP_0000000000011588:0": {
+      "id": "OTP_0000000000011588:0",
+      "year": 2022,
+      "title": "2022 개인형 이동수단(PM) 정책지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011588&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "개인형 이동수단"
+      ],
+      "checkedAt": "2026-10-21T17:44:29.216050+00:00"
+    },
+    "OTP_0000000000011590:0": {
+      "id": "OTP_0000000000011590:0",
+      "year": 2022,
+      "title": "2022 항공소음모니터링지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011590&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "항공소음",
+        "모니터링",
+        "공항소음",
+        "소음측정",
+        "소음대책"
+      ],
+      "checkedAt": "2026-10-21T17:44:32.268343+00:00"
+    },
+    "OTP_0000000000011591:0": {
+      "id": "OTP_0000000000011591:0",
+      "year": 2022,
+      "title": "2022 국가모빌리티 대전환 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011591&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "모빌리티",
+        "대전환",
+        "이용자 편의",
+        "양극화 해소",
+        "탄소 절감",
+        "스마트 모빌리티",
+        "온실가스",
+        "전기차",
+        "개인형 이동수단",
+        "대중교통"
+      ],
+      "checkedAt": "2026-10-21T17:44:35.292548+00:00"
+    },
+    "OTP_0000000000011593:0": {
+      "id": "OTP_0000000000011593:0",
+      "year": 2022,
+      "title": "2022 비대면 물류서비스 산업 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011593&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "비대면",
+        "물류서비스",
+        "전통물류",
+        "생활물류",
+        "플랫폼 생태계",
+        "택배서비스 배달대행서비스"
+      ],
+      "checkedAt": "2026-10-21T17:44:38.187828+00:00"
+    },
+    "OTP_0000000000011594:0": {
+      "id": "OTP_0000000000011594:0",
+      "year": 2022,
+      "title": "2022 민자교통시설의 공공성 강화 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011594&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "민자교통시설",
+        "공공성",
+        "민자고속도로",
+        "민간투자사업",
+        "통행료"
+      ],
+      "checkedAt": "2026-10-21T17:44:41.707291+00:00"
+    },
+    "OTP_0000000000011596:0": {
+      "id": "OTP_0000000000011596:0",
+      "year": 2022,
+      "title": "국제협력과 지식공유 2022: 뉴노멀시대의 스마트정책 사례",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011596&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국제개발",
+        "국제개발협력"
+      ],
+      "checkedAt": "2026-10-21T17:44:45.215189+00:00"
+    },
+    "OTP_0000000000011597:0": {
+      "id": "OTP_0000000000011597:0",
+      "year": 2022,
+      "title": "코로나19 이후 일자리 창출을 위한 정책방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011597&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "코로나19",
+        "일자리"
+      ],
+      "checkedAt": "2026-10-21T17:44:48.155010+00:00"
+    },
+    "OTP_0000000000011598:0": {
+      "id": "OTP_0000000000011598:0",
+      "year": 2022,
+      "title": "주요 사회보험의 지속가능성 제고 및 안정적 발전방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011598&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회보험",
+        "상병수당",
+        "고용보험"
+      ],
+      "checkedAt": "2026-10-21T17:44:51.310787+00:00"
+    },
+    "OTP_0000000000011599:0": {
+      "id": "OTP_0000000000011599:0",
+      "year": 2022,
+      "title": "국가채무의 안정적 관리와 재정지출 효과성 제고를 위한 정책방향 모색",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011599&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "장기실질이자율",
+        "국가채무"
+      ],
+      "checkedAt": "2026-10-21T17:44:54.503356+00:00"
+    },
+    "OTP_0000000000011600:0": {
+      "id": "OTP_0000000000011600:0",
+      "year": 2022,
+      "title": "탄소중립 실현을 위한 기후 스마트 산림경영 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011600&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "기후 스마트",
+        "산림경영"
+      ],
+      "checkedAt": "2026-10-21T17:44:57.516358+00:00"
+    },
+    "OTP_0000000000011601:0": {
+      "id": "OTP_0000000000011601:0",
+      "year": 2022,
+      "title": "농림업 부문 녹색경제 활성화방안 연구(2/3차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011601&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농림업부문",
+        "녹색경제",
+        "농림업"
+      ],
+      "checkedAt": "2026-10-21T17:45:00.976504+00:00"
+    },
+    "OTP_0000000000011602:0": {
+      "id": "OTP_0000000000011602:0",
+      "year": 2022,
+      "title": "시장주도형 수소경제 조기 정착을 위한 전략 연구(3/3)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011602&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "수소경제",
+        "시장주도형",
+        "수소 균등화생산원가"
+      ],
+      "checkedAt": "2026-10-21T17:45:04.546347+00:00"
+    },
+    "OTP_0000000000011603:0": {
+      "id": "OTP_0000000000011603:0",
+      "year": 2022,
+      "title": "재생에너지 공급확대를 위한 중장기 발전단가(LCOE)전망 시스템 구축 및 운영(3/5)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011603&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "재생에너지 보급",
+        "LCOE 분석 및 전망",
+        "지원제도 개선"
+      ],
+      "checkedAt": "2026-10-21T17:45:07.552935+00:00"
+    },
+    "OTP_0000000000011604:0": {
+      "id": "OTP_0000000000011604:0",
+      "year": 2022,
+      "title": "E-mobility 성장에 따른 석유·전력·신재생에너지산업  대응 전략 연구(석유)(4/4)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011604&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "이모빌러티",
+        "전기자동차",
+        "탈내연기관",
+        "스마트그리드",
+        "석유 산업"
+      ],
+      "checkedAt": "2026-10-21T17:45:10.782227+00:00"
+    },
+    "OTP_0000000000011605:0": {
+      "id": "OTP_0000000000011605:0",
+      "year": 2022,
+      "title": "E-mobility 성장에 따른 석유·전력·신재생에너지 산업 대응 전략 연구(전력) (4/4)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011605&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "이모빌러티",
+        "전기자동차",
+        "탈내연기관",
+        "스마트그리드",
+        "전력 산업"
+      ],
+      "checkedAt": "2026-10-21T17:45:14.323345+00:00"
+    },
+    "OTP_0000000000011606:0": {
+      "id": "OTP_0000000000011606:0",
+      "year": 2022,
+      "title": "E-mobility 성장에 따른 석유·전력·신재생에너지 산업 대응 전략 연구(신재생에너지) (4/4)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011606&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "이모빌러티",
+        "전기자동차",
+        "탈내연기관",
+        "스마트그리드",
+        "신재생에너지 산업"
+      ],
+      "checkedAt": "2026-10-21T17:45:17.433733+00:00"
+    },
+    "OTP_0000000000011607:0": {
+      "id": "OTP_0000000000011607:0",
+      "year": 2022,
+      "title": "재생에너지 확대의 국민경제 파급효과 분석(4/4)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011607&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "재생에너지",
+        "파급효과",
+        "거시경제모형"
+      ],
+      "checkedAt": "2026-10-21T17:45:20.682783+00:00"
+    },
+    "OTP_0000000000011608:0": {
+      "id": "OTP_0000000000011608:0",
+      "year": 2022,
+      "title": "국제 신재생에너지 정책변화 및  시장분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011608&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "신재생에너지",
+        "신재생에너지 시장",
+        "신재생에너지 정책"
+      ],
+      "checkedAt": "2026-10-21T17:45:23.858953+00:00"
+    },
+    "OTP_0000000000011609:0": {
+      "id": "OTP_0000000000011609:0",
+      "year": 2022,
+      "title": "에너지부문의 ESG 경영 환경 조성을 위한 녹색금융 지원 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011609&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "녹색금융",
+        "에너지부문",
+        "ESG 투자"
+      ],
+      "checkedAt": "2026-10-21T17:45:27.224234+00:00"
+    },
+    "OTP_0000000000011611:0": {
+      "id": "OTP_0000000000011611:0",
+      "year": 2022,
+      "title": "북한 주민의 생활세계(life-world): 이론과 방법론",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011611&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한 주민",
+        "생활세계",
+        "국내외 선행연구 분석",
+        "이론과 방법론의 진화",
+        "구조와 생활의 연계"
+      ],
+      "checkedAt": "2026-10-21T17:45:30.709351+00:00"
+    },
+    "OTP_0000000000011612:0": {
+      "id": "OTP_0000000000011612:0",
+      "year": 2022,
+      "title": "러시아-우크라이나 전쟁과 중동부유럽 주요국의 지정학적 위기 대응 전략: 에너지 이슈를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011612&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제안보",
+        "에너지산업",
+        "러시아-우크라이나 전쟁",
+        "중동부유럽 주요국의 지정학적 위기 대응 전략",
+        "에너지 이슈"
+      ],
+      "checkedAt": "2026-10-21T17:45:34.104910+00:00"
+    },
+    "OTP_0000000000011617:0": {
+      "id": "OTP_0000000000011617:0",
+      "year": 2022,
+      "title": "중앙아시아의 중장기  통상전략과 한·중앙아시아  협력 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011617&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중앙아시아",
+        "통상",
+        "디지털",
+        "친환경",
+        "탈탄소화",
+        "보건",
+        "의료",
+        "개발협력",
+        "ODA",
+        "중앙아시아의 중장기 통상전략"
+      ],
+      "checkedAt": "2026-10-21T17:45:37.343042+00:00"
+    },
+    "OTP_0000000000011619:0": {
+      "id": "OTP_0000000000011619:0",
+      "year": 2022,
+      "title": "성실신고확인제도에 대한 개인사업자의 행태반응",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011619&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성실신고확인제도",
+        "행태반응",
+        "집군추청법"
+      ],
+      "checkedAt": "2026-10-21T17:45:40.569171+00:00"
+    },
+    "OTP_0000000000011620:0": {
+      "id": "OTP_0000000000011620:0",
+      "year": 2022,
+      "title": "아세안의 중장기 통상전략과 한-아세안 협력 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011620&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공급망",
+        "기후변화",
+        "디지털무역",
+        "보건",
+        "개발협력",
+        "아세안의 중장기 통상전략"
+      ],
+      "checkedAt": "2026-10-21T17:45:43.946082+00:00"
+    },
+    "OTP_0000000000011625:0": {
+      "id": "OTP_0000000000011625:0",
+      "year": 2022,
+      "title": "북한 기후변화 적응을 위한 국제협력방안: 농업과 자연재해를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011625&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기후변화",
+        "농업",
+        "자연재해",
+        "국제협력",
+        "남북협력",
+        "북한경제",
+        "국제정치"
+      ],
+      "checkedAt": "2026-10-21T17:45:47.146648+00:00"
+    },
+    "OTP_0000000000011627:0": {
+      "id": "OTP_0000000000011627:0",
+      "year": 2022,
+      "title": "중남미 내 포퓰리즘 확산의 사회·경제적 영향과 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011627&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중남미",
+        "포퓰리즘",
+        "사회적 영향",
+        "경제적 영향",
+        "정치경제",
+        "경제협력"
+      ],
+      "checkedAt": "2026-10-21T17:45:50.926866+00:00"
+    },
+    "OTP_0000000000011628:0": {
+      "id": "OTP_0000000000011628:0",
+      "year": 2022,
+      "title": "성인지적 산업안전보건정책 개선 방안: 서비스직 여성 근로자를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011628&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "서비스직",
+        "여성 근로자 산업안전보건",
+        "산업재해"
+      ],
+      "checkedAt": "2026-10-21T17:45:54.192811+00:00"
+    },
+    "OTP_0000000000011629:0": {
+      "id": "OTP_0000000000011629:0",
+      "year": 2022,
+      "title": "한-인도네시아 포괄적 미래 협력 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011629&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한-인도네시아",
+        "지속가능한 협력",
+        "한-인도네시아 수교 50주년",
+        "경제협력",
+        "국제정치"
+      ],
+      "checkedAt": "2026-10-21T17:45:57.403058+00:00"
+    },
+    "OTP_0000000000011630:0": {
+      "id": "OTP_0000000000011630:0",
+      "year": 2022,
+      "title": "주요국의 대남아시아 경제협력전략과 정책 시사점: 중국, 일본, 인도를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011630&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "파키스탄",
+        "방글라데시",
+        "스리랑카",
+        "무역투자",
+        "개발협력",
+        "경제협력",
+        "국제무역"
+      ],
+      "checkedAt": "2026-10-21T17:46:00.886274+00:00"
+    },
+    "OTP_0000000000011632:0": {
+      "id": "OTP_0000000000011632:0",
+      "year": 2022,
+      "title": "팬데믹과 전쟁 이후 국제경제질서 변화와 대응",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011632&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "포스트코로나",
+        "국제경제",
+        "대외경제정책",
+        "국제금융",
+        "경제안보"
+      ],
+      "checkedAt": "2026-10-21T17:46:04.278707+00:00"
+    },
+    "OTP_0000000000011633:0": {
+      "id": "OTP_0000000000011633:0",
+      "year": 2022,
+      "title": "중국 탄소가격정책이 한중 경제관계 변화에 미치는 영향 및 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011633&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중국 탄소중립",
+        "탄소가격정책",
+        "공급망",
+        "저탄소/친환경",
+        "한중 경제관계"
+      ],
+      "checkedAt": "2026-10-21T17:46:07.861094+00:00"
+    },
+    "OTP_0000000000011634:0": {
+      "id": "OTP_0000000000011634:0",
+      "year": 2022,
+      "title": "한국-동남아 가치사슬 안정화를 위한 메콩지역 협력 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011634&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공급망",
+        "메콩",
+        "가치사슬",
+        "동남아",
+        "아세안",
+        "경제안보",
+        "경제협력"
+      ],
+      "checkedAt": "2026-10-21T17:46:11.273683+00:00"
+    },
+    "OTP_0000000000011636:0": {
+      "id": "OTP_0000000000011636:0",
+      "year": 2022,
+      "title": "가당음료과세에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011636&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "가당음료세(Sugar Sweetened Beverage Tax)",
+        "비만율",
+        "가격탄력성"
+      ],
+      "checkedAt": "2026-10-21T17:46:14.434364+00:00"
+    },
+    "OTP_0000000000011638:0": {
+      "id": "OTP_0000000000011638:0",
+      "year": 2022,
+      "title": "정부업무평가와 공공기관 경영평가 지표의 연계성에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011638&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성과관리",
+        "지표 연계성",
+        "텍스트 분석"
+      ],
+      "checkedAt": "2026-10-21T17:46:17.719964+00:00"
+    },
+    "OTP_0000000000011639:0": {
+      "id": "OTP_0000000000011639:0",
+      "year": 2022,
+      "title": "재정준칙 도입의 주요 쟁점과 정책과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011639&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "재정준칙",
+        "운용준칙",
+        "국가채무",
+        "재정수지",
+        "재정지속가능성",
+        "재정위험"
+      ],
+      "checkedAt": "2026-10-21T17:46:20.980812+00:00"
+    },
+    "OTP_0000000000011640:0": {
+      "id": "OTP_0000000000011640:0",
+      "year": 2022,
+      "title": "형사사법통계 DB 구축사업(ⅩⅦ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011640&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "형사사법통계DB",
+        "통계기반 분석",
+        "홈페이지 개편",
+        "이용자 만족도 조사",
+        "데이터 품질 관리",
+        "범죄분석",
+        "범죄통계",
+        "사법연감",
+        "검찰연감"
+      ],
+      "checkedAt": "2026-10-21T17:46:24.362701+00:00"
+    },
+    "OTP_0000000000011642:0": {
+      "id": "OTP_0000000000011642:0",
+      "year": 2022,
+      "title": "국가배상제도의 운영현황과 법무정책적 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011642&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국가배상제도",
+        "입법정책",
+        "국가배상책임",
+        "국가배상소송"
+      ],
+      "checkedAt": "2026-10-21T17:46:27.595970+00:00"
+    },
+    "OTP_0000000000011644:0": {
+      "id": "OTP_0000000000011644:0",
+      "year": 2022,
+      "title": "산업안전보건범죄 피해 실태 및 특성에 관한 연구  -건설업을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011644&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "산업안전보건범죄피해",
+        "안전보건조치의무위반",
+        "건설업",
+        "산업재해"
+      ],
+      "checkedAt": "2026-10-21T17:46:31.027416+00:00"
+    },
+    "OTP_0000000000011645:0": {
+      "id": "OTP_0000000000011645:0",
+      "year": 2022,
+      "title": "직권남용죄에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011645&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "직권남용",
+        "직권남용권리행사방해죄",
+        "국정농단사건",
+        "지위이용행위",
+        "사법방해죄"
+      ],
+      "checkedAt": "2026-10-21T17:46:34.415007+00:00"
+    },
+    "OTP_0000000000011649:0": {
+      "id": "OTP_0000000000011649:0",
+      "year": 2022,
+      "title": "지적장애피의자 인권보호를 위한 형사사법절차상 처우에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011649&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "장애인",
+        "인권보호",
+        "신뢰관계인동석제도",
+        "발달장애인전담수사관",
+        "보조인"
+      ],
+      "checkedAt": "2026-10-21T17:46:37.666805+00:00"
+    },
+    "OTP_0000000000011650:0": {
+      "id": "OTP_0000000000011650:0",
+      "year": 2022,
+      "title": "의료재활소년원 운영의 실효성 제고 방안 : 7호 처분을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011650&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "의료재활소년원",
+        "7호 처분",
+        "정신질환",
+        "의료재활 보호소년",
+        "의료재활 처우소년",
+        "소년원 과밀화"
+      ],
+      "checkedAt": "2026-10-21T17:46:41.163079+00:00"
+    },
+    "OTP_0000000000011651:0": {
+      "id": "OTP_0000000000011651:0",
+      "year": 2022,
+      "title": "스토킹처벌법 개선방안 및 경찰의 피해자 지원에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011651&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "스토킹처벌법",
+        "스토킹피해자보호법",
+        "스토킹 전담 경찰관",
+        "스토킹 사건처리 현황",
+        "전문가 델파이조사",
+        "빅데이터 분석(LDA",
+        "word2vec)"
+      ],
+      "checkedAt": "2026-10-21T17:46:44.557355+00:00"
+    },
+    "OTP_0000000000011652:0": {
+      "id": "OTP_0000000000011652:0",
+      "year": 2022,
+      "title": "체납과태료 징수체계의 실효적 정비방안- 스토킹행위자에 대한 대응실무를 중심으로 -",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011652&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "질서위반행위",
+        "과태료",
+        "스토킹",
+        "체납처분",
+        "강제징수",
+        "자치경찰"
+      ],
+      "checkedAt": "2026-10-21T17:46:47.766998+00:00"
+    },
+    "OTP_0000000000011657:0": {
+      "id": "OTP_0000000000011657:0",
+      "year": 2022,
+      "title": "2022 항공부문 글로벌 팬데믹 대응 사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011657&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "COVID-19",
+        "항공운송산업",
+        "팬데믹",
+        "글로벌 항공여객",
+        "글로벌 항공사",
+        "불확실성"
+      ],
+      "checkedAt": "2026-10-21T17:46:50.786622+00:00"
+    },
+    "OTP_0000000000011659:0": {
+      "id": "OTP_0000000000011659:0",
+      "year": 2022,
+      "title": "국제범죄방지를 위한 UN·국제협력 및 연구(ⅩⅧ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011659&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국제협력 네트워크",
+        "국제학술회의",
+        "영문 출판물",
+        "영문 홈페이지",
+        "유엔범죄예방.형사사법 위원회",
+        "UNODC"
+      ],
+      "checkedAt": "2026-10-21T17:46:54.192308+00:00"
+    },
+    "OTP_0000000000011660:0": {
+      "id": "OTP_0000000000011660:0",
+      "year": 2022,
+      "title": "형사정책과 사법제도에 관한 평가연구(ⅩⅥ) - 사법개혁과제로서 법학전문대학원의 성과에 대한 평가연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011660&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사법개혁",
+        "교육을 통한 법조인 양성",
+        "법학전문대학원",
+        "변호사시험",
+        "법률서비스"
+      ],
+      "checkedAt": "2026-10-21T17:46:57.483134+00:00"
+    },
+    "OTP_0000000000011661:0": {
+      "id": "OTP_0000000000011661:0",
+      "year": 2022,
+      "title": "전국범죄피해조사(XII): 아동·청소년 범죄피해조사 2021",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011661&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "아동·청소년 피해자(victims of child and youth)",
+        "범죄피해(crime victimization)",
+        "범죄두려움(fear of crime)",
+        "범죄취약성(criminal vulnerability)"
+      ],
+      "checkedAt": "2026-10-21T17:47:01.005261+00:00"
+    },
+    "OTP_0000000000011662:0": {
+      "id": "OTP_0000000000011662:0",
+      "year": 2022,
+      "title": "형사입법의 실제와 주요 형사정책별 입법평가(Ⅱ) - 2022년 형사입법 평가 및 지원",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011662&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "형사입법",
+        "입법평가",
+        "중형주의",
+        "형사법의 체계적 합리성",
+        "민주적 정당성"
+      ],
+      "checkedAt": "2026-10-21T17:47:04.376524+00:00"
+    },
+    "OTP_0000000000011663:0": {
+      "id": "OTP_0000000000011663:0",
+      "year": 2022,
+      "title": "포스트코로나 시대의 형사사법체계의 변화와 대응(Ⅱ)-팬데믹에 따른 교정과 보호관찰의 변화와 대응-",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011663&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "코로나19",
+        "감염병",
+        "교정",
+        "보호관찰",
+        "언택트 처우",
+        "비대면 보호관찰"
+      ],
+      "checkedAt": "2026-10-21T17:47:07.630263+00:00"
+    },
+    "OTP_0000000000011664:0": {
+      "id": "OTP_0000000000011664:0",
+      "year": 2022,
+      "title": "주요 범죄의 실태 및 동향 자료 구축(Ⅱ): 강·절도범죄",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011664&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성폭력범죄",
+        "성폭력범죄자 심리",
+        "디지털성폭력",
+        "아동청소년성폭력",
+        "메타분석"
+      ],
+      "checkedAt": "2026-10-21T17:47:10.871362+00:00"
+    },
+    "OTP_0000000000011666:0": {
+      "id": "OTP_0000000000011666:0",
+      "year": 2022,
+      "title": "리걸테크 도입 및 대응을 위한 법무정책 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011666&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "리걸테크",
+        "사법접근권",
+        "법무정책",
+        "규제샌드박스",
+        "전자소송",
+        "정보보호"
+      ],
+      "checkedAt": "2026-10-21T17:47:14.663256+00:00"
+    },
+    "OTP_0000000000011668:0": {
+      "id": "OTP_0000000000011668:0",
+      "year": 2022,
+      "title": "근로자 소득지원정책의 발전방향-근로장려세제의 확장",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011668&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "근로장려세제(EITC)",
+        "형평성 분석",
+        "일반균형분석"
+      ],
+      "checkedAt": "2026-10-21T17:47:17.758363+00:00"
+    },
+    "OTP_0000000000011669:0": {
+      "id": "OTP_0000000000011669:0",
+      "year": 2022,
+      "title": "중앙은행 디지털화폐(CBDC) 설계의 쟁점과 정책방향: 분산원장기술 적용의 영향과 디지털 금융생태계 활성화를 위한 설계 방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011669&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중앙은행 디지털화폐(CBDC)",
+        "분산원장기술(DLT)",
+        "스테이블코인",
+        "금융안정성",
+        "디지털 위안화",
+        "디지털 통화경쟁"
+      ],
+      "checkedAt": "2026-10-21T17:47:20.914420+00:00"
+    },
+    "OTP_0000000000011670:0": {
+      "id": "OTP_0000000000011670:0",
+      "year": 2022,
+      "title": "TV 시청 관습의 변화 및 영상콘텐츠 이용행태의 다양화에 대한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011670&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "OTT 서비스",
+        "TV 시청관습",
+        "전문 콘텐츠",
+        "이용 다양성",
+        "유료방송"
+      ],
+      "checkedAt": "2026-10-21T17:47:24.097966+00:00"
+    },
+    "OTP_0000000000011672:0": {
+      "id": "OTP_0000000000011672:0",
+      "year": 2022,
+      "title": "국가채무 증가의 일반균형 효과에 대한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011672&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국가채무"
+      ],
+      "checkedAt": "2026-10-21T17:47:27.218821+00:00"
+    },
+    "OTP_0000000000011677:0": {
+      "id": "OTP_0000000000011677:0",
+      "year": 2022,
+      "title": "탄소가격체계 개편의 수용성 제고방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011677&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소가격체계",
+        "탄소세",
+        "탄소배출권거래제"
+      ],
+      "checkedAt": "2026-10-21T17:47:30.859303+00:00"
+    },
+    "OTP_0000000000011678:0": {
+      "id": "OTP_0000000000011678:0",
+      "year": 2022,
+      "title": "취약계층 고용 촉진을 위한 조세재정정책방향 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011678&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "취업취약계층",
+        "상태의존성",
+        "비모수적 방법"
+      ],
+      "checkedAt": "2026-10-21T17:47:34.470472+00:00"
+    },
+    "OTP_0000000000011679:0": {
+      "id": "OTP_0000000000011679:0",
+      "year": 2022,
+      "title": "중장년층 노동시장의 양극화와 일자리",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011679&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중장년층",
+        "노동시장양극화",
+        "주된일자리 퇴직연령",
+        "신중년 사회공헌"
+      ],
+      "checkedAt": "2026-10-21T17:47:37.922382+00:00"
+    },
+    "OTP_0000000000011682:0": {
+      "id": "OTP_0000000000011682:0",
+      "year": 2022,
+      "title": "의제매입세액공제 제도의 평가 및 개선방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011682&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "의제매입세액",
+        "가격전가",
+        "사업자",
+        "소비자 부담 분석"
+      ],
+      "checkedAt": "2026-10-21T17:47:41.489608+00:00"
+    },
+    "OTP_0000000000011683:0": {
+      "id": "OTP_0000000000011683:0",
+      "year": 2022,
+      "title": "주택 관련 대출의 공공부문 보증현황 및 관리방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011683&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "정부보증",
+        "발생주의",
+        "가계부채",
+        "국가부채",
+        "위험관리"
+      ],
+      "checkedAt": "2026-10-21T17:47:45.103542+00:00"
+    },
+    "OTP_0000000000011685:0": {
+      "id": "OTP_0000000000011685:0",
+      "year": 2022,
+      "title": "근로장려세제 확대개편이 근로 빈곤가구 소비에 미친 영향 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011685&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "현금지원",
+        "근로장려세제",
+        "소비행태",
+        "근로빈곤가구"
+      ],
+      "checkedAt": "2026-10-21T17:47:48.162491+00:00"
+    },
+    "OTP_0000000000011687:0": {
+      "id": "OTP_0000000000011687:0",
+      "year": 2022,
+      "title": "탄소중립을 위한 재정정책 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011687&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "기후변화",
+        "재정정책",
+        "온실가스감축인지예산",
+        "에너지R&D",
+        "재정지출효과"
+      ],
+      "checkedAt": "2026-10-21T17:47:51.452339+00:00"
+    },
+    "OTP_0000000000011688:0": {
+      "id": "OTP_0000000000011688:0",
+      "year": 2022,
+      "title": "부동산시장 투기징후 조기파악을 위한 예고지표 개발 및 활용 방향 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011688&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "부동산시장 투기"
+      ],
+      "checkedAt": "2026-10-21T17:47:54.889981+00:00"
+    },
+    "OTP_0000000000011689:0": {
+      "id": "OTP_0000000000011689:0",
+      "year": 2022,
+      "title": "한국형 부동산시장 위험지수 개발과 활용방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011689&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "부동산시장 위험지수"
+      ],
+      "checkedAt": "2026-10-21T17:47:57.919839+00:00"
+    },
+    "OTP_0000000000011690:0": {
+      "id": "OTP_0000000000011690:0",
+      "year": 2022,
+      "title": "공정한 보상을 위한 손실보상제도 개선방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011690&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "손실보상제도"
+      ],
+      "checkedAt": "2026-10-21T17:48:01.424604+00:00"
+    },
+    "OTP_0000000000011693:0": {
+      "id": "OTP_0000000000011693:0",
+      "year": 2022,
+      "title": "코로나19 위기로 인한 근로연령층 사회적 위험의 경험과 대응의 격차",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011693&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "코로나19",
+        "고용취약성",
+        "재택근무",
+        "유급휴가",
+        "자녀돌봄",
+        "한국노동패널",
+        "COVID-19",
+        "employment vulnerability",
+        "telework",
+        "furloughs",
+        "child care",
+        "Korean Labor Panel Survey"
+      ],
+      "checkedAt": "2026-10-21T17:48:04.558996+00:00"
+    },
+    "OTP_0000000000011694:0": {
+      "id": "OTP_0000000000011694:0",
+      "year": 2022,
+      "title": "국민건강보험공단 행정자료의 사회정책적 활용을 위한 탐색적 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011694&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "행정자료",
+        "국민건강보험",
+        "가구",
+        "가구 정의",
+        "소득분배",
+        "재산 분배",
+        "소득-재산",
+        "결합지수",
+        "사망률",
+        "administrative data",
+        "National Health Insurance Service",
+        "household",
+        "definition of household",
+        "income distribution",
+        "wealth distribution",
+        "income-wealth combining index",
+        "mortality rate"
+      ],
+      "checkedAt": "2026-10-21T17:48:08.078631+00:00"
+    },
+    "OTP_0000000000011695:0": {
+      "id": "OTP_0000000000011695:0",
+      "year": 2022,
+      "title": "한국사회 양극화 진단과 사회정책 대응",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011695&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "양극화",
+        "격차",
+        "사회보장",
+        "Polarization",
+        "Disparity(=Gap or Distance)",
+        "Social Security"
+      ],
+      "checkedAt": "2026-10-21T17:48:11.558688+00:00"
+    },
+    "OTP_0000000000011696:0": {
+      "id": "OTP_0000000000011696:0",
+      "year": 2022,
+      "title": "2022 교통 빅데이터 생태계 활성화를 위한 지자체 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011696&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "빅데이터",
+        "생태계",
+        "교통안전",
+        "View-T",
+        "TAAS",
+        "RITIS",
+        "시티브레인",
+        "TMACS"
+      ],
+      "checkedAt": "2026-10-21T17:48:15.072994+00:00"
+    },
+    "OTP_0000000000011697:0": {
+      "id": "OTP_0000000000011697:0",
+      "year": 2022,
+      "title": "2022 교통산업 일자리 정보 조사사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011697&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "교통산업",
+        "일자리",
+        "교통플랫폼산업",
+        "운수",
+        "창고업",
+        "종사자"
+      ],
+      "checkedAt": "2026-10-21T17:48:18.037096+00:00"
+    },
+    "OTP_0000000000011698:0": {
+      "id": "OTP_0000000000011698:0",
+      "year": 2022,
+      "title": "2022 방역에 강한 대중교통체계 구축 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011698&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대중교통",
+        "방역정책",
+        "코로나19",
+        "대응체계"
+      ],
+      "checkedAt": "2026-10-21T17:48:21.280502+00:00"
+    },
+    "OTP_0000000000011699:0": {
+      "id": "OTP_0000000000011699:0",
+      "year": 2022,
+      "title": "2022 2050 지속가능 교통정책 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011699&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능",
+        "교통정책",
+        "무공해차",
+        "탄소중립"
+      ],
+      "checkedAt": "2026-10-21T17:48:24.764590+00:00"
+    },
+    "OTP_0000000000011700:0": {
+      "id": "OTP_0000000000011700:0",
+      "year": 2022,
+      "title": "2022 지역균형 발전을 위한 국가철도정책 지원사업",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011700&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역균형발전",
+        "국가철도정책",
+        "고속열차",
+        "국가균형발전",
+        "국정과제"
+      ],
+      "checkedAt": "2026-10-21T17:48:28.147203+00:00"
+    },
+    "OTP_0000000000011706:0": {
+      "id": "OTP_0000000000011706:0",
+      "year": 2022,
+      "title": "전자상거래 활성화에 따른 상사법제의 종합적·체계적 정비방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011706&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "온라인 플랫폼",
+        "전자상거래",
+        "전자상거래법",
+        "불공정거래행위",
+        "소비자"
+      ],
+      "checkedAt": "2026-10-21T17:48:31.600238+00:00"
+    },
+    "OTP_0000000000011708:0": {
+      "id": "OTP_0000000000011708:0",
+      "year": 2022,
+      "title": "ESG 평가의 실효성 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011708&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "ESG"
+      ],
+      "checkedAt": "2026-10-21T17:48:34.984611+00:00"
+    },
+    "OTP_0000000000011710:0": {
+      "id": "OTP_0000000000011710:0",
+      "year": 2022,
+      "title": "혁신성장을 위한 주요산업 정책과제 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011710&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "철강",
+        "정유",
+        "친환경",
+        "디지털전환"
+      ],
+      "checkedAt": "2026-10-21T17:48:38.191913+00:00"
+    },
+    "OTP_0000000000011712:0": {
+      "id": "OTP_0000000000011712:0",
+      "year": 2022,
+      "title": "비용/편익의 불확실성하에서 상향식 타당성 투자 분석방법 연구: 도로부문 예비타당성조사의 경제적 타당성 평가를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011712&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "타당성평가",
+        "교통투자사업"
+      ],
+      "checkedAt": "2026-10-21T17:48:41.552256+00:00"
+    },
+    "OTP_0000000000011714:0": {
+      "id": "OTP_0000000000011714:0",
+      "year": 2022,
+      "title": "온라인 플랫폼에서의 정보 제공과 소비자 보호에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011714&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "온라인플랫폼"
+      ],
+      "checkedAt": "2026-10-21T17:48:44.728016+00:00"
+    },
+    "OTP_0000000000011715:0": {
+      "id": "OTP_0000000000011715:0",
+      "year": 2022,
+      "title": "플랫폼 노동에 관한 경제학적 분석: 플랫폼 노동수요독점력과 사회적 보호 설계를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011715&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "플랫폼노동",
+        "노동"
+      ],
+      "checkedAt": "2026-10-21T17:48:48.807763+00:00"
+    },
+    "OTP_0000000000011717:0": {
+      "id": "OTP_0000000000011717:0",
+      "year": 2022,
+      "title": "대외 충격이 국내 실물경제에 미치는 영향: 러시아 지정학적 위험과 미 통화정책 불확실성을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011717&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대외경제",
+        "통화정책",
+        "미국",
+        "러시아",
+        "국내실물경제"
+      ],
+      "checkedAt": "2026-10-21T17:48:52.187552+00:00"
+    },
+    "OTP_0000000000011718:0": {
+      "id": "OTP_0000000000011718:0",
+      "year": 2022,
+      "title": "타당성평가에서의 환경가치 반영에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011718&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경",
+        "탄소중립",
+        "공공투자사업"
+      ],
+      "checkedAt": "2026-10-21T17:48:55.196598+00:00"
+    },
+    "OTP_0000000000011719:0": {
+      "id": "OTP_0000000000011719:0",
+      "year": 2022,
+      "title": "자영업자 고용보험 적용에 대한 분석과 정책방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011719&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "자영업자",
+        "고용보험"
+      ],
+      "checkedAt": "2026-10-21T17:48:58.594563+00:00"
+    },
+    "OTP_0000000000011721:0": {
+      "id": "OTP_0000000000011721:0",
+      "year": 2022,
+      "title": "국가의 공공성 강화를 위한 행정법의 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011721&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공기업",
+        "경찰행정",
+        "국가의 공공성",
+        "행정법적 과제"
+      ],
+      "checkedAt": "2026-10-21T17:49:02.319212+00:00"
+    },
+    "OTP_0000000000011723:0": {
+      "id": "OTP_0000000000011723:0",
+      "year": 2022,
+      "title": "비시가화지역 주거-공장 혼재지의 난개발 치유를 위한 정비 모델 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011723&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "난개발 치유",
+        "비시가화지역"
+      ],
+      "checkedAt": "2026-10-21T17:49:05.502597+00:00"
+    },
+    "OTP_0000000000011724:0": {
+      "id": "OTP_0000000000011724:0",
+      "year": 2022,
+      "title": "남북 인도적 협력을 위한 접경지역 방역협력의 기본구상",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011724&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "접경지역 방역협력"
+      ],
+      "checkedAt": "2026-10-21T17:49:08.536068+00:00"
+    },
+    "OTP_0000000000011726:0": {
+      "id": "OTP_0000000000011726:0",
+      "year": 2022,
+      "title": "디지털 트윈 기반 스마트시티 고도화 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011726&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "스마트시티"
+      ],
+      "checkedAt": "2026-10-21T17:49:11.703051+00:00"
+    },
+    "OTP_0000000000011728:0": {
+      "id": "OTP_0000000000011728:0",
+      "year": 2022,
+      "title": "미래모빌리티 변화에 대응하는 도로환경개선 방안 마련 연구: 지방지역 일반국도를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011728&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "미래모빌리티",
+        "도로환경개선"
+      ],
+      "checkedAt": "2026-10-21T17:49:14.824746+00:00"
+    },
+    "OTP_0000000000011730:0": {
+      "id": "OTP_0000000000011730:0",
+      "year": 2022,
+      "title": "경제·사회구조 변화를 고려한 거시경제모형 체계 구축",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011730&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제",
+        "거시경제"
+      ],
+      "checkedAt": "2026-10-21T17:49:18.060080+00:00"
+    },
+    "OTP_0000000000011732:0": {
+      "id": "OTP_0000000000011732:0",
+      "year": 2022,
+      "title": "주택시장의 규제와 주택공급방식의 방향: LTV, DSR, 보유과세 그리고 선분양방식의 개선을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011732&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "주택시장",
+        "LTV",
+        "DSR"
+      ],
+      "checkedAt": "2026-10-21T17:49:21.707522+00:00"
+    },
+    "OTP_0000000000011733:0": {
+      "id": "OTP_0000000000011733:0",
+      "year": 2022,
+      "title": "지역의 소득불평등과 거주지 분리의 특성 및 변화: \"서울의 달\"에서 \"펜트하우스\"까지",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011733&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역소득불평등",
+        "거주지 분리"
+      ],
+      "checkedAt": "2026-10-21T17:49:24.802186+00:00"
+    },
+    "OTP_0000000000011734:0": {
+      "id": "OTP_0000000000011734:0",
+      "year": 2022,
+      "title": "글로벌 과학기술패권 경쟁과 첨단산업 초격차 전략: 반도체·배터리 산업을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011734&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기술패권",
+        "첨단산업"
+      ],
+      "checkedAt": "2026-10-21T17:49:27.791253+00:00"
+    },
+    "OTP_0000000000011735:0": {
+      "id": "OTP_0000000000011735:0",
+      "year": 2022,
+      "title": "디지털 시대의 자본 흐름과 과제: 중앙은행 디지털화폐를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011735&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중앙은행",
+        "디지털화폐",
+        "디지털"
+      ],
+      "checkedAt": "2026-10-21T17:49:31.016228+00:00"
+    },
+    "OTP_0000000000011736:0": {
+      "id": "OTP_0000000000011736:0",
+      "year": 2022,
+      "title": "소득격차와 코로나19의 영향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011736&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "소득격차",
+        "코로나19",
+        "코로나"
+      ],
+      "checkedAt": "2026-10-21T17:49:34.129085+00:00"
+    },
+    "OTP_0000000000011737:0": {
+      "id": "OTP_0000000000011737:0",
+      "year": 2022,
+      "title": "소상공인 관련 정책의 효과성에 관한 연구: 생산비용 파급효과를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011737&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "소상공인",
+        "생산비용",
+        "최저임금",
+        "인건비",
+        "임대료"
+      ],
+      "checkedAt": "2026-10-21T17:49:37.383018+00:00"
+    },
+    "OTP_0000000000011741:0": {
+      "id": "OTP_0000000000011741:0",
+      "year": 2022,
+      "title": "공시가격 현실화가 주택시장에 미친 영향: 보유세, 매매가격 및 임대가격, 주택 보유에 미친 영향을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011741&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공시가격현실화",
+        "보유세",
+        "매매가격",
+        "임대가격"
+      ],
+      "checkedAt": "2026-10-21T17:49:40.597747+00:00"
+    },
+    "OTP_0000000000011742:0": {
+      "id": "OTP_0000000000011742:0",
+      "year": 2022,
+      "title": "농산어촌 마을 패널 조사 사업(3/10차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011742&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농산어촌",
+        "마을",
+        "패널"
+      ],
+      "checkedAt": "2026-10-21T17:49:43.616462+00:00"
+    },
+    "OTP_0000000000011743:0": {
+      "id": "OTP_0000000000011743:0",
+      "year": 2022,
+      "title": "농림업 분야 중점 협력국별 국제개발협력 전략 수립(5차년도): 3개 국가를 대상으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011743&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중점협력국별"
+      ],
+      "checkedAt": "2026-10-21T17:49:46.711622+00:00"
+    },
+    "OTP_0000000000011744:0": {
+      "id": "OTP_0000000000011744:0",
+      "year": 2022,
+      "title": "균형발전의 가치 변화와 공간정책: 프랑스 사례를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011744&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "균형발전",
+        "공간정책"
+      ],
+      "checkedAt": "2026-10-21T17:49:50.214662+00:00"
+    },
+    "OTP_0000000000011746:0": {
+      "id": "OTP_0000000000011746:0",
+      "year": 2022,
+      "title": "지방 중소도시의 활력 증진을 위한 청년 로컬창업 지원방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011746&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지방중소도시"
+      ],
+      "checkedAt": "2026-10-21T17:49:53.528806+00:00"
+    },
+    "OTP_0000000000011748:0": {
+      "id": "OTP_0000000000011748:0",
+      "year": 2022,
+      "title": "탄소중립 실현을 위한 도시공간정책 개선방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011748&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "도시공간정책",
+        "탄소중립"
+      ],
+      "checkedAt": "2026-10-21T17:49:56.631047+00:00"
+    },
+    "OTP_0000000000011749:0": {
+      "id": "OTP_0000000000011749:0",
+      "year": 2022,
+      "title": "싱가포르 주거정책 심층 사례 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011749&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "주거정책"
+      ],
+      "checkedAt": "2026-10-21T17:50:00.175339+00:00"
+    },
+    "OTP_0000000000011750:0": {
+      "id": "OTP_0000000000011750:0",
+      "year": 2022,
+      "title": "위치기반 빅데이터를 활용한 시공간 활동패턴 분석연구 - 활동패턴의 유형 구분 및 특징을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011750&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "시공간 활동패턴"
+      ],
+      "checkedAt": "2026-10-21T17:50:03.487414+00:00"
+    },
+    "OTP_0000000000011752:0": {
+      "id": "OTP_0000000000011752:0",
+      "year": 2022,
+      "title": "변화된 수사구조에 따른 형사증거법 개정 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011752&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "수사구조",
+        "수사와 공판",
+        "공판중심주의",
+        "수사종결권",
+        "사법경찰관",
+        "영상녹화물",
+        "피의자신문"
+      ],
+      "checkedAt": "2026-10-21T17:50:07.338893+00:00"
+    },
+    "OTP_0000000000011753:0": {
+      "id": "OTP_0000000000011753:0",
+      "year": 2022,
+      "title": "지역경제 모니터링을 위한 지역활력지수(Vitality Index) 개발 및 활용방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011753&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역활력지수",
+        "지역경제 모니터링"
+      ],
+      "checkedAt": "2026-10-21T17:50:10.505711+00:00"
+    },
+    "OTP_0000000000011754:0": {
+      "id": "OTP_0000000000011754:0",
+      "year": 2022,
+      "title": "새로운 대북정책과 남북경협의 모색",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011754&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한",
+        "남북경협",
+        "북한경제협력"
+      ],
+      "checkedAt": "2026-10-21T17:50:13.672181+00:00"
+    },
+    "OTP_0000000000011756:0": {
+      "id": "OTP_0000000000011756:0",
+      "year": 2022,
+      "title": "탄소중립실현을 위한 국토·도시부문 국제개발협력 전략 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011756&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립실현"
+      ],
+      "checkedAt": "2026-10-21T17:50:16.804181+00:00"
+    },
+    "OTP_0000000000011757:0": {
+      "id": "OTP_0000000000011757:0",
+      "year": 2022,
+      "title": "지방자치단체 행정통합의 재정적·경제적 영향 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011757&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지방재정",
+        "행정구역통합",
+        "행정통합",
+        "합성대조법",
+        "지방자치단체"
+      ],
+      "checkedAt": "2026-10-21T17:50:20.054389+00:00"
+    },
+    "OTP_0000000000011758:0": {
+      "id": "OTP_0000000000011758:0",
+      "year": 2022,
+      "title": "텍스트 분석을 이용한 조세정책에 대한 인식 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011758&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "조세정책 인식",
+        "텍스트 마이닝"
+      ],
+      "checkedAt": "2026-10-21T17:50:23.120472+00:00"
+    },
+    "OTP_0000000000011759:0": {
+      "id": "OTP_0000000000011759:0",
+      "year": 2022,
+      "title": "주택가격의 공간적 분포와 주택가격에 의한 주거지 분리 현상에 관한 연구: 5개 대도시를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011759&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "주택가격"
+      ],
+      "checkedAt": "2026-10-21T17:50:26.233316+00:00"
+    },
+    "OTP_0000000000011760:0": {
+      "id": "OTP_0000000000011760:0",
+      "year": 2022,
+      "title": "대전환기 국가의 역할과 새로운 인권 정립을 위한 법제적 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011760&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대전환기",
+        "국가론",
+        "인권",
+        "공법적 과제"
+      ],
+      "checkedAt": "2026-10-21T17:50:29.671622+00:00"
+    },
+    "OTP_0000000000011761:0": {
+      "id": "OTP_0000000000011761:0",
+      "year": 2022,
+      "title": "장애인의 지속가능한 노동을 위한 정책 과제(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011761&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "장애인의 지속가능한 노동을 위한 정책과제(Ⅰ)"
+      ],
+      "checkedAt": "2026-10-21T17:50:32.577952+00:00"
+    },
+    "OTP_0000000000011762:0": {
+      "id": "OTP_0000000000011762:0",
+      "year": 2022,
+      "title": "부동산자산 양극화의 현황 및 변화 양상에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011762&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "부동산자산"
+      ],
+      "checkedAt": "2026-10-21T17:50:35.828674+00:00"
+    },
+    "OTP_0000000000011763:0": {
+      "id": "OTP_0000000000011763:0",
+      "year": 2022,
+      "title": "인구감소·고령화 시대의 사회안전 확보를 위한 골든타임 트라이앵글 조성방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011763&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회안전확보"
+      ],
+      "checkedAt": "2026-10-21T17:50:39.054631+00:00"
+    },
+    "OTP_0000000000011764:0": {
+      "id": "OTP_0000000000011764:0",
+      "year": 2022,
+      "title": "다극분산형 국토 형성을 위한 중소도시권 육성방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011764&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중소도시권 육성"
+      ],
+      "checkedAt": "2026-10-21T17:50:42.137307+00:00"
+    },
+    "OTP_0000000000011767:0": {
+      "id": "OTP_0000000000011767:0",
+      "year": 2022,
+      "title": "지역별 사회경제적 질병부담 추이와 영향요인",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011767&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "질병부담",
+        "질병비용",
+        "건강결정요인",
+        "burden of disease",
+        "burden",
+        "cost-of-illness",
+        "determinants of health"
+      ],
+      "checkedAt": "2026-10-21T17:50:45.294719+00:00"
+    },
+    "OTP_0000000000011768:0": {
+      "id": "OTP_0000000000011768:0",
+      "year": 2022,
+      "title": "포스트 코로나시대 장애인을 위한 지역사회 기반 돌봄서비스의 진단과 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011768&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "장애인돌봄체계",
+        "지역주도",
+        "지역성",
+        "지역 거버넌스",
+        "care for the people with disabilities",
+        "local leadership",
+        "locality",
+        "community",
+        "local government"
+      ],
+      "checkedAt": "2026-10-21T17:50:48.565761+00:00"
+    },
+    "OTP_0000000000011769:0": {
+      "id": "OTP_0000000000011769:0",
+      "year": 2022,
+      "title": "이주민의 사회서비스 보장에 대한 연구 -해외 주요국 사례분석을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011769&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회서비스",
+        "이주민",
+        "사회서비스 수급권",
+        "이주민 사회권",
+        "해외사례",
+        "social service",
+        "immigrants",
+        "entitlement to social services",
+        "social right for immigrants",
+        "analysis of overseas cases"
+      ],
+      "checkedAt": "2026-10-21T17:50:51.699591+00:00"
+    },
+    "OTP_0000000000011770:0": {
+      "id": "OTP_0000000000011770:0",
+      "year": 2022,
+      "title": "한국 의료시스템의 혁신 성과 평가(7년차): 2022 한국 보건 의료 질 보고서",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011770&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "의료시스템",
+        "health care system",
+        "person-centered",
+        "quality of care",
+        "health system performance",
+        "health outcome",
+        "regional healthcare system",
+        "사람 중심",
+        "의료 질",
+        "의료시스템 성과",
+        "건강 결과",
+        "지역보건의료",
+        "local healthcare system"
+      ],
+      "checkedAt": "2026-10-21T17:50:55.023445+00:00"
+    },
+    "OTP_0000000000011771:0": {
+      "id": "OTP_0000000000011771:0",
+      "year": 2022,
+      "title": "기계학습 기반 보건복지분야 가짜뉴스(fake news) 탐지 방법 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011771&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기계학습",
+        "machine learning",
+        "fake news",
+        "COVID-19",
+        "health and social welfare",
+        "issue",
+        "가짜뉴스",
+        "코로나19",
+        "보건복지",
+        "이슈"
+      ],
+      "checkedAt": "2026-10-21T17:50:58.011743+00:00"
+    },
+    "OTP_0000000000011773:0": {
+      "id": "OTP_0000000000011773:0",
+      "year": 2022,
+      "title": "혁신지원 금융정책과 기술혁신",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011773&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "금융정책"
+      ],
+      "checkedAt": "2026-10-21T17:51:01.356932+00:00"
+    },
+    "OTP_0000000000011774:0": {
+      "id": "OTP_0000000000011774:0",
+      "year": 2022,
+      "title": "의무지출의 재정운용에 대한 연구: 복지 및 지방이전지출의 정합성 제고",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011774&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "의무지출",
+        "재량지출",
+        "재정여력",
+        "지속가능성"
+      ],
+      "checkedAt": "2026-10-21T17:51:04.556196+00:00"
+    },
+    "OTP_0000000000011775:0": {
+      "id": "OTP_0000000000011775:0",
+      "year": 2022,
+      "title": "긴급위기 대응을 위한  재정정책 개선방안에 관한 연구: 코로나19 대응 경험을 기반으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011775&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "긴급위기 대응 재정정책",
+        "재난대응 재정정책",
+        "재난지원금",
+        "코로나19 재정정책"
+      ],
+      "checkedAt": "2026-10-21T17:51:07.714591+00:00"
+    },
+    "OTP_0000000000011779:0": {
+      "id": "OTP_0000000000011779:0",
+      "year": 2022,
+      "title": "디지털 건설기술의 온실가스 감소 효과 및 활성화 방안: BIM을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011779&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "온실가스",
+        "디지털 건설기술"
+      ],
+      "checkedAt": "2026-10-21T17:51:11.038490+00:00"
+    },
+    "OTP_0000000000011780:0": {
+      "id": "OTP_0000000000011780:0",
+      "year": 2022,
+      "title": "초광역권 육성을 위한 정책적 지원방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011780&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "초광역권"
+      ],
+      "checkedAt": "2026-10-21T17:51:14.129472+00:00"
+    },
+    "OTP_0000000000011781:0": {
+      "id": "OTP_0000000000011781:0",
+      "year": 2022,
+      "title": "주거취약계층을 위한 주거상향 지원사업 강화 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011781&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "주거취약계층",
+        "주거상향지원"
+      ],
+      "checkedAt": "2026-10-21T17:51:17.312698+00:00"
+    },
+    "OTP_0000000000011782:0": {
+      "id": "OTP_0000000000011782:0",
+      "year": 2022,
+      "title": "입주가구 중심의 공공임대주택 주거비 절감과 주거상향 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011782&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공공임대주택"
+      ],
+      "checkedAt": "2026-10-21T17:51:20.377234+00:00"
+    },
+    "OTP_0000000000011783:0": {
+      "id": "OTP_0000000000011783:0",
+      "year": 2022,
+      "title": "국유재산 정책변화에 따른 통합적 관리체계 개선방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011783&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국유재산"
+      ],
+      "checkedAt": "2026-10-21T17:51:23.409930+00:00"
+    },
+    "OTP_0000000000011784:0": {
+      "id": "OTP_0000000000011784:0",
+      "year": 2022,
+      "title": "노후주거지 정비 사각지역 해소를 위한 소규모정비·재생 연계방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011784&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "노후주거지정비"
+      ],
+      "checkedAt": "2026-10-21T17:51:26.883349+00:00"
+    },
+    "OTP_0000000000011785:0": {
+      "id": "OTP_0000000000011785:0",
+      "year": 2022,
+      "title": "수사절차법 제정을 위한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011785&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "검경수사권조정",
+        "형사소송법",
+        "영미의 수사절차법",
+        "우리나라 수사 절차"
+      ],
+      "checkedAt": "2026-10-21T17:51:30.159271+00:00"
+    },
+    "OTP_0000000000011787:0": {
+      "id": "OTP_0000000000011787:0",
+      "year": 2022,
+      "title": "기반시설 관리를 위한 민간자본 활용방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011787&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "민간자본",
+        "기반시설"
+      ],
+      "checkedAt": "2026-10-21T17:51:33.591809+00:00"
+    },
+    "OTP_0000000000011788:0": {
+      "id": "OTP_0000000000011788:0",
+      "year": 2022,
+      "title": "도시 내 국·공유재산 활용 실태분석 및 전략 연구: 서울특별시 국·공유지를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011788&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국·공유지"
+      ],
+      "checkedAt": "2026-10-21T17:51:37.054535+00:00"
+    },
+    "OTP_0000000000011789:0": {
+      "id": "OTP_0000000000011789:0",
+      "year": 2022,
+      "title": "공동프로젝트 보증 방식을 활용한 중소·중견기업 해외건설 진출 지원 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011789&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "해외건설"
+      ],
+      "checkedAt": "2026-10-21T17:51:40.401871+00:00"
+    },
+    "OTP_0000000000011790:0": {
+      "id": "OTP_0000000000011790:0",
+      "year": 2022,
+      "title": "마이크로 공간데이터를 활용한 도시공간구조 분석방법 개발",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011790&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "도시공간구조"
+      ],
+      "checkedAt": "2026-10-21T17:51:44.051820+00:00"
+    },
+    "OTP_0000000000011791:0": {
+      "id": "OTP_0000000000011791:0",
+      "year": 2022,
+      "title": "탄소중립 혁신기술 비용DB 구축체계 및 도입전략",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011791&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "혁신기술",
+        "기후변화",
+        "온실가스",
+        "기술비용"
+      ],
+      "checkedAt": "2026-10-21T17:51:47.561918+00:00"
+    },
+    "OTP_0000000000011792:0": {
+      "id": "OTP_0000000000011792:0",
+      "year": 2022,
+      "title": "기후변화와 자연재해의 2차적 영향을 고려한 수요자 중심 비상계획 수립방안 : 공항비상계획 사례를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011792&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기후변화",
+        "2차적 영향",
+        "공항비상계획",
+        "참여적 영향평가"
+      ],
+      "checkedAt": "2026-10-21T17:51:50.899140+00:00"
+    },
+    "OTP_0000000000011793:0": {
+      "id": "OTP_0000000000011793:0",
+      "year": 2022,
+      "title": "공공폐수처리시설 관리 및 재투자 제도개선 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011793&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공공폐수처리시설 운영",
+        "공공폐수처리시설 재투자",
+        "공공폐수처리시설 제도개선"
+      ],
+      "checkedAt": "2026-10-21T17:51:54.459865+00:00"
+    },
+    "OTP_0000000000011794:0": {
+      "id": "OTP_0000000000011794:0",
+      "year": 2022,
+      "title": "북한의 기후변화 취약성과 기후변화 대응을 위한 남북협력(Ⅱ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011794&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기후변화",
+        "취약성",
+        "기후 리스크",
+        "적응역량",
+        "남북협력",
+        "국제환경협력"
+      ],
+      "checkedAt": "2026-10-21T17:51:57.968624+00:00"
+    },
+    "OTP_0000000000011795:0": {
+      "id": "OTP_0000000000011795:0",
+      "year": 2022,
+      "title": "북한 산림복구 우선지역 선정을 위한 모델링 적용성 평가 사전적 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011795&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "산림황폐화",
+        "토양침식",
+        "토양 퇴적",
+        "산림복구 우선지역",
+        "앙상블 모델링"
+      ],
+      "checkedAt": "2026-10-21T17:52:01.395049+00:00"
+    },
+    "OTP_0000000000011797:0": {
+      "id": "OTP_0000000000011797:0",
+      "year": 2022,
+      "title": "환경 분야 팬데믹 시기별 대응체계 구축방안 마련 연구 : 건강, 에너지, 폐기물 분야를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011797&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "코로나19",
+        "팬데믹",
+        "대응체계",
+        "건강",
+        "에너지",
+        "폐기물"
+      ],
+      "checkedAt": "2026-10-21T17:52:04.848749+00:00"
+    },
+    "OTP_0000000000011798:0": {
+      "id": "OTP_0000000000011798:0",
+      "year": 2022,
+      "title": "Post-코로나19 시대의 재활용처리시설 환경관리방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011798&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "폐기물 재활용",
+        "자원순환",
+        "시멘트 소성로",
+        "건설폐기물",
+        "환경영향평가",
+        "환경관리방안"
+      ],
+      "checkedAt": "2026-10-21T17:52:08.449912+00:00"
+    },
+    "OTP_0000000000011800:0": {
+      "id": "OTP_0000000000011800:0",
+      "year": 2022,
+      "title": "가계 소비지출의 폐기물발자국 평가기법 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011800&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능한 소비",
+        "폐기물발자국",
+        "공급망 관리",
+        "순환경제",
+        "녹색전환"
+      ],
+      "checkedAt": "2026-10-21T17:52:12.052714+00:00"
+    },
+    "OTP_0000000000011803:0": {
+      "id": "OTP_0000000000011803:0",
+      "year": 2022,
+      "title": "기술수요자 중심의 탄소중립 기술 시나리오 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011803&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립 시나리오",
+        "기술비용",
+        "감축비용",
+        "전환",
+        "수송",
+        "시나리오 분석 방법론"
+      ],
+      "checkedAt": "2026-10-21T17:52:15.276662+00:00"
+    },
+    "OTP_0000000000011804:0": {
+      "id": "OTP_0000000000011804:0",
+      "year": 2022,
+      "title": "농촌과 청년: 청년세대를 통한 농촌의 지속가능성 제고 방안 (1/2차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011804&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농촌",
+        "청년",
+        "청년세대",
+        "지속가능성"
+      ],
+      "checkedAt": "2026-10-21T17:52:18.439579+00:00"
+    },
+    "OTP_0000000000011805:0": {
+      "id": "OTP_0000000000011805:0",
+      "year": 2022,
+      "title": "아동 놀 권리 보장을 위한 지역사회 통합형 놀이자원망 구축 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011805&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "놀이터",
+        "놀이자원",
+        "놀이자원망",
+        "놀이환경",
+        "근린환경",
+        "아동친화도시",
+        "놀 권리",
+        "지역사회 서비스"
+      ],
+      "checkedAt": "2026-10-21T17:52:21.669104+00:00"
+    },
+    "OTP_0000000000011806:0": {
+      "id": "OTP_0000000000011806:0",
+      "year": 2022,
+      "title": "지방분권 대응 협력적 산림정책의 전략과 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011806&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지방분권",
+        "협력적 산림정책",
+        "산림정책"
+      ],
+      "checkedAt": "2026-10-21T17:52:25.241917+00:00"
+    },
+    "OTP_0000000000011807:0": {
+      "id": "OTP_0000000000011807:0",
+      "year": 2022,
+      "title": "농림업 분야 중점 협력국별 국제개발협력 전략 수립(5차년도): 에티오피아",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011807&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농림업",
+        "협력국",
+        "국제개발협력",
+        "국제농업",
+        "에티오피아"
+      ],
+      "checkedAt": "2026-10-21T17:52:28.801050+00:00"
+    },
+    "OTP_0000000000011808:0": {
+      "id": "OTP_0000000000011808:0",
+      "year": 2022,
+      "title": "국가 리스크 관리를 위한 기후변화 적응역량 구축·평가 : 극한기후 리스크의 경제적 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011808&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "극한기후",
+        "경제적 정량화",
+        "기후변화 모형",
+        "기후변화 적응"
+      ],
+      "checkedAt": "2026-10-21T17:52:32.342880+00:00"
+    },
+    "OTP_0000000000011809:0": {
+      "id": "OTP_0000000000011809:0",
+      "year": 2022,
+      "title": "물환경 서비스와 물 인프라의 지속가능성 평가 사업(Ⅸ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011809&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "상수도",
+        "자료포락분석",
+        "자산관리",
+        "지속가능성",
+        "코로나19",
+        "하수도"
+      ],
+      "checkedAt": "2026-10-21T17:52:35.946837+00:00"
+    },
+    "OTP_0000000000011812:0": {
+      "id": "OTP_0000000000011812:0",
+      "year": 2022,
+      "title": "농림업 분야 중점협력국별 국제개발협력 전략 수립(5차년도): 파라과이",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011812&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농림업",
+        "중점협력국",
+        "국제개발협력",
+        "파라과이",
+        "국제농업"
+      ],
+      "checkedAt": "2026-10-21T17:52:39.241575+00:00"
+    },
+    "OTP_0000000000011813:0": {
+      "id": "OTP_0000000000011813:0",
+      "year": 2022,
+      "title": "환경·경제 통합분석을 위한 환경가치 종합연구 : 통합분석 시스템 구축",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011813&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경가치종합정보시스템(EVIS)",
+        "생태계서비스",
+        "건강영향",
+        "환경가치추정",
+        "통합분석"
+      ],
+      "checkedAt": "2026-10-21T17:52:42.666914+00:00"
+    },
+    "OTP_0000000000011814:0": {
+      "id": "OTP_0000000000011814:0",
+      "year": 2022,
+      "title": "환경·경제 통합분석을 위한 환경가치 종합연구 : EVIS 구축 지원을 위한 세부 연구과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011814&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경경제 통합분석 툴킷",
+        "생태계 탄소흡수·저장",
+        "생태계 물(담수) 공급",
+        "생태계 영양물질(질소·인) 저류",
+        "대기오염 피해비용",
+        "화학물질(수은·납) 건강영향"
+      ],
+      "checkedAt": "2026-10-21T17:52:45.905454+00:00"
+    },
+    "OTP_0000000000011816:0": {
+      "id": "OTP_0000000000011816:0",
+      "year": 2022,
+      "title": "KEI 북한환경동향 2022년",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011816&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한환경",
+        "북한환경동향"
+      ],
+      "checkedAt": "2026-10-21T17:52:48.962645+00:00"
+    },
+    "OTP_0000000000011818:0": {
+      "id": "OTP_0000000000011818:0",
+      "year": 2022,
+      "title": "ICT 투자가 지역 균형 발전에 미치는 영향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011818&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 전환",
+        "지역 균형",
+        "도시 성장",
+        "양극화",
+        "ICT"
+      ],
+      "checkedAt": "2026-10-21T17:52:52.011666+00:00"
+    },
+    "OTP_0000000000011821:0": {
+      "id": "OTP_0000000000011821:0",
+      "year": 2022,
+      "title": "뉴노멀 사회의 기후탄력 물 순환이용 도시 구축방안 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011821&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "도시 물관리",
+        "바이오가스화",
+        "병합소화",
+        "물순환",
+        "물 재이용",
+        "하수찌꺼기"
+      ],
+      "checkedAt": "2026-10-21T17:52:55.258178+00:00"
+    },
+    "OTP_0000000000011822:0": {
+      "id": "OTP_0000000000011822:0",
+      "year": 2022,
+      "title": "평화시대 한반도 농업통합 중장기 로드맵 수립 연구(3/5차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011822&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한반도",
+        "농업통합",
+        "북한농업"
+      ],
+      "checkedAt": "2026-10-21T17:52:58.678424+00:00"
+    },
+    "OTP_0000000000011823:0": {
+      "id": "OTP_0000000000011823:0",
+      "year": 2022,
+      "title": "러번(Rurban) 지역 실태와 발전 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011823&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "러번",
+        "Rurban",
+        "농촌 지역 실태"
+      ],
+      "checkedAt": "2026-10-21T17:53:01.906217+00:00"
+    },
+    "OTP_0000000000011824:0": {
+      "id": "OTP_0000000000011824:0",
+      "year": 2022,
+      "title": "공정한 에너지전환을 위한 이해당사자 수요지도 작성 및 활용방안 : 재생에너지 집적화단지를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011824&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공정한 전환",
+        "재생에너지",
+        "수요조사",
+        "이해당사자 분석",
+        "민관협의회"
+      ],
+      "checkedAt": "2026-10-21T17:53:05.087855+00:00"
+    },
+    "OTP_0000000000011825:0": {
+      "id": "OTP_0000000000011825:0",
+      "year": 2022,
+      "title": "포용사회를 위한 농업부문 일자리 확장 및 안정화 방안(2/3차년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011825&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "포용사회",
+        "농업부문 일자리",
+        "농업 일자리"
+      ],
+      "checkedAt": "2026-10-21T17:53:08.257092+00:00"
+    },
+    "OTP_0000000000011826:0": {
+      "id": "OTP_0000000000011826:0",
+      "year": 2022,
+      "title": "농촌지역 방문 진료 실태와 개선 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011826&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "농촌지역",
+        "방문 진료",
+        "농촌의료"
+      ],
+      "checkedAt": "2026-10-21T17:53:11.300983+00:00"
+    },
+    "OTP_0000000000011828:0": {
+      "id": "OTP_0000000000011828:0",
+      "year": 2022,
+      "title": "기후변화에 대응한 양봉업의 화분매개가치 측정 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011828&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기후변화",
+        "양봉업",
+        "양봉",
+        "화분매개가치"
+      ],
+      "checkedAt": "2026-10-21T17:53:14.420030+00:00"
+    },
+    "OTP_0000000000011830:0": {
+      "id": "OTP_0000000000011830:0",
+      "year": 2022,
+      "title": "디지털 전환기 일자리의 변화 분석 및 대응 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011830&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 전환",
+        "원격근무",
+        "물리적 인접도",
+        "업무 환경",
+        "노동시장"
+      ],
+      "checkedAt": "2026-10-21T17:53:17.918185+00:00"
+    },
+    "OTP_0000000000011831:0": {
+      "id": "OTP_0000000000011831:0",
+      "year": 2022,
+      "title": "수요자 중심의 데이터 활용 제고를 위한 데이터 채택 영향요인 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011831&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공공데이터",
+        "데이터 활용",
+        "데이터 채택(adoption)",
+        "채택 영향 요인"
+      ],
+      "checkedAt": "2026-10-21T17:53:21.032282+00:00"
+    },
+    "OTP_0000000000011832:0": {
+      "id": "OTP_0000000000011832:0",
+      "year": 2022,
+      "title": "도시물류시설의 수요 및 환경 입지적정성 평가 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011832&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경영향평가",
+        "물류시설",
+        "환경검토 가이드라인",
+        "수요와 공급"
+      ],
+      "checkedAt": "2026-10-21T17:53:24.211466+00:00"
+    },
+    "OTP_0000000000011833:0": {
+      "id": "OTP_0000000000011833:0",
+      "year": 2022,
+      "title": "특허데이터를 활용한 ICT 부문 기술 정책 제언: 메타버스를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011833&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "메타버스",
+        "특허 분석",
+        "텍스트마이닝",
+        "확장 현실",
+        "기술정책"
+      ],
+      "checkedAt": "2026-10-21T17:53:27.428497+00:00"
+    },
+    "OTP_0000000000011834:0": {
+      "id": "OTP_0000000000011834:0",
+      "year": 2022,
+      "title": "Groundwater Summit 2022 의제 분석 및 대응 방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011834&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "UN 지하수 서밋 2022",
+        "지속가능발전목표(SDG)",
+        "자료와 정보",
+        "지하수 모니터링",
+        "거버넌스"
+      ],
+      "checkedAt": "2026-10-21T17:53:30.537706+00:00"
+    },
+    "OTP_0000000000011835:0": {
+      "id": "OTP_0000000000011835:0",
+      "year": 2022,
+      "title": "생물다양성 보전을 위한 외래생물 관리체계 개선 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011835&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "외래생물 관리계획",
+        "생물다양성전략",
+        "위해성 평가",
+        "검역",
+        "방제",
+        "복원",
+        "생물안전"
+      ],
+      "checkedAt": "2026-10-21T17:53:33.907907+00:00"
+    },
+    "OTP_0000000000011836:0": {
+      "id": "OTP_0000000000011836:0",
+      "year": 2022,
+      "title": "OTT시대의 방송·미디어시장 공정경쟁 환경 조성 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011836&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "방송시장 경쟁상황 평가",
+        "시장분석",
+        "OTT",
+        "유료방송서비스",
+        "방송미디어시장"
+      ],
+      "checkedAt": "2026-10-21T17:53:37.069579+00:00"
+    },
+    "OTP_0000000000011837:0": {
+      "id": "OTP_0000000000011837:0",
+      "year": 2022,
+      "title": "기술패권 경쟁시대의 글로벌 디지털 의제 분석 및 우리나라 ICT 외교에의 시사점 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011837&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "기술패권",
+        "ICT외교",
+        "디지털의제",
+        "국제협력",
+        "국제기구"
+      ],
+      "checkedAt": "2026-10-21T17:53:40.162764+00:00"
+    },
+    "OTP_0000000000011838:0": {
+      "id": "OTP_0000000000011838:0",
+      "year": 2022,
+      "title": "개도국 금융협동조합의 디지털 전환 효과성 분석 연구 : 우간다 새마을금고 사례를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011838&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "ODA",
+        "영향평가",
+        "금융포용",
+        "디지털금융서비스",
+        "금융협동조합"
+      ],
+      "checkedAt": "2026-10-21T17:53:43.329080+00:00"
+    },
+    "OTP_0000000000011839:0": {
+      "id": "OTP_0000000000011839:0",
+      "year": 2022,
+      "title": "환경평가 지원을 위한 지역 환경현황 분석 시스템 구축 및 운영 : 지역환경현황분석연구단 사업 총괄(2022년도)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011839&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역 환경현황 분석 시스템"
+      ],
+      "checkedAt": "2026-10-21T17:53:46.519995+00:00"
+    },
+    "OTP_0000000000011841:0": {
+      "id": "OTP_0000000000011841:0",
+      "year": 2022,
+      "title": "환경평가 지원을 위한 지역 환경현황 분석 시스템 구축 및 운영 : 개발계획에 따른 국가 대기질 변화 진단",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011841&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대기질 모델링",
+        "개발계획",
+        "대기질 변화",
+        "환경영향평가",
+        "산업단지",
+        "에너지 개발"
+      ],
+      "checkedAt": "2026-10-21T17:53:49.912825+00:00"
+    },
+    "OTP_0000000000011842:0": {
+      "id": "OTP_0000000000011842:0",
+      "year": 2022,
+      "title": "환경평가 지원을 위한 지역 환경현황 분석 시스템 구축 및 운영 : 수질-생물다양성 통합 모델 개발 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011842&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "물환경측정망",
+        "수질측정망",
+        "생물측정망",
+        "어류",
+        "수환경 예측모델"
+      ],
+      "checkedAt": "2026-10-21T17:53:53.130813+00:00"
+    },
+    "OTP_0000000000011845:0": {
+      "id": "OTP_0000000000011845:0",
+      "year": 2022,
+      "title": "환경평가 지원을 위한 지역 환경현황 분석 시스템 구축 및 운영 : 개발사업 현황분석 및 EA-INDEX 고도화(관광단지, 폐기물 처리시설 개발사업)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011845&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경영향평가",
+        "개발사업",
+        "관광단지",
+        "폐기물 처리시설",
+        "EA-INDEX"
+      ],
+      "checkedAt": "2026-10-21T17:53:56.407705+00:00"
+    },
+    "OTP_0000000000011847:0": {
+      "id": "OTP_0000000000011847:0",
+      "year": 2022,
+      "title": "환경평가 지원을 위한 지역 환경현황 분석 시스템 구축 및 운영 : 통합환경평가모델 구축을 위한 환경지표 개발",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011847&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경영향평가",
+        "환경영향지수",
+        "환경질지수"
+      ],
+      "checkedAt": "2026-10-21T17:53:59.471121+00:00"
+    },
+    "OTP_0000000000011851:0": {
+      "id": "OTP_0000000000011851:0",
+      "year": 2022,
+      "title": "지속가능한 소비를 위한 폐기물 감량·재사용 행동 모니터링 및 지원방안 연구 (Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011851&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능한 소비",
+        "순환경제",
+        "폐기물 감량·재사용",
+        "시민 수용성",
+        "녹색전환"
+      ],
+      "checkedAt": "2026-10-21T17:54:02.747161+00:00"
+    },
+    "OTP_0000000000011853:0": {
+      "id": "OTP_0000000000011853:0",
+      "year": 2022,
+      "title": "환경분야 지방재정지출의 성과 분석 및 발전방안 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011853&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "환경재정",
+        "국고보조사업",
+        "재정사업 성과평가",
+        "성과평가 환류",
+        "효율적 재정운용"
+      ],
+      "checkedAt": "2026-10-21T17:54:06.002047+00:00"
+    },
+    "OTP_0000000000011855:0": {
+      "id": "OTP_0000000000011855:0",
+      "year": 2022,
+      "title": "탄소중립 실현을 위한 국토관리 방안 연구 : 토지이용 변화와 식생의 환경복지 기능을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011855&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "토지이용",
+        "탄소흡수원",
+        "환경복지",
+        "기후변화"
+      ],
+      "checkedAt": "2026-10-21T17:54:09.079317+00:00"
+    },
+    "OTP_0000000000011856:0": {
+      "id": "OTP_0000000000011856:0",
+      "year": 2022,
+      "title": "폐기물처리시설의 적정성 평가를 위한 환경평가 고도화 연구(Ⅱ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011856&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "폐기물처리시설",
+        "폐기물처리계획",
+        "자원순환기본계획",
+        "환경영향평가",
+        "친환경적자원순환"
+      ],
+      "checkedAt": "2026-10-21T17:54:12.349925+00:00"
+    },
+    "OTP_0000000000011857:0": {
+      "id": "OTP_0000000000011857:0",
+      "year": 2022,
+      "title": "환경 빅데이터 분석 및 서비스 개발(Ⅵ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011857&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "빅데이터",
+        "기계학습",
+        "데이터베이스",
+        "뉴스레터"
+      ],
+      "checkedAt": "2026-10-21T17:54:15.600622+00:00"
+    },
+    "OTP_0000000000011858:0": {
+      "id": "OTP_0000000000011858:0",
+      "year": 2022,
+      "title": "미세먼지 통합관리 전략 수립 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011858&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "(초)미세먼지",
+        "통합관리 전략",
+        "대기질 정책",
+        "정책 평가"
+      ],
+      "checkedAt": "2026-10-21T17:54:18.669763+00:00"
+    },
+    "OTP_0000000000011860:0": {
+      "id": "OTP_0000000000011860:0",
+      "year": 2022,
+      "title": "그린뉴딜 이행을 위한 오염제로 (Zero Pollution) 달성 전략 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011860&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "오염제로",
+        "화학물질",
+        "환경매체",
+        "안전과 지속가능성",
+        "그린뉴딜"
+      ],
+      "checkedAt": "2026-10-21T17:54:21.848559+00:00"
+    },
+    "OTP_0000000000011861:0": {
+      "id": "OTP_0000000000011861:0",
+      "year": 2022,
+      "title": "기후변화 대응을 위한 홍수위험평가 및 홍수방어기준 전략 마련 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011861&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "차등적 홍수방어목표",
+        "연평균 기대피해액",
+        "홍수방어기준 개선",
+        "정량적 홍수위험 분석",
+        "기후변화를 고려한 홍수방어계획"
+      ],
+      "checkedAt": "2026-10-21T17:54:25.154598+00:00"
+    },
+    "OTP_0000000000011862:0": {
+      "id": "OTP_0000000000011862:0",
+      "year": 2022,
+      "title": "중장기적 적응전략 마련을 위한 기후위험 및 적응 평가체계 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011862&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지구온난화",
+        "기후변화 적응",
+        "기후위험평가",
+        "적응평가체계",
+        "지자체 적응대책"
+      ],
+      "checkedAt": "2026-10-21T17:54:28.241188+00:00"
+    },
+    "OTP_0000000000011863:0": {
+      "id": "OTP_0000000000011863:0",
+      "year": 2022,
+      "title": "탄소중립 전략 이행에 따른 2030 미세먼지 대기질 전망 및 동시 감축 정책 방향 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011863&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "탄소중립",
+        "온실가스",
+        "대기오염물질",
+        "미세먼지",
+        "동시 감축"
+      ],
+      "checkedAt": "2026-10-21T17:54:31.473720+00:00"
+    },
+    "OTP_0000000000011864:0": {
+      "id": "OTP_0000000000011864:0",
+      "year": 2022,
+      "title": "지역균형발전과 탄소중립을 고려한 메가시티별 순환도시 확산전략(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011864&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역균형발전",
+        "지역쇠퇴",
+        "메가시티",
+        "순환도시",
+        "탄소중립"
+      ],
+      "checkedAt": "2026-10-21T17:54:34.716483+00:00"
+    },
+    "OTP_0000000000011865:0": {
+      "id": "OTP_0000000000011865:0",
+      "year": 2022,
+      "title": "북한 환경상태 조사 및 남북 환경협력사업 개발 연구(총괄보고서)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011865&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한",
+        "환경정보",
+        "남북한",
+        "환경협력",
+        "지속가능발전"
+      ],
+      "checkedAt": "2026-10-21T17:54:38.109140+00:00"
+    },
+    "OTP_0000000000011867:0": {
+      "id": "OTP_0000000000011867:0",
+      "year": 2022,
+      "title": "Post-코로나19시대, 뉴노멀을 향한 지역의 지속가능한 전환 연구(Ⅰ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011867&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능발전목표(SDGs)",
+        "생태적 재지역화",
+        "코로나19 팬데믹",
+        "전환",
+        "지역사회",
+        "공동체"
+      ],
+      "checkedAt": "2026-10-21T17:54:41.799141+00:00"
+    },
+    "OTP_0000000000011868:0": {
+      "id": "OTP_0000000000011868:0",
+      "year": 2022,
+      "title": "감염성 질병예방을 위한 질병-생태 통합평가시스템 구축 종합연구(II)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011868&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "야생동물 매개 질병",
+        "생물다양성",
+        "통합평가",
+        "조류인플루엔자",
+        "코로나19"
+      ],
+      "checkedAt": "2026-10-21T17:54:45.057959+00:00"
+    },
+    "OTP_0000000000011869:0": {
+      "id": "OTP_0000000000011869:0",
+      "year": 2022,
+      "title": "개발지 확장에 따른 생태적 영향에 대한 예측 모델링 체계 구축(Ⅱ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011869&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "ABM(Agent Based Modelling)",
+        "Netlogo",
+        "개발지 확장",
+        "생태영향",
+        "생태계서비스"
+      ],
+      "checkedAt": "2026-10-21T17:54:48.111056+00:00"
+    },
+    "OTP_0000000000011870:0": {
+      "id": "OTP_0000000000011870:0",
+      "year": 2022,
+      "title": "축사시설 조성사업의 환경영향평가 개선방안 : 가축전염병의 사전예방을 위한 계획입지 구축을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011870&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "가축사육시설",
+        "가축전염병",
+        "환경영향평가",
+        "계획입지 구축"
+      ],
+      "checkedAt": "2026-10-21T17:54:51.288842+00:00"
+    },
+    "OTP_0000000000011871:0": {
+      "id": "OTP_0000000000011871:0",
+      "year": 2022,
+      "title": "해상풍력 계획입지 및 규제효율화를 위한 법안 마련 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011871&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "해상풍력",
+        "계획입지",
+        "공모(입찰)",
+        "인허가 효율화",
+        "특별법안"
+      ],
+      "checkedAt": "2026-10-21T17:54:54.541399+00:00"
+    },
+    "OTP_0000000000011873:0": {
+      "id": "OTP_0000000000011873:0",
+      "year": 2022,
+      "title": "사회·경제적 변화를 고려한 공적연금 급여연동방식 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011873&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공적연금",
+        "급여연동",
+        "자동조정장치",
+        "기대여명",
+        "인구구조변화",
+        "Automatic Adjustment",
+        "Changes in the Population Structure"
+      ],
+      "checkedAt": "2026-10-21T17:54:57.566360+00:00"
+    },
+    "OTP_0000000000011949:0": {
+      "id": "OTP_0000000000011949:0",
+      "year": 2022,
+      "title": "KINU 통일의식조사 2022",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011949&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "KINU 통일의식조사",
+        "여론조사",
+        "통일인식",
+        "북한 인식",
+        "가짜뉴스",
+        "미중관계 인식",
+        "주변국 인식"
+      ],
+      "checkedAt": "2026-10-21T17:55:00.872477+00:00"
+    },
+    "OTP_0000000000011950:0": {
+      "id": "OTP_0000000000011950:0",
+      "year": 2022,
+      "title": "베트남 고용서비스 현황과 개선과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011950&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "베트남 고용서비스 현황과 개선과제"
+      ],
+      "checkedAt": "2026-10-21T17:55:03.927298+00:00"
+    },
+    "OTP_0000000000011951:0": {
+      "id": "OTP_0000000000011951:0",
+      "year": 2022,
+      "title": "산업안전보건 수준 향상방안 연구 - 노사관계 차원의 접근",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011951&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "산업안전보건 수준 향상방안 연구: 노사관계 차원의 접근"
+      ],
+      "checkedAt": "2026-10-21T17:55:06.891555+00:00"
+    },
+    "OTP_0000000000011955:0": {
+      "id": "OTP_0000000000011955:0",
+      "year": 2022,
+      "title": "연금 개혁과 사회적 합의 모델에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011955&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "국민연금",
+        "연금 개혁",
+        "사회적 합의",
+        "national pension scheme",
+        "pension reforms",
+        "social consensus"
+      ],
+      "checkedAt": "2026-10-21T17:55:09.972000+00:00"
+    },
+    "OTP_0000000000011982:0": {
+      "id": "OTP_0000000000011982:0",
+      "year": 2022,
+      "title": "노동과 출산 의향의 동태적 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011982&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "노동과 출산 의향의 동태적 분석"
+      ],
+      "checkedAt": "2026-10-21T17:55:13.066629+00:00"
+    },
+    "OTP_0000000000011983:0": {
+      "id": "OTP_0000000000011983:0",
+      "year": 2022,
+      "title": "디지털 목소리(Digital Voice)와 노사관계의 미래",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011983&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 목소리(Digital Voice)와 노사관계의 미래"
+      ],
+      "checkedAt": "2026-10-21T17:55:15.986901+00:00"
+    },
+    "OTP_0000000000011989:0": {
+      "id": "OTP_0000000000011989:0",
+      "year": 2022,
+      "title": "사회복지 분야 예산 심사 평가제도 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011989&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사회복지 예산",
+        "예산과정",
+        "재정사업 평가",
+        "social welfare budget",
+        "budget formulation",
+        "budget approval",
+        "budget execution",
+        "financial performance"
+      ],
+      "checkedAt": "2026-10-21T17:55:19.271311+00:00"
+    },
+    "OTP_0000000000011990:0": {
+      "id": "OTP_0000000000011990:0",
+      "year": 2022,
+      "title": "광역지방자치단체 저출산 대응 정책 모니터링 및 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011990&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "광역지방자치단체",
+        "저출산 대응 정책",
+        "모니터링",
+        "강원도 육아기본수당",
+        "효과성 분석",
+        "기능권역",
+        "정책 과제",
+        "regional local governments",
+        "low fertility response policies",
+        "monitoring",
+        "gangwon-do basic childcare allowance",
+        "effectiveness analysis",
+        "functional area",
+        "policy responses"
+      ],
+      "checkedAt": "2026-10-21T17:55:22.383759+00:00"
+    },
+    "OTP_0000000000011991:0": {
+      "id": "OTP_0000000000011991:0",
+      "year": 2022,
+      "title": "북한의 전략국가론과 핵무기 고도화",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011991&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "전략국가",
+        "전략적 지위",
+        "핵보유국",
+        "협상전략",
+        "핵군비통제",
+        "핵군축",
+        "상호 안전보장"
+      ],
+      "checkedAt": "2026-10-21T17:55:25.572342+00:00"
+    },
+    "OTP_0000000000011998:0": {
+      "id": "OTP_0000000000011998:0",
+      "year": 2022,
+      "title": "지역의 탄소중립 수용력 진단과 중장기 대응 전략 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000011998&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역의 탄소중립 수용력 진단"
+      ],
+      "checkedAt": "2026-10-21T17:55:28.887024+00:00"
+    },
+    "OTP_0000000000012002:0": {
+      "id": "OTP_0000000000012002:0",
+      "year": 2022,
+      "title": "「2022년도 한-인니 산업혁신 연구협력사업」 공동연구 : 디지털 전환 촉진을 위한 인도네시아 디지털 센터 PIDI 4.0 발전전략 자문연구 Ⅱ",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012002&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털 전환",
+        "디지털 스타트업",
+        "디지털 혁신",
+        "디지털 융합",
+        "PIDI 4.0",
+        "4차 산업"
+      ],
+      "checkedAt": "2026-10-21T17:55:32.195270+00:00"
+    },
+    "OTP_0000000000012003:0": {
+      "id": "OTP_0000000000012003:0",
+      "year": 2022,
+      "title": "2022년도 한-인니 산업혁신 연구협력사업」 공동연구 : Making Indonesia 4.0 산업정책 5대 전략산업 및 제4차 산업혁명 혁신 정책 II",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012003&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "식품",
+        "자동차 산업",
+        "글로벌 가치사슬의 변화",
+        "한-인니 산업혁신",
+        "TV",
+        "금속",
+        "산업단지",
+        "섬유·의류",
+        "스마트팩토리",
+        "바이오화학"
+      ],
+      "checkedAt": "2026-10-21T17:55:35.716938+00:00"
+    },
+    "OTP_0000000000012004:0": {
+      "id": "OTP_0000000000012004:0",
+      "year": 2022,
+      "title": "2022 한-인도네시아 산업혁신 연구협력사업 공동연구 : 인도네시아 ICT 활용 실습기업 도입방안 연구 Ⅰ",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012004&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "실습기업",
+        "디지털 역량",
+        "직무체험"
+      ],
+      "checkedAt": "2026-10-21T17:55:39.306686+00:00"
+    },
+    "OTP_0000000000012048:0": {
+      "id": "OTP_0000000000012048:0",
+      "year": 2022,
+      "title": "노동시장 내 성별갈등의 주요 쟁점 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012048&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성별 인식 차이",
+        "노동시장 갈등",
+        "청년 노동시장"
+      ],
+      "checkedAt": "2026-10-21T17:55:42.727688+00:00"
+    },
+    "OTP_0000000000012054:0": {
+      "id": "OTP_0000000000012054:0",
+      "year": 2022,
+      "title": "노동시장 이중구조 개선을 위한 노사관계 혁신방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012054&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "노동시장 이중구조 개선을 위한 노사관계 혁신방안"
+      ],
+      "checkedAt": "2026-10-21T17:55:46.048825+00:00"
+    },
+    "OTP_0000000000012055:0": {
+      "id": "OTP_0000000000012055:0",
+      "year": 2022,
+      "title": "일의 가치 변화와 고용정책의 미래",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012055&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "일의 가치 변화와 고용정책의 미래"
+      ],
+      "checkedAt": "2026-10-21T17:55:49.527001+00:00"
+    },
+    "OTP_0000000000012057:0": {
+      "id": "OTP_0000000000012057:0",
+      "year": 2022,
+      "title": "생애 여성 노동시장 동학 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012057&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "생애 여성 노동시장 동학 연구"
+      ],
+      "checkedAt": "2026-10-21T17:55:52.951720+00:00"
+    },
+    "OTP_0000000000012060:0": {
+      "id": "OTP_0000000000012060:0",
+      "year": 2022,
+      "title": "White Paper on Human Rights in North Korea 2022",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012060&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한인권"
+      ],
+      "checkedAt": "2026-10-21T17:55:55.959803+00:00"
+    },
+    "OTP_0000000000012061:0": {
+      "id": "OTP_0000000000012061:0",
+      "year": 2022,
+      "title": "청소년기의 환경이 노동시장 성과에 미치는 영향에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012061&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "청소년기의 환경이 노동시장 성과에 미치는 영향에 관한 연구"
+      ],
+      "checkedAt": "2026-10-21T17:55:59.429669+00:00"
+    },
+    "OTP_0000000000012062:0": {
+      "id": "OTP_0000000000012062:0",
+      "year": 2022,
+      "title": "성장잠재력과 고용변수의 전망",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012062&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "성장잠재력과 고용변수의 전망"
+      ],
+      "checkedAt": "2026-10-21T17:56:02.915258+00:00"
+    },
+    "OTP_0000000000012063:0": {
+      "id": "OTP_0000000000012063:0",
+      "year": 2022,
+      "title": "취업형태 다변화와 근로시간 및 해고 규율",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012063&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "취업형태 다변화와 근로시간 및 해고 규율"
+      ],
+      "checkedAt": "2026-10-21T17:56:06.185406+00:00"
+    },
+    "OTP_0000000000012064:0": {
+      "id": "OTP_0000000000012064:0",
+      "year": 2022,
+      "title": "한국 고용서비스의 발전과정 최신 전달체계 및 발전방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012064&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한국 고용서비스의 발전과정 최신 전달체계 및 발전방향"
+      ],
+      "checkedAt": "2026-10-21T17:56:09.547965+00:00"
+    },
+    "OTP_0000000000012065:0": {
+      "id": "OTP_0000000000012065:0",
+      "year": 2022,
+      "title": "코로나19의 이질적 고용 충격과 취약집단 연구: 여성, 문화·예술인, 관광산업을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012065&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "COVID-19 and groups with an increased employment vulnerability - Females",
+        "Culture & Arts and Tourism"
+      ],
+      "checkedAt": "2026-10-21T17:56:12.608471+00:00"
+    },
+    "OTP_0000000000012066:0": {
+      "id": "OTP_0000000000012066:0",
+      "year": 2022,
+      "title": "경제특구 효과성 분석과 시사점: 경제자유구역을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012066&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제특구",
+        "경제자유구역"
+      ],
+      "checkedAt": "2026-10-21T17:56:15.649548+00:00"
+    },
+    "OTP_0000000000012067:0": {
+      "id": "OTP_0000000000012067:0",
+      "year": 2022,
+      "title": "공공조달의 전략적 이용에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012067&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공공조달"
+      ],
+      "checkedAt": "2026-10-21T17:56:18.837926+00:00"
+    },
+    "OTP_0000000000012069:0": {
+      "id": "OTP_0000000000012069:0",
+      "year": 2022,
+      "title": "스마트농업 확산에 대응한 농업인 역량 강화 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012069&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "스마트농업",
+        "농업인 역량"
+      ],
+      "checkedAt": "2026-10-21T17:56:21.966322+00:00"
+    },
+    "OTP_0000000000012070:0": {
+      "id": "OTP_0000000000012070:0",
+      "year": 2022,
+      "title": "돌봄서비스업 외국인 노동시장 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012070&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "돌봄서비스업 외국인 노동시장 연구"
+      ],
+      "checkedAt": "2026-10-21T17:56:25.219647+00:00"
+    },
+    "OTP_0000000000012074:0": {
+      "id": "OTP_0000000000012074:0",
+      "year": 2022,
+      "title": "2022 북한 공식시장 현황",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012074&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "종합시장",
+        "공식시장",
+        "장세",
+        "시장관리체계"
+      ],
+      "checkedAt": "2026-10-21T17:56:28.634073+00:00"
+    },
+    "OTP_0000000000012075:0": {
+      "id": "OTP_0000000000012075:0",
+      "year": 2022,
+      "title": "동아시아 다중안보 위기 속 북한의 비대칭전력 증강이 가지는 의미",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012075&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "북한",
+        "비대칭전력",
+        "생물화학무기",
+        "특수작전부대",
+        "사이버공격",
+        "다중안보 위기"
+      ],
+      "checkedAt": "2026-10-21T17:56:32.312348+00:00"
+    },
+    "OTP_0000000000012093:0": {
+      "id": "OTP_0000000000012093:0",
+      "year": 2022,
+      "title": "글로벌 산업지형 변화에 대응한 전략산업 발전 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012093&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "글로벌 산업지형 변화",
+        "전략산업 발전 방안"
+      ],
+      "checkedAt": "2026-10-21T17:56:35.369303+00:00"
+    },
+    "OTP_0000000000012108:0": {
+      "id": "OTP_0000000000012108:0",
+      "year": 2022,
+      "title": "대전환기 한국 산업발전을 위한 선도적 산업정책 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012108&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대전환기 한국 산업발전을 위한",
+        "선도적 산업정책 연구"
+      ],
+      "checkedAt": "2026-10-21T17:56:39.039679+00:00"
+    },
+    "OTP_0000000000012110:0": {
+      "id": "OTP_0000000000012110:0",
+      "year": 2022,
+      "title": "중국 중부3성(산시ㆍ허난ㆍ안후이) 지역과의 한ㆍ중 산업협력 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012110&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중국 중부3성(산시ㆍ허난ㆍ안후이)",
+        "한ㆍ중 산업협력 연구"
+      ],
+      "checkedAt": "2026-10-21T17:56:42.784472+00:00"
+    },
+    "OTP_0000000000012118:0": {
+      "id": "OTP_0000000000012118:0",
+      "year": 2022,
+      "title": "가족형성과 사회불평등에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012118&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "초기 성인기",
+        "결혼",
+        "계층",
+        "젠더",
+        "불평등"
+      ],
+      "checkedAt": "2026-10-21T17:56:45.783240+00:00"
+    },
+    "OTP_0000000000012119:0": {
+      "id": "OTP_0000000000012119:0",
+      "year": 2022,
+      "title": "아시아 사회보장제도 비교연구 - 몽골과 중앙아시아 주요국",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012119&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중앙아시아",
+        "사회보장",
+        "사회보험",
+        "국제협력",
+        "몽골",
+        "카자흐스탄",
+        "키르기즈공화국"
+      ],
+      "checkedAt": "2026-10-21T17:56:48.862173+00:00"
+    },
+    "OTP_0000000000012120:0": {
+      "id": "OTP_0000000000012120:0",
+      "year": 2022,
+      "title": "선택실험을 이용한 비대면 의료 소비자 선호 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012120&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "이산선택실험",
+        "원격의료",
+        "디지털헬스",
+        "비대면 의료"
+      ],
+      "checkedAt": "2026-10-21T17:56:52.096122+00:00"
+    },
+    "OTP_0000000000012142:0": {
+      "id": "OTP_0000000000012142:0",
+      "year": 2022,
+      "title": "디지털통상협정의 한국형 표준모델설정 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012142&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "전자무역",
+        "전자상거래",
+        "디지털통상협정",
+        "표준모델",
+        "디지털모델규범",
+        "디지털협정",
+        "디지털경제"
+      ],
+      "checkedAt": "2026-10-21T17:56:55.351068+00:00"
+    },
+    "OTP_0000000000012170:0": {
+      "id": "OTP_0000000000012170:0",
+      "year": 2022,
+      "title": "경제안보 이슈의 부상과 대외협력 방향",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012170&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제안보",
+        "경제협력",
+        "에너지 안보",
+        "식량 안보",
+        "디지털 안보",
+        "공급망 안보",
+        "기술 주권"
+      ],
+      "checkedAt": "2026-10-21T17:56:58.759566+00:00"
+    },
+    "OTP_0000000000012177:0": {
+      "id": "OTP_0000000000012177:0",
+      "year": 2022,
+      "title": "소득보장제도 DB 구축 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012177&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "소득보장",
+        "소득보장제도",
+        "데이터베이스",
+        "현금급여",
+        "지출예산",
+        "수급자",
+        "수급 조건"
+      ],
+      "checkedAt": "2026-10-21T17:57:01.995142+00:00"
+    },
+    "OTP_0000000000012203:0": {
+      "id": "OTP_0000000000012203:0",
+      "year": 2022,
+      "title": "동아프리카 그린에너지 협력방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012203&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "에너지산업",
+        "빈곤",
+        "동아프리카",
+        "그린에너지",
+        "그린ODA"
+      ],
+      "checkedAt": "2026-10-21T17:57:05.155767+00:00"
+    },
+    "OTP_0000000000012215:0": {
+      "id": "OTP_0000000000012215:0",
+      "year": 2022,
+      "title": "사회보장 분야 사각지대 축소와 부적정 지출 관리방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012215&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "사각지대",
+        "오류수급(과오수급)",
+        "기망",
+        "부패"
+      ],
+      "checkedAt": "2026-10-21T17:57:08.546461+00:00"
+    },
+    "OTP_0000000000012227:0": {
+      "id": "OTP_0000000000012227:0",
+      "year": 2022,
+      "title": "지역별?산업별 노동시장 분석을 통한 미래유망직종 직업교육훈련 분야 개발",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012227&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지역별 산업별 일자리",
+        "직업교육훈련",
+        "여성 미래유망직종"
+      ],
+      "checkedAt": "2026-10-21T17:57:11.625045+00:00"
+    },
+    "OTP_0000000000012232:0": {
+      "id": "OTP_0000000000012232:0",
+      "year": 2022,
+      "title": "북한의 대북적대정책 철회론과 대북안전보장 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012232&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "대북적대정책",
+        "안전보장",
+        "협력적위협감소"
+      ],
+      "checkedAt": "2026-10-21T17:57:14.772638+00:00"
+    },
+    "OTP_0000000000012240:0": {
+      "id": "OTP_0000000000012240:0",
+      "year": 2022,
+      "title": "직업교육훈련 분야 디지털트윈 적용 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012240&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "디지털트윈",
+        "직업훈련",
+        "시뮬레이션"
+      ],
+      "checkedAt": "2026-10-21T17:57:17.988415+00:00"
+    },
+    "OTP_0000000000012241:0": {
+      "id": "OTP_0000000000012241:0",
+      "year": 2022,
+      "title": "존엄한 삶 마무리 지원 정책 모니터링 및 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012241&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "웰다잉(well-dying)",
+        "저출산 고령사회기본계획",
+        "정책성숙도",
+        "광의",
+        "정책과제"
+      ],
+      "checkedAt": "2026-10-21T17:57:21.083622+00:00"
+    },
+    "OTP_0000000000012259:0": {
+      "id": "OTP_0000000000012259:0",
+      "year": 2022,
+      "title": "여성고용과 출산 - 선행연구 동향과 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012259&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "여성 고용",
+        "출산율",
+        "일생활균형 정책"
+      ],
+      "checkedAt": "2026-10-21T17:57:24.114168+00:00"
+    },
+    "OTP_0000000000012274:0": {
+      "id": "OTP_0000000000012274:0",
+      "year": 2022,
+      "title": "소득지원정책의 거시경제적 영향 분석을 위한 거시경제모형 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012274&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "소득지원정책",
+        "소득안전망"
+      ],
+      "checkedAt": "2026-10-21T17:57:27.481880+00:00"
+    },
+    "OTP_0000000000012304:0": {
+      "id": "OTP_0000000000012304:0",
+      "year": 2022,
+      "title": "복지재정 진단과 정책현안 연구 - 인구구조 변화의 영향을 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012304&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "복지재정",
+        "인구 고령화",
+        "장기재정 전망",
+        "국고보조사업",
+        "복지재정 분담"
+      ],
+      "checkedAt": "2026-10-21T17:57:30.710617+00:00"
+    },
+    "OTP_0000000000012322:0": {
+      "id": "OTP_0000000000012322:0",
+      "year": 2022,
+      "title": "공적연금 개혁 및 재구조화 방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012322&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "연금개혁",
+        "정치적·재정적 지속 가능성",
+        "서유럽 5개국 연금 운영 현황",
+        "공적연금 재정전망"
+      ],
+      "checkedAt": "2026-10-21T17:57:33.706896+00:00"
+    },
+    "OTP_0000000000012383:0": {
+      "id": "OTP_0000000000012383:0",
+      "year": 2022,
+      "title": "물류산업의 디지털 전환과 국제경쟁력 강화",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012383&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "물류산업",
+        "디지털전환",
+        "항공운송업",
+        "해운산업"
+      ],
+      "checkedAt": "2026-10-21T17:57:37.306599+00:00"
+    },
+    "OTP_0000000000012538:0": {
+      "id": "OTP_0000000000012538:0",
+      "year": 2022,
+      "title": "2022년 4대 학회 공동학술대회: 대한민국의 지속 가능한 발전을 위한 새 정부의 과제",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012538&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능",
+        "지속가능한 발전",
+        "새 정부의 과제"
+      ],
+      "checkedAt": "2026-10-21T17:57:40.301534+00:00"
+    },
+    "OTP_0000000000012641:0": {
+      "id": "OTP_0000000000012641:0",
+      "year": 2022,
+      "title": "원전 오염수 대응전략 수립을 위한 기초연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012641&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "원전 오염수",
+        "해양배출",
+        "월경성 환경오염",
+        "국민건강",
+        "대응방안"
+      ],
+      "checkedAt": "2026-10-21T17:57:43.226118+00:00"
+    },
+    "OTP_0000000000012725:0": {
+      "id": "OTP_0000000000012725:0",
+      "year": 2022,
+      "title": "코로나19 전후 고용구조 및 소득격차 변화: 노동패널 분기자료를 활용한 분석",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000012725&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "코로나19",
+        "고용",
+        "노동시장",
+        "노동"
+      ],
+      "checkedAt": "2026-10-21T17:57:47.016897+00:00"
+    },
+    "OTP_0000000000016007:0": {
+      "id": "OTP_0000000000016007:0",
+      "year": 2022,
+      "title": "주택 보유과세의 귀착과 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000016007&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "주택",
+        "보유과세",
+        "조세",
+        "부동산"
+      ],
+      "checkedAt": "2026-10-21T17:57:50.201651+00:00"
     }
   }
 }
