@@ -4,7 +4,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: collect-nkis
+  group: nkis-data-maintenance
   cancel-in-progress: false
 jobs:
   collect:
@@ -38,27 +38,8 @@ jobs:
           git push origin HEAD:main
   deploy:
     needs: collect
-    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          ref: main
-      - uses: actions/configure-pages@v5
-      - name: Prepare public files only
-        run: |
-          mkdir _site
-          cp index.html research.html bids.html _site/
-          cp -R assets data _site/
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Deploy site
-        id: deployment
-        uses: actions/deploy-pages@v4
+    uses: ./.github/workflows/pages.yml

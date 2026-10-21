@@ -1,0 +1,61 @@
+name: Collect NKIS keywords
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect_keywords.py'
+      - '.github/workflows/collect-keywords.yml'
+  schedule:
+    - cron: '15 17 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: nkis-data-maintenance
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Test extraction and analysis
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          node --test tests/*.test.cjs
+      - name: Collect keywords with checkpoints
+        id: crawl
+        timeout-minutes: 160
+        continue-on-error: true
+        run: python scripts/collect_keywords.py --limit 5000 --delay 1.5
+      - name: Validate checkpoint
+        if: always()
+        run: python scripts/validate_keywords.py
+      - name: Preserve keyword progress
+        if: always()
+        run: |
+          python scripts/validate_keywords.py
+          git add data/keywords.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update NKIS keyword collection progress'
+          git push origin HEAD:main
+      - name: Report collection interruption
+        if: steps.crawl.outcome == 'failure'
+        run: echo 'Collection stopped; saved checkpoints will resume on the next run. See collection counts on the website.'
+  publish:
+    needs: collect
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

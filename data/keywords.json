@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "reports": {
+    "ACPT_000000000050543:0": {
+      "id": "ACPT_000000000050543:0",
+      "year": 2026,
+      "title": "첨단제조 경쟁력 확보를 위한 한국형 마더팩토리 추진전략 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=ACPT_000000000050543&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "마더팩토리",
+        "첨단제조",
+        "피지컬 AI",
+        "제조혁신",
+        "산업정책"
+      ],
+      "checkedAt": "2026-10-21T10:00:57.861631+00:00"
+    },
+    "ACPT_000000000050544:0": {
+      "id": "ACPT_000000000050544:0",
+      "year": 2026,
+      "title": "국회의 과학기술 대응 역량 제고를 위한 입법지원체계 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=ACPT_000000000050544&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "과학기술 입법",
+        "국회",
+        "입법지원체계",
+        "기술영향평가",
+        "의회 과학기술전문조직"
+      ],
+      "checkedAt": "2026-10-21T10:01:01.474211+00:00"
+    },
+    "ACPT_000000000050546:0": {
+      "id": "ACPT_000000000050546:0",
+      "year": 2026,
+      "title": "우주분야 공공조달 제도 도입을 위한 법·제도적 기반 검토 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=ACPT_000000000050546&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "우주정책",
+        "조달",
+        "우주개발사업",
+        "국가연구개발",
+        "공공구매"
+      ],
+      "checkedAt": "2026-10-21T10:01:05.342857+00:00"
+    },
+    "ACPT_000000000050547:0": {
+      "id": "ACPT_000000000050547:0",
+      "year": 2026,
+      "title": "글로벌 메타사이언스 정책 동향과 국내 적용방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=ACPT_000000000050547&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "메타사이언스",
+        "과학정책의 과학화",
+        "과학연구시스템",
+        "연구생산성",
+        "데이터기반"
+      ],
+      "checkedAt": "2026-10-21T10:37:22.783657+00:00"
+    },
+    "OTP_0000000000016999:0": {
+      "id": "OTP_0000000000016999:0",
+      "year": 2026,
+      "title": "경제안보 관점에서 본 日·中의 글로벌 사우스 전략과 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000016999&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제안보",
+        "동아시아",
+        "글로벌 사우스",
+        "일본",
+        "중국",
+        "한·일·중 협력"
+      ],
+      "checkedAt": "2026-10-21T10:37:27.374426+00:00"
+    },
+    "OTP_0000000000017190:0": {
+      "id": "OTP_0000000000017190:0",
+      "year": 2026,
+      "title": "크루즈 산업 협력을 통한 동북아시아 다자협력 방안 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017190&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "경제협력",
+        "북한경제",
+        "크루즈",
+        "관광",
+        "남북경협"
+      ],
+      "checkedAt": "2026-10-21T10:37:31.255792+00:00"
+    },
+    "OTP_0000000000017195:0": {
+      "id": "OTP_0000000000017195:0",
+      "year": 2026,
+      "title": "기업 자료를 활용한 한·아세안 가치사슬 분석과 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017195&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "공급망",
+        "아세안",
+        "산업정책",
+        "GVC",
+        "ASEAN"
+      ],
+      "checkedAt": "2026-10-21T10:37:35.330830+00:00"
+    },
+    "OTP_0000000000017213:0": {
+      "id": "OTP_0000000000017213:0",
+      "year": 2026,
+      "title": "개도국의 공급망실사 대응과제와 국제협력에 대한 시사점",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017213&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지속가능발전목표",
+        "공급망",
+        "공급망실사",
+        "개도국 협력"
+      ],
+      "checkedAt": "2026-10-21T10:37:39.040542+00:00"
+    },
+    "OTP_0000000000017227:0": {
+      "id": "OTP_0000000000017227:0",
+      "year": 2026,
+      "title": "지방관리무역항 보안관리체계 재정립 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017227&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "지방관리무역항",
+        "항만보안",
+        "지방이양사무",
+        "국제선박항만보안법"
+      ],
+      "checkedAt": "2026-10-21T10:37:42.382971+00:00"
+    },
+    "OTP_0000000000017248:0": {
+      "id": "OTP_0000000000017248:0",
+      "year": 2026,
+      "title": "통상조약법의 발전방향에 관한 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017248&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "FTA",
+        "경제개방",
+        "통상조약",
+        "통상절차",
+        "디지털통상"
+      ],
+      "checkedAt": "2026-10-21T10:37:45.752026+00:00"
+    },
+    "OTP_0000000000017304:0": {
+      "id": "OTP_0000000000017304:0",
+      "year": 2026,
+      "title": "군소도서국 해양수산 국제협력 방안 수립",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017304&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "군소도서국",
+        "해양수산"
+      ],
+      "checkedAt": "2026-10-21T10:37:48.805311+00:00"
+    },
+    "OTP_0000000000017323:0": {
+      "id": "OTP_0000000000017323:0",
+      "year": 2026,
+      "title": "코로나 세대(Covid-Generation) 아동의 발달 추적 연구(Ⅱ)",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017323&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "COVID generation",
+        "multi-cohort",
+        "developmental risks",
+        "Bayley Scales of Infant and Toddler Development"
+      ],
+      "checkedAt": "2026-10-21T10:37:51.755854+00:00"
+    },
+    "OTP_0000000000017364:0": {
+      "id": "OTP_0000000000017364:0",
+      "year": 2026,
+      "title": "지역별 제조업 경기실사지수(BSI) 2025년 4분기 현황과 2026년 1분기 및 연간 전망",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017364&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "제조업",
+        "경기",
+        "지역",
+        "현황",
+        "전망"
+      ],
+      "checkedAt": "2026-10-21T10:37:55.151173+00:00"
+    },
+    "OTP_0000000000017368:0": {
+      "id": "OTP_0000000000017368:0",
+      "year": 2026,
+      "title": "한중관계의 주요 현안과 미래 전망: 빅데이터 분석과 전문가 인식조사를 통한 심층 연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017368&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "한중관계",
+        "언론 담론",
+        "빅데이터 분석",
+        "전문가 인식조사",
+        "중장기 로드맵"
+      ],
+      "checkedAt": "2026-10-21T10:37:58.494590+00:00"
+    },
+    "OTP_0000000000017382:0": {
+      "id": "OTP_0000000000017382:0",
+      "year": 2026,
+      "title": "브라질 내수시장의 특징과 정책적 시사점: 비공식 경제를 중심으로",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017382&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "중남미",
+        "경제협력",
+        "비공식 경제",
+        "브라질",
+        "불평등",
+        "소비"
+      ],
+      "checkedAt": "2026-10-21T10:38:02.722926+00:00"
+    },
+    "OTP_0000000000017392:0": {
+      "id": "OTP_0000000000017392:0",
+      "year": 2026,
+      "title": "지속가능한 소버린 AI 확보전략을 위한 정책연구",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017392&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "AI",
+        "소버린 AI",
+        "AI 정책"
+      ],
+      "checkedAt": "2026-10-21T10:38:06.941714+00:00"
+    },
+    "OTP_0000000000017403:0": {
+      "id": "OTP_0000000000017403:0",
+      "year": 2026,
+      "title": "유럽 방위산업 강화 전략과 한-EU 협력방안",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017403&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "산업정책",
+        "방위산업",
+        "EU",
+        "독일",
+        "프랑스",
+        "이탈리아",
+        "방산 클러스터",
+        "방위비 지출"
+      ],
+      "checkedAt": "2026-10-21T10:38:11.129747+00:00"
+    },
+    "OTP_0000000000017417:0": {
+      "id": "OTP_0000000000017417:0",
+      "year": 2026,
+      "title": "Study on the GTI’s Legal Transition to an  International Organization",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017417&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "개발협력",
+        "동아시아",
+        "GTI",
+        "Northeast Asia",
+        "development",
+        "regional cooperation",
+        "international organization"
+      ],
+      "checkedAt": "2026-10-21T10:38:14.444881+00:00"
+    },
+    "OTP_0000000000017426:0": {
+      "id": "OTP_0000000000017426:0",
+      "year": 2026,
+      "title": "제조업 업종별 경기실사지수(BSI) - 2025년 4분기 현황과 2026년 1분기 및 연간 전망",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017426&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "제조업",
+        "경기",
+        "업종",
+        "현황",
+        "전망"
+      ],
+      "checkedAt": "2026-10-21T10:38:17.942632+00:00"
+    },
+    "OTP_0000000000017427:0": {
+      "id": "OTP_0000000000017427:0",
+      "year": 2026,
+      "title": "서비스업 기업경기실사지수(BSI) - 2025년 4분기 현황과 2026년 1분기 전망",
+      "url": "https://nkis.re.kr/subject_view1.do?otpId=OTP_0000000000017427&otpSeq=0&menuNo=103000",
+      "status": "ok",
+      "keywords": [
+        "서비스업",
+        "BSI",
+        "경기실사지수"
+      ],
+      "checkedAt": "2026-10-21T10:38:21.590571+00:00"
+    }
+  }
+}

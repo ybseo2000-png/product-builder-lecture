@@ -28,3 +28,7 @@
 ## NKIS부터 연결하기
 
 [NKIS 설정 안내](docs/NKIS_SETUP.md)에 따라 NKIS_API_KEY Secret을 등록한 후 수동 workflow를 실행합니다. 실제 키로 검증하기 전이며, 연구과제 전체가 아닌 발행연도 기준 연구보고서 API입니다.
+
+## 주제어 네트워크
+
+`network.html`에서 2022~2026년 또는 통합 기간의 주제어 관계와 관련 보고서를 확인합니다. [수집·분석 안내](docs/KEYWORDS.md)를 참고하세요. `Collect NKIS keywords` Actions가 체크포인트를 저장하면서 전체 목록의 주제어를 수집하고 Pages에 반영합니다. 매일 예약 실행으로 미처리 자료를 이어서 수집합니다.
