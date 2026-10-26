@@ -4,7 +4,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
 
 @media(max-width:800px){header{flex-wrap:wrap;gap:12px}nav{flex-wrap:wrap;gap:14px}}
 
-.home .hero h1{text-align:center}
+.home .hero h1{text-align:center;color:#fff}
 
 /* 메인 제목 사진 배경: assets/temple.jpg */
 .home main{max-width:none;padding:0 0 70px}
