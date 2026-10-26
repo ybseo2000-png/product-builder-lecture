@@ -1,5 +1,5 @@
 (function(root){
- function selectPage(items,{query='',scope='all',year='',page=1,pageSize=30}={}){
+ function selectPage(items,{query='',scope='all',year='',page=1,pageSize=10}={}){
   const q=query.trim().toLocaleLowerCase('ko');
   const filtered=items.filter(item=>{
    if(year&&String(item.year)!==String(year))return false;

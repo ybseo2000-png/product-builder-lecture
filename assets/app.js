@@ -28,7 +28,7 @@ if (tbody) {
     button('마지막',result.pages,result.page===result.pages);
   }
   function render() {
-    const result=ResearchList.selectPage(dataset.items,{query:search.value,scope:scope.value,year:year.value,page,pageSize:30});page=result.page;
+    const result=ResearchList.selectPage(dataset.items,{query:search.value,scope:scope.value,year:year.value,page,pageSize:10});page=result.page;
     tbody.replaceChildren(...result.items.map(item => {
       const row=document.createElement('tr');
       for(const value of [item.year,item.title,item.org]){const cell=document.createElement('td');cell.textContent=value;row.append(cell);}
@@ -37,8 +37,8 @@ if (tbody) {
     if(dataset.status==='pending'){
       count.textContent='데이터 연계 대기 중 · 실제 수집 건수는 아직 확인되지 않았습니다.';empty.hidden=true;
     }else{
-      const start=result.count?(page-1)*30+1:0,end=Math.min(page*30,result.count);
-      count.textContent=`조회 ${result.count}건 / 저장된 자료 ${dataset.items.length}건 · ${start}~${end}건 표시 · ${result.pages?page:0}/${result.pages}페이지 (페이지당 30건)`;
+      const start=result.count?(page-1)*10+1:0,end=Math.min(page*10,result.count);
+      count.textContent=`조회 ${result.count}건 / 저장된 자료 ${dataset.items.length}건 · ${start}~${end}건 표시 · ${result.pages?page:0}/${result.pages}페이지 (페이지당 10건)`;
       empty.hidden=result.count!==0;
     }
     renderPagination(result);
