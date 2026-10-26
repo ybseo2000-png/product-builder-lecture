@@ -1,0 +1,48 @@
+name: Collect PRISM policy research
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect_prism.py'
+      - '.github/workflows/collect-prism.yml'
+permissions:
+  contents: read
+concurrency:
+  group: nkis-data-maintenance
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test PRISM collector
+        run: python -m unittest discover -s tests -p 'test_prism.py'
+      - name: Collect policy research and report links
+        env:
+          PRISM_API_KEY: ${{ secrets.PRISM_API_KEY }}
+        run: python scripts/collect_prism.py
+      - name: Validate public data
+        run: python scripts/validate_prism.py
+      - name: Save collected research
+        run: |
+          git add data/prism.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update PRISM policy research'
+          git pull --rebase origin main
+          git push origin HEAD:main
+  publish:
+    needs: collect
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
