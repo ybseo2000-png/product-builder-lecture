@@ -7,22 +7,26 @@ nav a:hover,nav a[aria-current="page"]{color:#203653;text-decoration:underline;t
 .home .hero h1{text-align:center}
 
 /* 메인 제목 사진 배경: assets/hero-coast.jpg */
+.home main{max-width:none;padding:0 0 70px}
+.home .cards{max-width:1136px;width:calc(100% - 64px);margin:32px auto 0}
 .home .hero{
   padding:72px 32px;
-  margin-bottom:32px;
+  margin-bottom:0;
   min-height:340px;
   display:flex;
   flex-direction:column;
   justify-content:center;
   text-align:center;
-  border-radius:16px;
+  border-radius:0;
   background-color:#ebe3d3;
   background-image:linear-gradient(rgba(245,241,232,.66),rgba(245,241,232,.78)),url('hero-coast.jpg');
   background-size:cover;
   background-position:center 58%;
 }
+.home .hero > *{max-width:1136px;width:100%;margin-left:auto;margin-right:auto}
 .home .hero .intro{color:#34445b}
 @media(max-width:650px){
+  .home .cards{width:calc(100% - 40px)}
   .home .hero{padding:48px 20px;min-height:320px;background-position:38% center}
   .home .hero h1{font-size:30px;line-height:1.5;word-break:keep-all}
 }
