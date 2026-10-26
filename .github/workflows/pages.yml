@@ -10,6 +10,7 @@ on:
       - 'data/keywords.json'
       - 'data/prism.json'
       - 'data/nara.json'
+      - 'data/nara-links.json'
       - '.github/workflows/pages.yml'
 permissions:
   contents: read
