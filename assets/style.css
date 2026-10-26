@@ -74,7 +74,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
 
 /* 연구보고서 페이지: 흰 바탕과 검은 글자, 수집 항목별 줄바꿈 */
 body.research-page{background:#fff;color:#000}
-.research-page #data-status{background:#fff;color:#000;border:1px solid #ddd;overflow-wrap:anywhere}
+.research-page #data-status{background:#f3f3f3;color:#000;border:1px solid #ddd;overflow-wrap:anywhere}
 .research-page #data-status p{display:block;margin:4px 0;line-height:1.8}
 .research-page #data-status .collection-note{margin-top:18px}
 .research-page th{background:#fff;color:#000;border-bottom:2px solid #000}
