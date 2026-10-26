@@ -5,3 +5,24 @@ nav a:hover,nav a[aria-current="page"]{color:#203653;text-decoration:underline;t
 @media(max-width:800px){header{flex-wrap:wrap;gap:12px}nav{flex-wrap:wrap;gap:14px}}
 
 .home .hero h1{text-align:center}
+
+/* 메인 제목 사진 배경: assets/hero-coast.jpg */
+.home .hero{
+  padding:72px 32px;
+  margin-bottom:32px;
+  min-height:340px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  border-radius:16px;
+  background-color:#ebe3d3;
+  background-image:linear-gradient(rgba(245,241,232,.66),rgba(245,241,232,.78)),url('hero-coast.jpg');
+  background-size:cover;
+  background-position:center 58%;
+}
+.home .hero .intro{color:#34445b}
+@media(max-width:650px){
+  .home .hero{padding:48px 20px;min-height:320px;background-position:38% center}
+  .home .hero h1{font-size:30px;line-height:1.5;word-break:keep-all}
+}
