@@ -59,3 +59,15 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
 .reference-bar button:disabled{opacity:.3;cursor:default}
 .reference-bar button:disabled:hover{background:#fff}
 @media(max-width:650px){.references-footer{padding-left:20px;padding-right:20px}.reference-heading span{display:block;margin:4px 0 0}.reference-bar{gap:6px}}
+
+#data-status p{margin:0}
+#data-status .collection-note{margin-top:18px}
+.research-filters label:first-child{flex:initial}
+.research-filters label:nth-child(2){flex:1}
+.report-results{scroll-margin-top:20px}
+.pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;margin-top:24px}
+.pagination[hidden]{display:none}
+.pagination button{min-width:40px;min-height:40px;padding:7px 10px;font-size:14px}
+.pagination button[aria-current="page"]{background:#000;color:#fff;font-weight:700}
+.pagination button:disabled{opacity:.35;cursor:default}
+@media(max-width:650px){.research-filters label:nth-child(2){flex-basis:100%}.pagination button{min-width:36px;padding:6px 8px}}
