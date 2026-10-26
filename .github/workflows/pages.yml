@@ -9,6 +9,7 @@ on:
       - 'assets/**'
       - 'data/keywords.json'
       - 'data/prism.json'
+      - 'data/nara.json'
       - '.github/workflows/pages.yml'
 permissions:
   contents: read
