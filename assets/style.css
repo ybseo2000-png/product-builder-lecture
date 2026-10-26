@@ -3,3 +3,5 @@
 nav a:hover,nav a[aria-current="page"]{color:#203653;text-decoration:underline;text-underline-offset:6px}button:hover{background:#304f78}.card:hover{box-shadow:0 8px 24px rgba(28,46,74,.07)}
 
 @media(max-width:800px){header{flex-wrap:wrap;gap:12px}nav{flex-wrap:wrap;gap:14px}}
+
+.home .hero h1{text-align:center}
