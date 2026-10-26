@@ -60,7 +60,7 @@ if (tbody) {
       status.textContent='자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';count.textContent='불러오기 오류 · 검색 결과 0건을 의미하지 않습니다.';empty.hidden=true;pagination.hidden=true;
     }
   }
-  function filterChanged(){page=1;if(dataset)render();}
+  function filterChanged(){page=1;search.placeholder=scope.value==='title'?'보고서 제목 입력':scope.value==='org'?'기관명 입력':'제목 또는 기관명 입력';if(dataset)render();}
   search.addEventListener('input',filterChanged);scope.addEventListener('change',filterChanged);year.addEventListener('change',filterChanged);
   document.querySelector('#reset').addEventListener('click',()=>{search.value='';scope.value='all';year.value='';filterChanged();});load();
 }
