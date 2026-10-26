@@ -31,8 +31,8 @@ if (tbody) {
     const result=ResearchList.selectPage(dataset.items,{query:search.value,scope:scope.value,year:year.value,page,pageSize:10});page=result.page;
     tbody.replaceChildren(...result.items.map(item => {
       const row=document.createElement('tr');
-      for(const value of [item.year,item.title,item.org]){const cell=document.createElement('td');cell.textContent=value;row.append(cell);}
-      const cell=document.createElement('td'),link=document.createElement('a');link.href=item.url;link.textContent='원문 보기 ↗';link.target='_blank';link.rel='noopener noreferrer';cell.append(link);row.append(cell);return row;
+      for(const value of [item.year,item.title,item.org]){const cell=document.createElement('td'),text=document.createElement('span');text.className='cell-content';text.textContent=value;text.title=String(value);cell.append(text);row.append(cell);}
+      const cell=document.createElement('td'),link=document.createElement('a');link.href=item.url;link.textContent='원문 보기 ↗';link.className='cell-content';link.title='원문 보기 (새 창)';link.target='_blank';link.rel='noopener noreferrer';cell.append(link);row.append(cell);return row;
     }));
     if(dataset.status==='pending'){
       count.textContent='데이터 연계 대기 중 · 실제 수집 건수는 아직 확인되지 않았습니다.';empty.hidden=true;
