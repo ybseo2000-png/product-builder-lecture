@@ -6,7 +6,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
 
 .home .hero h1{text-align:center}
 
-/* 메인 제목 사진 배경: assets/hero-coast.jpg */
+/* 메인 제목 사진 배경: assets/temple.jpg */
 .home main{max-width:none;padding:0 0 70px}
 .home .cards{max-width:1136px;width:calc(100% - 64px);margin:32px auto 0}
 .home .hero{
@@ -19,7 +19,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
   text-align:center;
   border-radius:0;
   background-color:#fff;
-  background-image:linear-gradient(rgba(255,255,255,.66),rgba(255,255,255,.78)),url('hero-coast.jpg');
+  background-image:linear-gradient(rgba(255,255,255,.66),rgba(255,255,255,.78)),url('temple.jpg');
   background-size:cover;
   background-position:center 58%;
 }
