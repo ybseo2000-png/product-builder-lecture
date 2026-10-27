@@ -53,7 +53,7 @@
   try{
     [research,cache]=await Promise.all(['data/research.json','data/keywords.json'].map(async url=>{const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw Error();return r.json();}));
     if(!Array.isArray(research.items)||!cache.reports)throw Error();
-    el('coverage-note').textContent += ' 분석 대상은 현재 저장된 고유 보고서 목록입니다. ' + (research.coverageNote||'');
+    if(research.coverageNote){const note=document.createElement('p');note.className='collection-note';note.textContent='※ '+research.coverageNote;el('coverage-note').append(note);}
     render();
     for(const id of ['period','node-limit','min-count'])el(id).addEventListener('change',render);
     el('term-search').addEventListener('input',()=>{terms();highlight();});
