@@ -1,6 +1,6 @@
 (async function(){
   const el=id=>document.getElementById(id), ns='http://www.w3.org/2000/svg';
-  let research,cache,model,selected=null,shown=20,zoom=1;
+  let research,cache,model,selected=null,shown=20,zoom=1,termPage=1;
   function svg(tag,attrs){const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;}
   function button(text,fn){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=fn;return b;}
   function choose(id){selected=id;shown=20;details();highlight();terms();}
@@ -19,7 +19,29 @@
     }
     el('more-reports').hidden=docs.length<=shown;
   }
-  function terms(){el('term-list').replaceChildren();const q=el('term-search').value.trim().toLowerCase();for(const n of model.allNodes.filter(n=>n.id.toLowerCase().includes(q))){const b=button(`${n.id} · ${n.count}`,()=>choose(n.id));b.setAttribute('aria-pressed',String(n.id===selected));el('term-list').append(b);}}
+  function terms(){
+    const q=el('term-search').value.trim().toLowerCase();
+    const matches=model.allNodes.filter(n=>n.id.toLowerCase().includes(q)),size=50,pages=Math.ceil(matches.length/size);
+    termPage=Math.max(1,Math.min(termPage,pages||1));
+    el('term-list').replaceChildren();
+    for(const n of matches.slice((termPage-1)*size,termPage*size)){
+      const b=button(`${n.id} · ${n.count}`,()=>choose(n.id));b.setAttribute('aria-pressed',String(n.id===selected));el('term-list').append(b);
+    }
+    el('term-count').textContent=`주제어 ${matches.length}개 · ${matches.length?(termPage-1)*size+1:0}~${Math.min(termPage*size,matches.length)}개 표시 · ${pages?termPage:0}/${pages}페이지`;
+    el('term-empty').hidden=matches.length>0;
+    const nav=el('term-pagination');nav.replaceChildren();nav.hidden=pages<=1;
+    function add(label,target,disabled=false){
+      const b=button(label,()=>{termPage=target;terms();el('terms-section').scrollIntoView({block:'start'});nav.querySelector('[aria-current="page"]')?.focus({preventScroll:true});});
+      b.disabled=disabled;b.setAttribute('aria-label',`${label} 주제어 페이지`);
+      if(typeof label==='number'&&label===termPage)b.setAttribute('aria-current','page');nav.append(b);
+    }
+    if(pages>1){
+      add('이전',termPage-1,termPage===1);
+      for(const n of ResearchList.pageNumbers(termPage,pages)){if(n==='…'){const span=document.createElement('span');span.textContent=n;nav.append(span);}else add(n,n);}
+      add('다음',termPage+1,termPage===pages);add('마지막',pages,termPage===pages);
+    }
+  }
+
   function highlight(){
     const q=el('term-search').value.trim().toLowerCase();const adjacent=new Set([selected]);for(const e of model.edges)if(e.source===selected||e.target===selected){adjacent.add(e.source);adjacent.add(e.target);}
     for(const n of el('graph').querySelectorAll('.node')){n.classList.toggle('dim',(selected&&!adjacent.has(n.dataset.term))||!!(q&&!n.dataset.term.toLowerCase().includes(q)));n.classList.toggle('selected',n.dataset.term===selected);}
@@ -45,7 +67,7 @@
   }
   function setZoom(){const w=900/zoom,h=650/zoom;el('graph').setAttribute('viewBox',`${450-w/2} ${325-h/2} ${w} ${h}`);}
   function render(){
-    model=KeywordNetwork.analyze(research,cache,el('period').value,Number(el('node-limit').value),Number(el('min-count').value));selected=null;
+    termPage=1;model=KeywordNetwork.analyze(research,cache,el('period').value,Number(el('node-limit').value),Number(el('min-count').value));selected=null;
     const s=model.stats,pct=s.total?Math.round(s.ok/s.total*100):0;
     el('coverage').textContent=`대상 ${s.total}건 · 주제어 확보 ${s.ok}건 (${pct}%) · 주제어 없음 ${s.empty}건 · 항목 미확인 ${s.missing}건 · 접속 실패 ${s.failed}건 · 미수집 ${s.pending}건`;
     draw();terms();details();highlight();
@@ -56,7 +78,7 @@
     if(research.coverageNote){const note=document.createElement('p');note.className='collection-note';note.textContent='※ '+research.coverageNote;el('coverage-note').append(note);}
     render();
     for(const id of ['period','node-limit','min-count'])el(id).addEventListener('change',render);
-    el('term-search').addEventListener('input',()=>{terms();highlight();});
+    el('term-search').addEventListener('input',()=>{termPage=1;terms();highlight();});
     el('more-reports').onclick=()=>{shown+=20;details();};el('zoom-in').onclick=()=>{zoom=Math.min(3,zoom*1.3);setZoom();};el('zoom-out').onclick=()=>{zoom=Math.max(.6,zoom/1.3);setZoom();};el('zoom-reset').onclick=()=>{zoom=1;setZoom();};
   }catch{el('coverage').textContent='분석 자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';}
 })();
