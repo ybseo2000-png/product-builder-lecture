@@ -1,8 +1,8 @@
 (async function(){
  const el=id=>document.getElementById('tourism-'+id);let data,page=1;const size=10;
  function render(){
-  const q=el('search').value.trim().toLocaleLowerCase('ko'),scope=el('scope').value,year=el('year').value,type=el('type').value;
-  const rows=data.items.filter(r=>(!year||r.postedAt.slice(0,4)===year)&&(!type||r.noticeType===type)&&(!q||(scope==='all'?[r.title,r.agency,r.classification]:[r[scope]]).some(v=>String(v||'').toLocaleLowerCase('ko').includes(q))));
+  const q=el('search').value.trim().toLocaleLowerCase('ko'),scope=el('scope').value,year=el('year').value,type=el('type').value,classification=el('classification').value;
+  const rows=data.items.filter(r=>(!year||r.postedAt.slice(0,4)===year)&&(!type||r.noticeType===type)&&(!classification||r.classification===classification)&&(!q||(scope==='all'?[r.title,r.agency,r.classification]:[r[scope]]).some(v=>String(v||'').toLocaleLowerCase('ko').includes(q))));
   const pages=Math.ceil(rows.length/size);page=Math.max(1,Math.min(page,pages||1));
   el('rows').replaceChildren(...rows.slice((page-1)*size,page*size).map(r=>{
    const tr=document.createElement('tr');
@@ -21,8 +21,8 @@
  }
  try{
   const response=await fetch('data/tourism-bids.json',{cache:'no-cache'});if(!response.ok)throw Error();data=await response.json();if(!Array.isArray(data.items))throw Error();
-  for(const [id,values] of [['year',['2026','2025','2024','2023','2022']],['type',[...new Set(data.items.map(r=>r.noticeType))].filter(Boolean).sort()]]){for(const value of values){const o=document.createElement('option');o.value=value;o.textContent=value;el(id).append(o);}}
+  for(const [id,values] of [['year',['2026','2025','2024','2023','2022']],['type',[...new Set(data.items.map(r=>r.noticeType))].filter(Boolean).sort()],['classification',[...new Set(data.items.map(r=>r.classification))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'ko'))]]){for(const value of values){const o=document.createElement('option');o.value=value;o.textContent=value;el(id).append(o);}}
   el('status').textContent=data.status==='pending'?'자동 수집 대기 중입니다. 아직 조회 결과가 확보되지 않았습니다.':`저장 ${data.items.length}건 · 월별 조회 완료 ${data.completedMonths}/60개월 · ${data.completed?'전체 월 조회 완료':'일부 기간 수집 중 또는 중단: 전체 목록이 아닙니다'} · 마지막 반영 ${new Date(data.updatedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} (한국시간)`;
-  for(const id of ['scope','year','type'])el(id).onchange=()=>{page=1;render();};el('search').oninput=()=>{page=1;render();};el('reset').onclick=()=>{for(const id of ['search','year','type'])el(id).value='';el('scope').value='all';page=1;render();};render();
+  for(const id of ['scope','year','type','classification'])el(id).onchange=()=>{page=1;render();};el('search').oninput=()=>{page=1;render();};el('reset').onclick=()=>{for(const id of ['search','year','type','classification'])el(id).value='';el('scope').value='all';page=1;render();};render();
  }catch{el('status').textContent='자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요. 조회 결과 0건을 의미하지 않습니다.';}
 })();
