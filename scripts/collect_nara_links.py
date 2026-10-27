@@ -1,4 +1,5 @@
 """나라장터 API가 반환한 실제 상세 링크만 엑셀 공고의 번호/차수에 대응시킴."""
+import argparse
 from datetime import datetime,timezone
 import json
 import os
@@ -27,6 +28,7 @@ def split_notice(identity):
 
 
 def request_json(key,number,page):
+ if '-' in number:raise LinkError('API에는 차수를 제외한 공고 본번호만 전달해야 합니다')
  params={'serviceKey':unquote(key),'inqryDiv':2,'bidNtceNo':number,'numOfRows':100,'pageNo':page,'type':'json'}
  for attempt in range(3):
   try:
@@ -92,11 +94,11 @@ def match_link(items,number,order):
  return {'status':'ok','url':url}
 
 
-def collect(data,key,previous=None,fetch=request_json,pause=time.sleep):
+def collect(data,key,previous=None,fetch=request_json,pause=time.sleep,refresh=False):
  old=(previous or {}).get('links',{});links={};responses={}
  for index,notice in enumerate(data['items'],1):
   identity=notice['id'];number,order=split_notice(identity)
-  if old.get(identity,{}).get('status')=='ok':
+  if not refresh and old.get(identity,{}).get('status')=='ok':
    # 캐시도 동일한 공식 도메인/번호/차수 규칙으로 재검사합니다.
    try:result=match_link([{'bidNtceNo':number,'bidNtceOrd':order,'bidNtceDtlUrl':old[identity]['url']}],number,order)
    except LinkError:result=None
@@ -117,19 +119,21 @@ def collect(data,key,previous=None,fetch=request_json,pause=time.sleep):
 
 
 def main():
- key=os.environ.get('NARA_API_KEY','').strip()
- if not key:print('NARA_API_KEY 또는 기존 PRISM_API_KEY Secret이 필요합니다.',file=sys.stderr);return 1
+ parser=argparse.ArgumentParser();parser.add_argument('--refresh',action='store_true',help='기존 성공 링크도 API에서 다시 조회');args=parser.parse_args()
+ key=os.environ.get('PRISM_API_KEY','').strip()
+ if not key:print('PRISM_API_KEY Secret이 없습니다.',file=sys.stderr);return 1
  try:
   data=json.loads(Path('data/nara.json').read_text(encoding='utf-8'))
   old=json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else None
-  result=collect(data,key,old)
+  print('조회 방식: inqryDiv=2 · bidNtceNo=차수를 제외한 본번호 · PRISM_API_KEY 사용 · 전체 재조회='+str(args.refresh),flush=True)
+  result=collect(data,key,old,refresh=args.refresh)
   text=json.dumps(result,ensure_ascii=False,indent=2)+'\n'
   if key in text or unquote(key) in text:raise LinkError('공개 결과에서 인증정보 감지')
   temp=OUTPUT.with_suffix('.json.tmp');temp.write_text(text,encoding='utf-8');temp.replace(OUTPUT)
   print('상세 링크 집계:',json.dumps(result['counts']))
   return 0
  except AuthError:
-  print('NARA_AUTH: 나라장터 입찰공고정보서비스의 활용 승인 및 인증키를 확인하세요. 공공데이터포털에서 서비스 신청 후 필요하면 NARA_API_KEY Secret을 등록하세요. 기존 파일은 유지합니다.',file=sys.stderr);return 1
+  print('NARA_AUTH: 나라장터 입찰공고정보서비스의 활용 승인 및 인증키를 확인하세요. 기존 PRISM_API_KEY의 나라장터 서비스 활용 승인 상태를 확인하세요. 기존 파일은 유지합니다.',file=sys.stderr);return 1
  except LinkError as exc:print('나라장터 상세 조회 실패: '+str(exc),file=sys.stderr);return 1
  except Exception:print('나라장터 상세 조회/저장 실패 (원문 및 키 비공개)',file=sys.stderr);return 1
 if __name__=='__main__':sys.exit(main())

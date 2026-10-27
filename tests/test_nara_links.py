@@ -1,5 +1,8 @@
 import unittest
-from scripts.collect_nara_links import split_notice,parse_response,match_link,collect,AuthError,LinkError
+from unittest.mock import patch
+from urllib.parse import urlsplit,parse_qs
+import json
+from scripts.collect_nara_links import split_notice,parse_response,match_link,collect,AuthError,LinkError,request_json
 
 NUMBER='R26BK01776995'
 URL=f'https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo={NUMBER}&bidPbancOrd=000'
@@ -30,3 +33,24 @@ class LinkTests(unittest.TestCase):
   def nofetch(*_):raise AssertionError('successful results should be reused')
   second=collect(data,'fixture',previous=result,fetch=nofetch,pause=lambda _:None)
   self.assertEqual(second['counts']['ok'],2)
+
+ def test_force_refresh_bypasses_success_cache(self):
+  data={'items':[{'id':NUMBER+'-000'}]};calls=[]
+  old={'links':{NUMBER+'-000':{'status':'ok','url':URL}}}
+  def fetch(key,number,page):calls.append((number,page));return response([item()])
+  result=collect(data,'fixture',previous=old,fetch=fetch,pause=lambda _:None,refresh=True)
+  self.assertEqual(calls,[(NUMBER,1)]);self.assertEqual(result['counts']['ok'],1)
+ def test_request_parameters_use_base_number_and_inquiry_division(self):
+  class Reply:
+   def __enter__(self):return self
+   def __exit__(self,*args):pass
+   def read(self,*args):return json.dumps(response([item()])).encode()
+  seen=[]
+  class Opener:
+   def open(self,req,timeout):seen.append(parse_qs(urlsplit(req.full_url).query));return Reply()
+  with patch('scripts.collect_nara_links.build_opener',return_value=Opener()):
+   request_json('fixture-not-a-key',NUMBER,1)
+   with self.assertRaises(LinkError):request_json('fixture-not-a-key',NUMBER+'-000',1)
+  self.assertEqual(seen[0]['inqryDiv'],['2'])
+  self.assertEqual(seen[0]['bidNtceNo'],[NUMBER])
+  self.assertEqual(seen[0]['pageNo'],['1'])

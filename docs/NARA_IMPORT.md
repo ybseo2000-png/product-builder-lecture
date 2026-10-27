@@ -25,8 +25,10 @@ bids.html에 제목/번호/기관 검색, 게시연도·월·공고 구분 필�
 
 사용자가 제공한 실제 JSON 응답의 `response.body.items[].bidNtceDtlUrl`을 수집합니다. `scripts/collect_nara_links.py`가 엑셀의 전체 공고번호를 본번호/차수로 나누고, inqryDiv=2, bidNtceNo=본번호, type=json, numOfRows=100, pageNo=1부터 조회합니다. totalCount에 따라 추가 페이지를 읽으며 정확한 본번호/차수 일치 결과만 사용합니다. 예시 응답의 공고는 엑셀 목록에 임의 추가하지 않습니다.
 
-`data/nara-links.json`은 엑셀 변환 결과와 별도 보관해 새 파일 수입 시 링크를 덮어쓰지 않습니다. 정상 링크는 다음 실행에서 재사용하고, 미확보/실패만 재시도합니다. 목록과 일치하는 항목만 화면에 표시합니다.
+`data/nara-links.json`은 엑셀 변환 결과와 별도 보관해 새 파일 수입 시 링크를 덮어쓰지 않습니다. 기본 CLI는 정상 링크를 재사용할 수 있으나, 현재 workflow는 `--refresh`로 성공 캐시까지 포함해 전체 본번호를 다시 조회합니다. 목록과 일치하는 항목만 화면에 표시합니다.
 
-`Collect Nara notice detail links` Actions가 최초 코드 push, data/nara.json 갱신, 수동 실행 시 동작합니다. `NARA_API_KEY` Secret이 있으면 우선 사용하고, 없으면 기존 `PRISM_API_KEY`를 사용합니다. 같은 공공데이터포털 인증키를 사용할 수 있더라도 **조달청 나라장터 입찰공고정보서비스의 활용 승인**은 별도 필요할 수 있습니다. 권한이 없으면 NARA_AUTH 메시지를 남기고 이전 자료를 보존합니다. 키 값은 채팅/코드/공개 JSON에 넣지 않습니다.
+`Collect Nara notice detail links` Actions가 최초 코드 push, data/nara.json 갱신, 수동 실행 시 동작합니다. 기존 `PRISM_API_KEY` Secret만 직접 사용합니다. 별도의 NARA_API_KEY를 등록할 필요가 없습니다. 같은 공공데이터포털 인증키를 사용할 수 있더라도 **조달청 나라장터 입찰공고정보서비스의 활용 승인**은 별도 필요할 수 있습니다. 권한이 없으면 NARA_AUTH 메시지를 남기고 이전 자료를 보존합니다. 키 값은 채팅/코드/공개 JSON에 넣지 않습니다.
 
 검증된 URL은 조회 칼럼에 '공고 세부 정보 보기' 링크로 표시합니다. not_found/no_url/failed/미수집을 구분하고 공고번호 복사를 유지합니다. 링크는 공식 g2b.go.kr 도메인만 허용합니다. 공고차수가 다른 링크를 임의로 연결하거나 추정 URL로 대체하지 않습니다. 웹사이트는 API를 직접 호출하지 않습니다.
+
+공고번호 `R26BK01765062-000`의 요청 `bidNtceNo`는 `R26BK01765062`입니다. `-000`은 전달하지 않으며, 원본 번호와 차수는 응답 대응 및 링크 검증을 위해 내부에 보존합니다.
