@@ -20,3 +20,8 @@
 #term-pagination[hidden]{display:flex;visibility:hidden}
 #term-pagination button{min-width:28px;min-height:32px;padding:4px 6px;font-size:12px}
 #term-count{height:44px;line-height:20px;margin:6px 0;overflow:hidden}
+
+/* Compact related-report list. */
+.report-item{padding:8px 0;line-height:1.45}
+.report-item a{letter-spacing:-.2px}
+.report-item p{margin:2px 0 0;line-height:1.4}
