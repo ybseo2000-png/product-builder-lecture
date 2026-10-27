@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 from urllib.parse import urlsplit,parse_qs
 import json
-from scripts.collect_nara_links import split_notice,parse_response,match_link,collect,AuthError,LinkError,request_json
+from scripts.collect_nara_links import split_notice,parse_response,match_link,collect,AuthError,LinkError,request_json,department_from_ref
 
 NUMBER='R26BK01776995'
 URL=f'https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo={NUMBER}&bidPbancOrd=000'
@@ -13,7 +13,7 @@ class LinkTests(unittest.TestCase):
   self.assertEqual(split_notice(NUMBER+'-000'),(NUMBER,'000'))
   self.assertEqual(split_notice('20220238607-001'),('20220238607','001'))
  def test_example_response_and_matching(self):
-  total,rows=parse_response(response([item()]));self.assertEqual(total,1);self.assertEqual(match_link(rows,NUMBER,'000'),{'status':'ok','url':URL})
+  total,rows=parse_response(response([item()]));self.assertEqual(total,1);self.assertEqual(match_link(rows,NUMBER,'000'),{'status':'ok','url':URL,'refNo':None,'department':None})
  def test_wrong_order_not_linked(self):
   self.assertEqual(match_link([item()],NUMBER,'001')['status'],'not_found')
  def test_missing_url_distinct(self):
@@ -54,3 +54,19 @@ class LinkTests(unittest.TestCase):
   self.assertEqual(seen[0]['inqryDiv'],['2'])
   self.assertEqual(seen[0]['bidNtceNo'],[NUMBER])
   self.assertEqual(seen[0]['pageNo'],['1'])
+
+ def test_department_removes_symbols_and_numbers(self):
+  self.assertEqual(department_from_ref('국제관광서비스과-6280'),'국제관광서비스과')
+  self.assertEqual(department_from_ref(' 관광정책과 - 123 (45) '),'관광정책과')
+  self.assertIsNone(department_from_ref('123-456'))
+  self.assertIsNone(department_from_ref(None))
+ def test_department_is_saved_even_without_detail_url(self):
+  row=item(url='');row['refNo']='국제관광서비스과-6280'
+  result=match_link([row],NUMBER,'000')
+  self.assertEqual(result['status'],'no_url');self.assertEqual(result['department'],'국제관광서비스과');self.assertEqual(result['refNo'],'국제관광서비스과-6280')
+ def test_old_link_cache_without_ref_no_is_enriched(self):
+  row=item();row['refNo']='국제관광서비스과-6280';calls=[]
+  def fetch(key,number,page):calls.append(number);return response([row])
+  previous={'links':{NUMBER+'-000':{'status':'ok','url':URL}}}
+  result=collect({'items':[{'id':NUMBER+'-000'}]},'fixture',previous=previous,fetch=fetch,pause=lambda _:None)
+  self.assertEqual(calls,[NUMBER]);self.assertEqual(result['links'][NUMBER+'-000']['department'],'국제관광서비스과')

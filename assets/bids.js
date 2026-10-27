@@ -10,7 +10,7 @@
   const visible=records.slice((page-1)*pageSize,page*pageSize);
   el('bid-rows').replaceChildren(...visible.map(r=>{
    const tr=document.createElement('tr');
-   for(const value of [r.title,r.noticeType,r.org,r.publishedAt.slice(0,16).replace('T',' ')]){const td=document.createElement('td'),span=document.createElement('span');span.className='cell-content';span.textContent=value||'—';span.title=value||'—';td.append(span);tr.append(td);}
+   for(const value of [r.title,r.noticeType,r.org,linkData.links[r.id]?.department||'—',r.publishedAt.slice(0,16).replace('T',' ')]){const td=document.createElement('td'),span=document.createElement('span');span.className='cell-content';span.textContent=value||'—';span.title=value||'—';td.append(span);tr.append(td);}
    const td=document.createElement('td'),saved=linkData.links[r.id];let valid=false;
    if(saved?.status==='ok'&&saved.url){try{const u=new URL(saved.url);if(['https:','http:'].includes(u.protocol)&&(u.hostname==='g2b.go.kr'||u.hostname.endsWith('.g2b.go.kr'))&&!u.username&&!u.password){const a=document.createElement('a');a.href=u.href;a.textContent='공고 세부 정보 보기';a.className='cell-content';a.title='공고 세부 정보 보기 (새 창)';a.target='_blank';a.rel='noopener noreferrer';a.style.textDecoration='underline';td.append(a);valid=true;}}catch{}}
    if(!valid){const p=document.createElement('p');p.className='cell-content';p.textContent=linksUnavailable?'링크 불러오기 실패':saved?.status==='failed'?'세부 조회 실패':saved?.status==='not_found'?'일치 공고 미확인':saved?.status==='no_url'?'세부 URL 미제공':'세부 링크 수집 대기';p.title=p.textContent;td.append(p);const b=document.createElement('button');b.type='button';b.textContent='공고번호 복사';b.setAttribute('aria-label',`${r.id} 공고번호 복사`);b.onclick=()=>copy(r.id);td.append(b);}

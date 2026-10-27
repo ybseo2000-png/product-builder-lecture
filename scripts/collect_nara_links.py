@@ -79,28 +79,39 @@ def fetch_notice(key,number,fetch=request_json,pause=time.sleep):
   if page>100:raise LinkError('페이지 제한 초과')
 
 
+def department_from_ref(ref_no):
+ if ref_no is None:return None
+ # 문자와 공백만 남기므로 하이픈/괄호 등의 기호 및 숫자를 제거합니다.
+ text=''.join(c for c in str(ref_no) if c.isalpha() or c.isspace())
+ return ' '.join(text.split()) or None
+
+
 def match_link(items,number,order):
  matches=[r for r in items if str(r.get('bidNtceNo',''))==number and str(r.get('bidNtceOrd','')).zfill(3)==order]
- if not matches:return {'status':'not_found','url':None}
+ if not matches:return {'status':'not_found','url':None,'refNo':None,'department':None}
+ refs={str(r.get('refNo') or '').strip() for r in matches};refs.discard('')
+ if len(refs)>1:raise LinkError('동일 공고번호/차수의 참조번호 충돌')
+ ref_no=next(iter(refs),None)
+ metadata={'refNo':ref_no,'department':department_from_ref(ref_no)}
  urls={str(r.get('bidNtceDtlUrl') or '').strip() for r in matches}
  urls.discard('')
- if not urls:return {'status':'no_url','url':None}
+ if not urls:return {'status':'no_url','url':None,**metadata}
  if len(urls)>1:raise LinkError('동일 번호/차수의 상세 URL 충돌')
  url=next(iter(urls));u=urlsplit(url)
  if u.scheme not in {'https','http'} or not u.hostname or not (u.hostname=='g2b.go.kr' or u.hostname.endswith('.g2b.go.kr')) or u.username or u.password:raise LinkError('나라장터 공식 도메인이 아닌 상세 URL')
  query=parse_qs(u.query)
  if 'bidPbancNo' in query and query['bidPbancNo']!=[number]:raise LinkError('상세 URL의 공고번호 불일치')
  if 'bidPbancOrd' in query and query['bidPbancOrd']!=[order]:raise LinkError('상세 URL의 차수 불일치')
- return {'status':'ok','url':url}
+ return {'status':'ok','url':url,**metadata}
 
 
 def collect(data,key,previous=None,fetch=request_json,pause=time.sleep,refresh=False):
  old=(previous or {}).get('links',{});links={};responses={}
  for index,notice in enumerate(data['items'],1):
   identity=notice['id'];number,order=split_notice(identity)
-  if not refresh and old.get(identity,{}).get('status')=='ok':
+  if not refresh and old.get(identity,{}).get('status')=='ok' and 'refNo' in old[identity]:
    # 캐시도 동일한 공식 도메인/번호/차수 규칙으로 재검사합니다.
-   try:result=match_link([{'bidNtceNo':number,'bidNtceOrd':order,'bidNtceDtlUrl':old[identity]['url']}],number,order)
+   try:result=match_link([{'bidNtceNo':number,'bidNtceOrd':order,'bidNtceDtlUrl':old[identity]['url'],'refNo':old[identity].get('refNo')}],number,order)
    except LinkError:result=None
    if result:links[identity]={**old[identity],**result};continue
   try:
