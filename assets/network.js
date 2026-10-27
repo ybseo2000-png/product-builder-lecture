@@ -6,9 +6,19 @@
   function choose(id){selected=selected===id?null:id;shown=20;details();highlight();terms();}
   function details(){
     el('neighbors').replaceChildren();el('report-list').replaceChildren();
-    if(!selected){el('selected-title').textContent='주제어를 선택하세요';el('selected-summary').textContent='네트워크의 점이나 주제어 목록을 선택하세요.';el('more-reports').hidden=true;return;}
-    const docs=model.documents.get(selected)||[];
-    el('selected-title').textContent=selected;el('selected-summary').textContent=`현재 기간의 관련 보고서 ${docs.length}건 · 연결은 현재 표시 조건 기준`;
+    const q=el('term-search').value.trim().toLowerCase();
+    if(!selected&&!q){el('selected-title').textContent='주제어를 선택하세요';el('selected-summary').textContent='네트워크의 점이나 주제어 목록을 선택하세요.';el('more-reports').hidden=true;return;}
+    let docs;
+    if(selected){
+      docs=model.documents.get(selected)||[];
+      el('selected-title').textContent=selected;el('selected-summary').textContent=`현재 기간의 관련 보고서 ${docs.length}건 · 연결은 현재 표시 조건 기준`;
+    }else{
+      const matches=model.allNodes.filter(n=>n.id.toLowerCase().includes(q));
+      const unique=new Map();for(const term of matches)for(const report of model.documents.get(term.id)||[])unique.set(report.id,report);
+      docs=[...unique.values()].sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title,'ko'));
+      el('selected-title').textContent=`“${el('term-search').value.trim()}” 검색 결과`;
+      el('selected-summary').textContent=`현재 기간의 일치 주제어 ${matches.length}개 · 관련 보고서 ${docs.length}건 (중복 제외)`;
+    }
     const neighbors=model.edges.filter(e=>e.source===selected||e.target===selected).sort((a,b)=>b.count-a.count);
     for(const e of neighbors){const id=e.source===selected?e.target:e.source;el('neighbors').append(button(`${id} · ${e.count}건`,()=>choose(id)));}
     for(const r of docs.slice(0,shown)){
@@ -78,7 +88,7 @@
     if(research.coverageNote){const note=document.createElement('p');note.className='collection-note';note.textContent='※ '+research.coverageNote;el('coverage-note').append(note);}
     render();
     for(const id of ['period','node-limit','min-count'])el(id).addEventListener('change',render);
-    el('term-search').addEventListener('input',()=>{termPage=1;terms();highlight();});
+    el('term-search').addEventListener('input',()=>{selected=null;shown=20;termPage=1;terms();highlight();details();});
     el('more-reports').onclick=()=>{shown+=20;details();};el('zoom-in').onclick=()=>{zoom=Math.min(3,zoom*1.3);setZoom();};el('zoom-out').onclick=()=>{zoom=Math.max(.6,zoom/1.3);setZoom();};el('zoom-reset').onclick=()=>{zoom=1;setZoom();};
   }catch{el('coverage').textContent='분석 자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';}
 })();
