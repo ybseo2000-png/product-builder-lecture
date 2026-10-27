@@ -145,8 +145,8 @@ header{gap:20px;flex-wrap:wrap}header nav{flex-wrap:wrap}
 @media(max-width:650px){.news-grid{grid-template-columns:minmax(0,1fr)}}
 
 /* Uniform news cards with bounded text. */
-.news-card{height:300px}
-.news-card-body{min-height:0;overflow:hidden}
-.news-card h2{flex:none;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;max-height:115.2px;overflow:hidden;text-overflow:ellipsis}
+.news-card{height:230px}
+.news-card-body{min-height:0;overflow:hidden;padding:18px;gap:10px}
+.news-card h2{flex:none;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;max-height:86.4px;overflow:hidden;text-overflow:ellipsis}
 .news-meta,.news-tags{flex:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .news-open{flex:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
