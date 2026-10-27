@@ -5,7 +5,7 @@
   const text=String(value||'').trim();
   const compact=text.replace(/\s+/g,'');
   // 부서명이 아닌 기관 명의 공고 문구는 표시에서 제외합니다.
-  if(/^문화체육(?:관광|광광)부(?:(?:입찰|용역)?공고)?제호$/.test(compact))return '-';
+  if(/^문화체육(?:관광|광광)부(?:(?:입찰|용역)?공고)?제(?:호)?$/.test(compact))return '-';
   return text||'—';
  }
  function option(id,value,label=value){const o=document.createElement('option');o.value=value;o.textContent=label;el(id).append(o);}
