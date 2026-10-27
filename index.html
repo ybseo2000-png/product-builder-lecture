@@ -4,15 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>2027년 관광산업연구실 연구과제 발굴</title>
-  <link rel="stylesheet" href="assets/style.css?v=tree-hero-20261027">
+  <link rel="stylesheet" href="assets/style.css?v=hero-slides-20261027">
 </head>
 <body class="home">
   <header><a href="index.html" class="brand">연구과제 발굴</a><nav><a href="research.html">경인사연 연구현황</a><a href="network.html">경인사연 주제어 분석</a><a href="prism.html">프리즘 연구현황</a><a href="bids.html">나라장터 입찰공고</a><a href="tourism-bids.html">관광 용역공고</a></nav></header>
   <main>
-    <section class="hero">
+    <section class="hero hero-slideshow" aria-label="관광 사진 슬라이드">
+      <div class="hero-slides" aria-hidden="true">
+        <img src="assets/Museum.jpg" alt="" class="is-active" fetchpriority="high">
+        <img src="assets/Sun.jpg" alt="" decoding="async">
+        <img src="assets/Tree.jpg" alt="" decoding="async">
+        <img src="assets/temple.jpg" alt="" decoding="async">
+      </div>
       <p class="eyebrow">RESEARCH DISCOVERY · 2027</p>
       <h1>2027년 관광산업연구실 연구과제 발굴</h1>
       <p class="intro">축적된 연구와 새로운 정책 수요에서<br>관광산업의 다음 연구 주제를 찾아보세요.</p>
+      <div class="hero-controls" hidden>
+        <button type="button" data-slide="previous" aria-label="이전 배경 사진">〈</button>
+        <span class="hero-slide-count" aria-live="off">1 / 4</span>
+        <button type="button" data-slide="next" aria-label="다음 배경 사진">〉</button>
+        <button type="button" data-slide="pause" aria-label="배경 사진 자동 전환 일시정지">일시정지</button>
+      </div>
     </section>
     <section class="cards">
       <a class="card" href="research.html">
@@ -61,6 +73,7 @@
     <button type="button" data-direction="next" aria-label="다음 참고 사이트 보기" aria-controls="reference-sites" hidden>&gt;</button>
   </div>
 </footer>
+  <script src="assets/hero-slideshow.js?v=20261027" defer></script>
   <script src="assets/app.js" defer></script>
 <script src="assets/references.js" defer></script></body>
 </html>
