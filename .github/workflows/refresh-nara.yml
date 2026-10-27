@@ -1,0 +1,21 @@
+name: Refresh all Nara notices and publish
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/nara-refresh-request.json'
+permissions:
+  contents: read
+jobs:
+  refresh:
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/collect-nara-links.yml
+    with:
+      mode: full
+      refresh: true
+    secrets:
+      PRISM_API_KEY: ${{ secrets.PRISM_API_KEY }}

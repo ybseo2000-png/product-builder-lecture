@@ -181,9 +181,10 @@ def main():
   result=collect(data,key,old,refresh=args.refresh,on_progress=save_result)
   save_result(result)
   print('상세 링크 집계:',json.dumps(result['counts']))
+  print(f'::notice title=Nara collection result::처리 {result["processedCount"]}/{result["totalTargets"]}건 · 담당부서 {result["departmentCount"]}건 · 완료={result["completed"]}',flush=True)
   return 0
  except AuthError:
-  print(('::error title=Nara diagnostic::' if args.diagnose_notice else '')+'NARA_AUTH: 나라장터 입찰공고정보서비스의 활용 승인 및 인증키를 확인하세요. 기존 PRISM_API_KEY의 나라장터 서비스 활용 승인 상태를 확인하세요. 기존 파일은 유지합니다.',file=sys.stderr);return 1
- except LinkError as exc:print(('::error title=Nara diagnostic::' if args.diagnose_notice else '')+'나라장터 상세 조회 실패: '+str(exc),file=sys.stderr);return 1
+  print(('::error title=Nara diagnostic::' if args.diagnose_notice else '::error title=Nara collection::')+'NARA_AUTH: 나라장터 입찰공고정보서비스의 활용 승인 및 인증키를 확인하세요. 기존 PRISM_API_KEY의 나라장터 서비스 활용 승인 상태를 확인하세요. 기존 파일은 유지합니다.',file=sys.stderr);return 1
+ except LinkError as exc:print(('::error title=Nara diagnostic::' if args.diagnose_notice else '::error title=Nara collection::')+'나라장터 상세 조회 실패: '+str(exc),file=sys.stderr);return 1
  except Exception:print('나라장터 상세 조회/저장 실패 (원문 및 키 비공개)',file=sys.stderr);return 1
 if __name__=='__main__':sys.exit(main())

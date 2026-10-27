@@ -5,6 +5,20 @@ on:
     paths:
       - 'scripts/collect_nara_links.py'
       - '.github/workflows/collect-nara-links.yml'
+  workflow_call:
+    inputs:
+      mode:
+        type: string
+        default: diagnose
+      notice:
+        type: string
+        default: 'R26BK01687571-000'
+      refresh:
+        type: boolean
+        default: false
+    secrets:
+      PRISM_API_KEY:
+        required: true
   workflow_dispatch:
     inputs:
       mode:
