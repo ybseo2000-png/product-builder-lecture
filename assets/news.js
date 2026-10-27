@@ -7,9 +7,9 @@
   const pages=Math.ceil(items.length/size);page=Math.max(1,Math.min(page,pages||1));
   el('grid').replaceChildren(...items.slice((page-1)*size,page*size).map(r=>{
    const article=document.createElement('article');article.className='news-card';
-   const body=document.createElement('div');body.className='news-card-body';const meta=document.createElement('p');meta.className='news-meta';meta.textContent=[r.date,r.publisher].filter(Boolean).join(' · ');
-   const title=document.createElement('h2');title.textContent=r.title;const headlineUrl=url(r.url);if(headlineUrl){const a=document.createElement('a');a.href=headlineUrl;a.textContent=r.title;a.target='_blank';a.rel='noopener noreferrer';title.replaceChildren(a);}
-   const tags=document.createElement('p');tags.className='news-tags';tags.textContent=r.tags.join(' · ');
+   const body=document.createElement('div');body.className='news-card-body';const meta=document.createElement('p');meta.className='news-meta';meta.textContent=[r.date,r.publisher].filter(Boolean).join(' · ');meta.title=meta.textContent;
+   const title=document.createElement('h2');title.textContent=r.title;title.title=r.title;const headlineUrl=url(r.url);if(headlineUrl){const a=document.createElement('a');a.href=headlineUrl;a.textContent=r.title;a.target='_blank';a.rel='noopener noreferrer';title.replaceChildren(a);}
+   const tags=document.createElement('p');tags.className='news-tags';tags.textContent=r.tags.join(' · ');tags.title=tags.textContent;
    body.append(meta,title,tags);const target=url(r.url);
    if(target){const a=document.createElement('a');a.className='news-open';a.href=target;a.target='_blank';a.rel='noopener noreferrer';a.textContent='기사 원문 보기 ↗';a.setAttribute('aria-label',r.title+' — 원문 새 창에서 보기');body.append(a);}else{const note=document.createElement('span');note.className='news-meta';note.textContent='원문 링크 미등록';body.append(note);}
    article.append(body);return article;
