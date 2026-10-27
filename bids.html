@@ -1,12 +1,16 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>나라장터 입찰공고 | 연구과제 발굴</title><link rel="stylesheet" href="assets/style.css?v=references-wide-20261027"></head><body>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>나라장터 입찰공고 | 연구과제 발굴</title><link rel="stylesheet" href="assets/style.css?v=bid-pages-20261027"></head><body>
 <header><a href="index.html" class="brand">연구과제 발굴</a><nav><a href="research.html">경인사연 연구현황</a><a href="network.html">경인사연 주제어 분석</a><a href="prism.html">프리즘 연구현황</a><a href="bids.html">나라장터 입찰공고</a></nav></header>
-<main><a class="back" href="index.html">← 메인으로</a><p class="eyebrow">G2B PROCUREMENT</p><h1>나라장터 입찰공고</h1><p class="intro">문화체육관광부 공고 · 사용자가 내려받은 자료</p>
-<aside>업로드 파일의 공고를 표시합니다. 변경·취소·재공고를 포함하며, 현재 유효한 공고만을 뜻하지 않습니다. 파일에 업종코드가 없어 학술·연구용역(1169) 조건을 별도로 검증하지 못했습니다. 상세 링크는 나라장터 API에서 공고번호와 차수가 일치하는 결과만 연결합니다. 아직 링크를 확보하지 못한 공고는 공고번호로 검색해 주세요.</aside>
+<main><a class="back" href="index.html">← 메인으로</a><p class="eyebrow">G2B PROCUREMENT</p><h1>나라장터 입찰공고</h1><p class="intro">나라장터에 2022년부터 2026년 동안 게시된 문화체육관광부를 공고기관 및 수요기관으로 하는 입찰 공고를 조회합니다.</p>
+<aside class="bid-notes">
+  <p>· 등록·변경·취소·재공고 등을 포함합니다.</p>
+  <p>· 투찰 가능 업종코드가 "학술·연구용역(1169)"인 입찰공고를 조회합니다.</p>
+  <p>· 아직 링크를 확보하지 못한 공고는 공고번호로 검색해 주세요.</p>
+</aside>
 <p id="bid-status" role="status">자료를 불러오는 중입니다…</p>
-<section class="filters" aria-label="입찰공고 검색"><label>검색<input id="bid-search" type="search" placeholder="공고명·공고번호·기관 검색"></label><label>게시연도<select id="bid-year"><option value="">전체 연도</option></select></label><label>게시월<select id="bid-month"><option value="">전체 월</option></select></label><label>공고 구분<select id="bid-type"><option value="">전체 구분</option></select></label><button id="bid-reset">초기화</button></section>
-<p id="bid-count" aria-live="polite"></p><p><a href="https://www.g2b.go.kr/" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">나라장터 열기 ↗</a> · 공고번호로 검색해 주세요.</p>
-<div class="table-wrap"><table><thead><tr><th>공고명</th><th>입찰공고번호</th><th>구분</th><th>공고기관</th><th>수요기관</th><th>게시일시</th><th>입찰마감일시</th><th>업무구분</th><th>업무여부</th><th>조회</th></tr></thead><tbody id="bid-rows"></tbody></table></div>
-<p id="bid-empty" hidden>조건에 맞는 공고가 없습니다.</p><p id="bid-copy-status" role="status"></p>
+<section class="filters bid-filters" aria-label="입찰공고 검색"><label>검색 기준<select id="bid-scope"><option value="all">통합</option><option value="title">공고명</option><option value="noticeType">구분</option></select></label><label>검색<input id="bid-search" type="search" placeholder="공고명 또는 구분 검색"></label><label>게시연도<select id="bid-year"><option value="">전체 연도</option></select></label><label>게시월<select id="bid-month"><option value="">전체 월</option></select></label><label>공고 구분 필터<select id="bid-type"><option value="">전체 구분</option></select></label><button id="bid-reset">초기화</button></section>
+<div id="bid-results" class="report-results"><p id="bid-count" aria-live="polite"></p><p><a href="https://www.g2b.go.kr/" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">나라장터 열기 ↗</a> · 공고번호로 검색해 주세요.</p>
+<div class="table-wrap"><table class="bid-table"><colgroup><col style="width:460px"><col style="width:120px"><col style="width:180px"><col style="width:196px"><col style="width:180px"></colgroup><thead><tr><th>공고명</th><th>구분</th><th>공고기관</th><th>게시일시</th><th>조회</th></tr></thead><tbody id="bid-rows"></tbody></table></div>
+<p id="bid-empty" hidden>조건에 맞는 공고가 없습니다.</p><nav id="bid-pagination" class="pagination" aria-label="입찰공고 페이지 이동" hidden></nav><p id="bid-copy-status" role="status"></p></div>
 </main><footer class="references-footer" data-references>
   <p class="reference-heading">참고 사이트 <span>링크는 새 창에서 열립니다.</span></p>
   <div class="reference-bar" data-overflow="false">
@@ -22,4 +26,4 @@
     </nav>
     <button type="button" data-direction="next" aria-label="다음 참고 사이트 보기" aria-controls="reference-sites" hidden>&gt;</button>
   </div>
-</footer><script src="assets/bids.js" defer></script><script src="assets/references.js" defer></script></body></html>
+</footer><script src="assets/research-list.js?v=bid-pages-20261027" defer></script><script src="assets/bids.js?v=bid-pages-20261027" defer></script><script src="assets/references.js" defer></script></body></html>

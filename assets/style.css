@@ -97,3 +97,13 @@ body.research-page{background:#fff;color:#000}
 
 .prism-column-note{background:#f3f3f3;color:#000}
 .prism-column-note p{margin:4px 0;line-height:1.8}
+
+.bid-notes p{margin:4px 0;line-height:1.8}
+.bid-filters{flex-wrap:wrap}
+.bid-filters label:first-child{flex:initial}
+.bid-filters label:nth-child(2){flex:1}
+.bid-table{table-layout:fixed;width:1136px;min-width:1136px}
+.bid-table th,.bid-table td{padding:18px;min-width:0;vertical-align:top;line-height:23.094px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.bid-table .cell-content{display:block;max-width:100%;margin:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:23.094px}
+.bid-table td button{margin-top:6px;padding:6px 8px;font-size:12px}
+@media(max-width:650px){.bid-filters label:nth-child(2){flex-basis:100%}}
