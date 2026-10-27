@@ -8,7 +8,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
 
 .home .hero h1{text-align:center;color:#fff}
 
-/* 메인 제목 사진 배경: assets/temple.jpg */
+/* 메인 제목 사진 배경: assets/Tree.jpg */
 .home main{max-width:none;padding:0 0 70px}
 .home .cards{max-width:1136px;width:calc(100% - 64px);margin:32px auto 0}
 .home .hero{
@@ -21,7 +21,7 @@ nav a:hover,nav a[aria-current="page"]{color:#000;text-decoration:underline;text
   text-align:center;
   border-radius:0;
   background-color:#fff;
-  background-image:linear-gradient(rgba(255,255,255,.32),rgba(255,255,255,.44)),url('temple.jpg');
+  background-image:linear-gradient(rgba(255,255,255,.32),rgba(255,255,255,.44)),url('Tree.jpg');
   background-size:cover;
   background-position:center 58%;
 }
