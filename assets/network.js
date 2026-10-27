@@ -3,7 +3,7 @@
   let research,cache,model,selected=null,shown=20,zoom=1,termPage=1;
   function svg(tag,attrs){const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;}
   function button(text,fn){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=fn;return b;}
-  function choose(id){selected=id;shown=20;details();highlight();terms();}
+  function choose(id){selected=selected===id?null:id;shown=20;details();highlight();terms();}
   function details(){
     el('neighbors').replaceChildren();el('report-list').replaceChildren();
     if(!selected){el('selected-title').textContent='주제어를 선택하세요';el('selected-summary').textContent='네트워크의 점이나 주제어 목록을 선택하세요.';el('more-reports').hidden=true;return;}
