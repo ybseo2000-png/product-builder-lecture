@@ -36,3 +36,13 @@ bids.html에 제목/번호/기관 검색, 게시연도·월·공고 구분 필�
 ## 담당부서
 
 공고번호/차수 일치 응답의 refNo 원문과 department를 함께 저장합니다. department는 원문의 문자·공백만 남기고 숫자·기호를 제거한 값입니다. 예: 국제관광서비스과-6280 → 국제관광서비스과. 빈 값이나 숫자/기호만 있는 값은 null로 저장하고 화면에는 —를 표시합니다. 세부 URL이 없는 응답이라도 refNo가 있으면 부서를 수집합니다. 기존 refNo가 없는 링크 캐시도 다시 조회하며, workflow는 전체 재조회합니다.
+
+## 장애 진단과 중간 저장 (최신 동작)
+
+기존 실행의 'API 연결 또는 JSON 해석 실패' 로그만으로는 시간 초과와 비JSON 응답을 구분할 수 없었습니다. 현재는 HTTP 상태/응답 종류(JSON/XML/HTML/OTHER)/바이트 수를 기록하고, TIMEOUT/NETWORK_ERROR/TLS_ERROR/HTTP_ERROR/NON_JSON/INVALID_JSON을 구분합니다. 키·요청 URL·응답 원문은 출력하지 않습니다. TLS 검증은 유지합니다.
+
+스크립트/워크플로 변경 push는 예시 공고 R26BK01687571-000 한 건을 한 번만 진단합니다. 이 모드는 공개 데이터 수정/배포를 하지 않습니다. 전체 수집은 Actions → Collect Nara notice detail links → Run workflow → mode=full일 때만 실행됩니다. 기본 수동 모드는 diagnose입니다. 한 건 진단의 결과/오류는 GitHub Annotation에 안전한 메시지로 남깁니다.
+
+전체 수집에서는 성공 건마다 JSON을 원자적으로 저장하고, 실패 시 기존 정상 링크를 유지합니다. 연속 3건 실패 시 중단합니다. refNo/담당부서 확보 여부도 로그에 따로 표시합니다. 정상 링크 저장 여부만 나타내는 ok를 담당부서 수집 성공으로 해석하지 않습니다.
+
+중간 결과에 processedCount/totalTargets/completed/departmentCount가 포함됩니다. full 작업의 always 단계에서 체크포인트 artifact와 GitHub 커밋을 시도합니다. 강제 종료나 러너 장애로 always 단계가 실행되지 못하면 미저장 진행분 복구를 보장하지 않습니다. full이 정상 완료된 경우만 자동 배포합니다. 실패 시 이전 링크를 덮어쓰지 않으며, 저장된 진행 결과는 이후 수동 실행에서 재사용합니다. refresh를 선택하면 성공 캐시도 다시 조회합니다.

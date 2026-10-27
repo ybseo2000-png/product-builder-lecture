@@ -1,12 +1,25 @@
 name: Collect Nara notice detail links
 on:
-  workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'scripts/collect_nara_links.py'
-      - 'data/nara.json'
       - '.github/workflows/collect-nara-links.yml'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '먼저 diagnose로 공고 1건만 확인하세요. full은 전체 수집입니다.'
+        type: choice
+        options: [diagnose, full]
+        default: diagnose
+      notice:
+        description: '진단할 공고번호 (차수 포함)'
+        type: string
+        default: 'R26BK01687571-000'
+      refresh:
+        description: 'full 모드에서 기존 성공 자료도 다시 조회'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -25,20 +38,43 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Test link matching
+      - name: Test link matching and diagnostics
         run: python -m unittest discover -s tests -p 'test_nara_links.py'
-      - name: Fetch notice detail links
+      - name: Diagnose one notice without publishing
+        if: github.event_name == 'push' || inputs.mode == 'diagnose'
         env:
           PRISM_API_KEY: ${{ secrets.PRISM_API_KEY }}
-        run: python scripts/collect_nara_links.py --refresh
-      - name: Save public detail links
+          NOTICE_ID: ${{ inputs.notice || 'R26BK01687571-000' }}
+        run: python scripts/collect_nara_links.py --diagnose-notice "$NOTICE_ID"
+      - name: Fetch notice detail links
+        if: inputs.mode == 'full'
+        env:
+          PRISM_API_KEY: ${{ secrets.PRISM_API_KEY }}
+          REFRESH: ${{ inputs.refresh }}
         run: |
+          if [ "$REFRESH" = 'true' ]; then
+            python scripts/collect_nara_links.py --refresh
+          else
+            python scripts/collect_nara_links.py
+          fi
+      - name: Retain collected checkpoint
+        if: always() && inputs.mode == 'full'
+        uses: actions/upload-artifact@v4
+        with:
+          name: nara-link-checkpoint
+          path: data/nara-links.json
+          retention-days: 7
+      - name: Save public detail links and progress
+        if: always() && inputs.mode == 'full'
+        run: |
+          python -c 'import json; d=json.load(open("data/nara-links.json")); assert isinstance(d["links"],dict)'
           git add data/nara-links.json
           if git diff --cached --quiet; then exit 0; fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update Nara notice detail links'
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Save Nara notice detail collection progress'
           git pull --rebase origin main
           git push origin HEAD:main
   publish:
+    if: inputs.mode == 'full' && needs.collect.result == 'success'
     needs: collect
     permissions:
       contents: read

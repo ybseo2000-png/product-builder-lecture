@@ -70,3 +70,41 @@ class LinkTests(unittest.TestCase):
   previous={'links':{NUMBER+'-000':{'status':'ok','url':URL}}}
   result=collect({'items':[{'id':NUMBER+'-000'}]},'fixture',previous=previous,fetch=fetch,pause=lambda _:None)
   self.assertEqual(calls,[NUMBER]);self.assertEqual(result['links'][NUMBER+'-000']['department'],'국제관광서비스과')
+
+ def test_non_json_and_timeout_are_distinguishable_and_do_not_leak_key(self):
+  import io,contextlib
+  class Reply:
+   status=200
+   def __enter__(self):return self
+   def __exit__(self,*args):pass
+   def read(self,*args):return b'<html>fixture-private-key</html>'
+  class Opener:
+   def open(self,*args,**kwargs):return Reply()
+  log=io.StringIO()
+  with patch('scripts.collect_nara_links.build_opener',return_value=Opener()),contextlib.redirect_stdout(log):
+   with self.assertRaisesRegex(LinkError,'NON_JSON_HTML'):request_json('fixture-private-key',NUMBER,1,attempts=1)
+  self.assertNotIn('fixture-private-key',log.getvalue())
+  class TimeoutOpener:
+   def open(self,*args,**kwargs):raise TimeoutError('https://example.invalid/?secret=fixture-private-key')
+  with patch('scripts.collect_nara_links.build_opener',return_value=TimeoutOpener()),contextlib.redirect_stdout(log):
+   with self.assertRaisesRegex(LinkError,'TIMEOUT'):request_json('fixture-private-key',NUMBER,1,attempts=1)
+  self.assertNotIn('fixture-private-key',log.getvalue())
+
+ def test_three_failures_stop_and_preserve_previous_good_links(self):
+  data={'items':[{'id':f'R26BK1000000{i}-000'} for i in range(4)]}
+  old={'links':{r['id']:{'status':'ok','url':URL} for r in data['items']}}
+  calls=[];snapshots=[]
+  def fail(key,number,page):calls.append(number);raise LinkError('NETWORK_ERROR: fixture')
+  with self.assertRaisesRegex(LinkError,'CIRCUIT_BREAK'):
+   collect(data,'fixture',old,fetch=fail,pause=lambda _:None,refresh=True,on_progress=snapshots.append)
+  self.assertEqual(len(calls),3);self.assertEqual(len(snapshots),3)
+  self.assertTrue(all(r['status']=='ok' for r in snapshots[-1]['links'].values()))
+  self.assertFalse(snapshots[-1]['completed'])
+
+ def test_successful_department_is_checkpointed_before_later_auth_failure(self):
+  data={'items':[{'id':NUMBER+'-000'},{'id':'R26BK10000001-000'}]};snapshots=[]
+  def fetch(key,number,page):
+   if number!=NUMBER:raise AuthError('fixture')
+   row=item();row['refNo']='국제관광서비스과-6280';return response([row])
+  with self.assertRaises(AuthError):collect(data,'fixture',fetch=fetch,pause=lambda _:None,on_progress=snapshots.append)
+  self.assertEqual(snapshots[0]['links'][NUMBER+'-000']['department'],'국제관광서비스과')
