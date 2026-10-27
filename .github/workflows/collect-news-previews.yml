@@ -1,0 +1,42 @@
+name: Collect news link previews
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/import_news.py'
+      - '.github/workflows/collect-news-previews.yml'
+permissions:
+  contents: read
+concurrency:
+  group: news-preview-maintenance
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Collect public preview descriptions and image URLs
+        run: python scripts/import_news.py --refresh
+      - name: Save public previews
+        run: |
+          git add data/news.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update news link previews'
+          git pull --rebase origin main
+          git push origin HEAD:main
+  publish:
+    needs: collect
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
