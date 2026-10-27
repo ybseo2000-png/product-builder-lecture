@@ -33,15 +33,37 @@
   }
   function terms(){
     const q=el('term-search').value.trim().toLowerCase();
-    const matches=model.allNodes.filter(n=>n.id.toLowerCase().includes(q)),size=50,pages=Math.ceil(matches.length/size);
+    const matches=model.allNodes.filter(n=>n.id.toLowerCase().includes(q));
+    const panel=el('terms-section'),list=el('term-list');
+    panel.style.height=document.querySelector('.graph-panel').getBoundingClientRect().height+'px';
+    const nav=el('term-pagination');nav.hidden=false;
+    el('term-count').textContent=`주제어 ${matches.length}개 · 페이지 이동`;
+    el('term-empty').hidden=true;
+    const width=list.clientWidth,height=list.clientHeight;
+    const measure=document.createElement('div');measure.className='term-list term-measure';measure.style.width=width+'px';
+    for(const n of matches)measure.append(button(`${n.id} · ${n.count}`,()=>{}));
+    document.body.append(measure);
+    const groups=[];let group=[],x=0,y=0,rowHeight=0;
+    for(const [i,b] of [...measure.children].entries()){
+      const rect=b.getBoundingClientRect(),w=rect.width,h=rect.height;
+      let newRow=x>0&&x+w>width+.1;
+      if(group.length&&(group.length>=50||(newRow?y+rowHeight+8+h:y+Math.max(rowHeight,h))>height)){
+        groups.push(group);group=[];x=0;y=0;rowHeight=0;newRow=false;
+      }
+      if(newRow){y+=rowHeight+8;x=0;rowHeight=0;}
+      group.push(matches[i]);x+=w+8;rowHeight=Math.max(rowHeight,h);
+    }
+    if(group.length)groups.push(group);measure.remove();
+    const pages=groups.length;
     termPage=Math.max(1,Math.min(termPage,pages||1));
     el('term-list').replaceChildren();
-    for(const n of matches.slice((termPage-1)*size,termPage*size)){
+    for(const n of groups[termPage-1]||[]){
       const b=button(`${n.id} · ${n.count}`,()=>choose(n.id));b.setAttribute('aria-pressed',String(n.id===selected));el('term-list').append(b);
     }
-    el('term-count').textContent=`주제어 ${matches.length}개 · ${matches.length?(termPage-1)*size+1:0}~${Math.min(termPage*size,matches.length)}개 표시 · ${pages?termPage:0}/${pages}페이지`;
+    const start=groups.slice(0,termPage-1).reduce((sum,g)=>sum+g.length,0);
+    el('term-count').textContent=`주제어 ${matches.length}개 · ${matches.length?start+1:0}~${start+(groups[termPage-1]?.length||0)}개 · ${pages?termPage:0}/${pages}페이지`;
     el('term-empty').hidden=matches.length>0;
-    const nav=el('term-pagination');nav.replaceChildren();nav.hidden=pages<=1;
+    nav.replaceChildren();nav.hidden=pages<=1;
     function add(label,target,disabled=false){
       const b=button(label,()=>{termPage=target;terms();el('terms-section').scrollIntoView({block:'start'});nav.querySelector('[aria-current="page"]')?.focus({preventScroll:true});});
       b.disabled=disabled;b.setAttribute('aria-label',`${label} 주제어 페이지`);
@@ -89,6 +111,13 @@
     if(!Array.isArray(research.items)||!cache.reports)throw Error();
     if(research.coverageNote){const note=document.createElement('p');note.className='collection-note';note.textContent='※ '+research.coverageNote;el('coverage-note').append(note);}
     render();
+    let resizeFrame,lastSize='';
+    const observer=new ResizeObserver(()=>{
+      const graph=document.querySelector('.graph-panel').getBoundingClientRect(),width=el('terms-section').clientWidth;
+      const size=`${graph.height}:${width}`;if(size===lastSize)return;lastSize=size;
+      cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>terms());
+    });observer.observe(document.querySelector('.graph-panel'));observer.observe(el('terms-section'));
+    document.fonts.ready.then(()=>terms());
     for(const id of ['period','node-limit','min-count'])el(id).addEventListener('change',render);
     el('term-search').addEventListener('input',()=>{selected=null;shown=20;termPage=1;terms();highlight();details();});
     el('more-reports').onclick=()=>{shown+=20;details();};el('zoom-in').onclick=()=>{zoom=Math.min(3,zoom*1.3);setZoom();};el('zoom-out').onclick=()=>{zoom=Math.max(.6,zoom/1.3);setZoom();};el('zoom-reset').onclick=()=>{zoom=1;setZoom();};

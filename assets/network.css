@@ -9,3 +9,14 @@
 .network-page main > .detail-panel{margin-top:22px}
 #search-feedback{padding:12px 16px;border-left:3px solid #304f78;background:#f3f3f3;font-size:14px}
 .analysis-layout{align-items:start}
+
+.terms-panel{display:flex;flex-direction:column;overflow:hidden}
+.terms-panel > h2,.terms-panel > p{flex:none}
+.terms-panel > p{margin:6px 0}
+.terms-panel .term-list{flex:1;min-height:0;align-content:flex-start;overflow:hidden}
+.term-list button{flex:none;max-width:100%;overflow-wrap:anywhere}
+.term-measure{position:fixed;left:-10000px;top:0;visibility:hidden;pointer-events:none}
+#term-pagination{flex:none;min-height:76px;margin-top:12px;gap:4px;align-content:center}
+#term-pagination[hidden]{display:flex;visibility:hidden}
+#term-pagination button{min-width:28px;min-height:32px;padding:4px 6px;font-size:12px}
+#term-count{height:44px;line-height:20px;margin:6px 0;overflow:hidden}
