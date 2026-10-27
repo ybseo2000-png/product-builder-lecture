@@ -19,7 +19,7 @@
     }
     el('more-reports').hidden=docs.length<=shown;
   }
-  function terms(){el('term-list').replaceChildren();const q=el('term-search').value.trim().toLowerCase();for(const n of model.nodes.filter(n=>n.id.toLowerCase().includes(q))){const b=button(`${n.id} · ${n.count}`,()=>choose(n.id));b.setAttribute('aria-pressed',String(n.id===selected));el('term-list').append(b);}}
+  function terms(){el('term-list').replaceChildren();const q=el('term-search').value.trim().toLowerCase();for(const n of model.allNodes.filter(n=>n.id.toLowerCase().includes(q))){const b=button(`${n.id} · ${n.count}`,()=>choose(n.id));b.setAttribute('aria-pressed',String(n.id===selected));el('term-list').append(b);}}
   function highlight(){
     const q=el('term-search').value.trim().toLowerCase();const adjacent=new Set([selected]);for(const e of model.edges)if(e.source===selected||e.target===selected){adjacent.add(e.source);adjacent.add(e.target);}
     for(const n of el('graph').querySelectorAll('.node')){n.classList.toggle('dim',(selected&&!adjacent.has(n.dataset.term))||!!(q&&!n.dataset.term.toLowerCase().includes(q)));n.classList.toggle('selected',n.dataset.term===selected);}

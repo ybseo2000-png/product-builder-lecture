@@ -19,10 +19,11 @@
         pairs.set(key,(pairs.get(key)||0)+1);
       }
     }
-    const nodes = [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ko')).slice(0,limit).map(([id,count])=>({id,count}));
+    const allNodes = [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ko')).map(([id,count])=>({id,count}));
+    const nodes = allNodes.slice(0,limit);
     const selected = new Set(nodes.map(n=>n.id));
     const edges = [...pairs].filter(([,count])=>count>=minimum).map(([key,count])=>({source:JSON.parse(key)[0],target:JSON.parse(key)[1],count})).filter(e=>selected.has(e.source)&&selected.has(e.target));
-    return {nodes,edges,stats,documents};
+    return {nodes,allNodes,edges,stats,documents};
   }
   root.KeywordNetwork={analyze};
   if(typeof module!=='undefined') module.exports={analyze};
