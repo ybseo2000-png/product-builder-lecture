@@ -12,6 +12,7 @@ on:
       - 'data/nara.json'
       - 'data/nara-links.json'
       - 'data/tourism-bids.json'
+      - 'data/news.json'
       - '.github/workflows/pages.yml'
 permissions:
   contents: read
@@ -34,7 +35,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir _site
-          cp index.html research.html bids.html network.html prism.html tourism-bids.html _site/
+          cp index.html research.html bids.html network.html prism.html tourism-bids.html news.html _site/
           cp -R assets data _site/
       - uses: actions/upload-pages-artifact@v3
         with:
