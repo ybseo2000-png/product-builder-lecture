@@ -94,3 +94,6 @@ body.research-page{background:#fff;color:#000}
 .prism-table{table-layout:fixed;width:1136px;min-width:1136px}
 .prism-table th,.prism-table td{padding:18px;min-width:0;vertical-align:top;line-height:23.094px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .prism-table .cell-content{display:block;max-width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:23.094px}
+
+.prism-column-note{background:#f3f3f3;color:#000}
+.prism-column-note p{margin:4px 0;line-height:1.8}
