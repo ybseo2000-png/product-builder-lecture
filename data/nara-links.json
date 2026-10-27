@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T01:17:02.359902+00:00",
+  "updatedAt": "2026-10-27T01:53:56.463232+00:00",
   "source": "조달청 나라장터 입찰공고정보서비스",
   "counts": {
     "ok": 234,
@@ -11,1172 +11,1644 @@
     "R26BK01765062-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01765062&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:41.129209+00:00"
+      "refNo": "저작권정책과-6716",
+      "department": "저작권정책과",
+      "checkedAt": "2026-10-27T01:48:51.545468+00:00"
     },
     "R26BK01726917-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726917&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:42.246584+00:00"
+      "refNo": "도서관정책기획단-7707",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:48:53.089730+00:00"
     },
     "R26BK01707761-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01707761&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:43.390547+00:00"
+      "refNo": "관광산업진흥과-7240",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:48:54.425923+00:00"
     },
     "R26BK01706839-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01706839&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:44.658836+00:00"
+      "refNo": "지역관광개발과-6701",
+      "department": "지역관광개발과",
+      "checkedAt": "2026-10-27T01:48:55.747733+00:00"
     },
     "R26BK01687571-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687571&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:45.807973+00:00"
+      "refNo": "국제관광서비스과-6280",
+      "department": "국제관광서비스과",
+      "checkedAt": "2026-10-27T01:48:57.056045+00:00"
     },
     "R26BK01685869-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01685869&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:46.921049+00:00"
+      "refNo": "복원협력과-6461",
+      "department": "복원협력과",
+      "checkedAt": "2026-10-27T01:48:58.471963+00:00"
     },
     "R26BK01685751-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01685751&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:47.902618+00:00"
+      "refNo": "관광산업진흥과-7240",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:48:59.799509+00:00"
     },
     "R26BK01684769-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684769&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:48.907462+00:00"
+      "refNo": "문화수출통상과-302",
+      "department": "문화수출통상과",
+      "checkedAt": "2026-10-27T01:49:01.322460+00:00"
     },
     "R26BK01654907-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01654907&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:49.911507+00:00"
+      "refNo": "예술정책과-6249",
+      "department": "예술정책과",
+      "checkedAt": "2026-10-27T01:49:03.046615+00:00"
     },
     "R26BK01654816-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01654816&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:51.074673+00:00"
+      "refNo": "시각예술디자인과-5787",
+      "department": "시각예술디자인과",
+      "checkedAt": "2026-10-27T01:49:04.196922+00:00"
     },
     "R26BK01643721-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01643721&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:11:52.320735+00:00"
+      "refNo": "전통문화과-4921",
+      "department": "전통문화과",
+      "checkedAt": "2026-10-27T01:49:05.895589+00:00"
     },
     "R26BK01624780-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01624780&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:34.796440+00:00"
+      "refNo": "전통문화과-4921",
+      "department": "전통문화과",
+      "checkedAt": "2026-10-27T01:49:07.037857+00:00"
     },
     "R26BK01606911-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01606911&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:35.783616+00:00"
+      "refNo": "지역문화정책과-4512",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:49:08.194808+00:00"
     },
     "R26BK01606097-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01606097&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:36.918150+00:00"
+      "refNo": "관광산업진흥과-5688",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:09.331247+00:00"
     },
     "R26BK01602257-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01602257&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:37.914825+00:00"
+      "refNo": "문화산업기반과-4031",
+      "department": "문화산업기반과",
+      "checkedAt": "2026-10-27T01:49:10.463668+00:00"
     },
     "R26BK01581493-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01581493&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:38.898034+00:00"
+      "refNo": "지역문화정책과-4512",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:49:11.629964+00:00"
     },
     "R26BK01577742-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01577742&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:39.879330+00:00"
+      "refNo": "스포츠산업과-4655",
+      "department": "스포츠산업과",
+      "checkedAt": "2026-10-27T01:49:12.946219+00:00"
     },
     "R26BK01577040-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01577040&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:40.863377+00:00"
+      "refNo": "스포츠인권복지과-4320",
+      "department": "스포츠인권복지과",
+      "checkedAt": "2026-10-27T01:49:14.473452+00:00"
     },
     "R26BK01573088-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01573088&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:41.839027+00:00"
+      "refNo": "도서관정책기획단-4798",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:49:15.610245+00:00"
     },
     "R26BK01573058-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01573058&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:42.833758+00:00"
+      "refNo": "문화정책과-4614",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:49:16.738713+00:00"
     },
     "R26BK01554538-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01554538&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:43.816824+00:00"
+      "refNo": "관광산업진흥과-4688",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:18.447935+00:00"
     },
     "R26BK01553213-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01553213&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:44.800570+00:00"
+      "refNo": "스포츠산업과-4655",
+      "department": "스포츠산업과",
+      "checkedAt": "2026-10-27T01:49:19.785736+00:00"
     },
     "R26BK01548679-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01548679&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:45.920738+00:00"
+      "refNo": "관광산업진흥과-4892",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:20.931665+00:00"
     },
     "R26BK01543312-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01543312&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:47.077925+00:00"
+      "refNo": "도서관정책기획단-4798",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:49:22.079768+00:00"
     },
     "R26BK01543069-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01543069&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:48.230249+00:00"
+      "refNo": "문화정책과-4614",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:49:23.210398+00:00"
     },
     "R26BK01539697-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01539697&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:49.207706+00:00"
+      "refNo": "관광산업진흥과-4344",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:24.728569+00:00"
     },
     "R26BK01531562-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01531562&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:50.204372+00:00"
+      "refNo": "문화산업기반과-3367",
+      "department": "문화산업기반과",
+      "checkedAt": "2026-10-27T01:49:26.061367+00:00"
     },
     "R26BK01528685-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01528685&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:51.183436+00:00"
+      "refNo": "관광산업진흥과-4529",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:27.200276+00:00"
     },
     "R26BK01527318-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01527318&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:12:52.199258+00:00"
+      "refNo": "관광산업진흥과-4688",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:28.712214+00:00"
     },
     "R26BK01525652-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01525652&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:34.362763+00:00"
+      "refNo": "국제문화정책과-4979",
+      "department": "국제문화정책과",
+      "checkedAt": "2026-10-27T01:49:29.846565+00:00"
     },
     "R26BK01513049-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01513049&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:35.340835+00:00"
+      "refNo": "관광산업진흥과-4344",
+      "department": "관광산업진흥과",
+      "checkedAt": "2026-10-27T01:49:31.525453+00:00"
     },
     "R26BK01511132-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01511132&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:36.337459+00:00"
+      "refNo": "도서관정책기획단-3804",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:49:32.955855+00:00"
     },
     "R26BK01511086-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01511086&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:37.367130+00:00"
+      "refNo": "미디어정책과-3239",
+      "department": "미디어정책과",
+      "checkedAt": "2026-10-27T01:49:34.103247+00:00"
     },
     "R26BK01487058-002": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01487058&bidPbancOrd=002",
-      "checkedAt": "2026-10-27T01:13:38.418292+00:00"
+      "refNo": "복원협력과-2402",
+      "department": "복원협력과",
+      "checkedAt": "2026-10-27T01:49:35.566244+00:00"
     },
     "R26BK01498294-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498294&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:39.406588+00:00"
+      "refNo": "융복합관광과-1229",
+      "department": "융복합관광과",
+      "checkedAt": "2026-10-27T01:49:36.751524+00:00"
     },
     "R26BK01345239-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01345239&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:13:40.391045+00:00"
+      "refNo": "융복합관광과-1229",
+      "department": "융복합관광과",
+      "checkedAt": "2026-10-27T01:49:38.282973+00:00"
     },
     "R26BK01485252-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01485252&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:41.397430+00:00"
+      "refNo": "도서관정책기획단-3804",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:49:39.766261+00:00"
     },
     "R26BK01481665-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481665&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:42.392939+00:00"
+      "refNo": "저작권정책과-2724",
+      "department": "저작권정책과",
+      "checkedAt": "2026-10-27T01:49:41.093372+00:00"
     },
     "R26BK01481628-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481628&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:43.413352+00:00"
+      "refNo": "예술인권리보호과-2481",
+      "department": "예술인권리보호과",
+      "checkedAt": "2026-10-27T01:49:42.516908+00:00"
     },
     "R26BK01478895-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01478895&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:44.398253+00:00"
+      "refNo": "미디어정책과-3239",
+      "department": "미디어정책과",
+      "checkedAt": "2026-10-27T01:50:05.352528+00:00"
     },
     "R26BK01475706-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01475706&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:45.397556+00:00"
+      "refNo": "예술인권리보호과-2879",
+      "department": "예술인권리보호과",
+      "checkedAt": "2026-10-27T01:50:06.528344+00:00"
     },
     "R26BK01473322-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01473322&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:46.388004+00:00"
+      "refNo": "지역관광개발과-2380",
+      "department": "지역관광개발과",
+      "checkedAt": "2026-10-27T01:50:08.043480+00:00"
     },
     "R26BK01454640-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01454640&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:47.366683+00:00"
+      "refNo": "문화정책과-2557",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:09.670084+00:00"
     },
     "R26BK01454574-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01454574&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:48.400587+00:00"
+      "refNo": "예술정책과-2901",
+      "department": "예술정책과",
+      "checkedAt": "2026-10-27T01:50:11.024087+00:00"
     },
     "R26BK01452787-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01452787&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:13:49.398938+00:00"
+      "refNo": "복원협력과-2402",
+      "department": "복원협력과",
+      "checkedAt": "2026-10-27T01:50:12.364517+00:00"
     },
     "R26BK01448330-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01448330&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:50.368821+00:00"
+      "refNo": "저작권정책과-2724",
+      "department": "저작권정책과",
+      "checkedAt": "2026-10-27T01:50:13.525378+00:00"
     },
     "R26BK01414927-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01414927&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:13:51.371524+00:00"
+      "refNo": "저작권정책과-1964",
+      "department": "저작권정책과",
+      "checkedAt": "2026-10-27T01:50:14.867703+00:00"
     },
     "R26BK01447887-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01447887&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:52.348073+00:00"
+      "refNo": "예술인권리보호과-2481",
+      "department": "예술인권리보호과",
+      "checkedAt": "2026-10-27T01:50:16.201504+00:00"
     },
     "R26BK01443339-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01443339&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:53.357455+00:00"
+      "refNo": "지역관광개발과-2573",
+      "department": "지역관광개발과",
+      "checkedAt": "2026-10-27T01:50:17.361088+00:00"
     },
     "R26BK01443173-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01443173&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:54.336132+00:00"
+      "refNo": "지역관광개발과-2380",
+      "department": "지역관광개발과",
+      "checkedAt": "2026-10-27T01:50:18.505826+00:00"
     },
     "R26BK01422802-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01422802&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:55.353607+00:00"
+      "refNo": "문화정책과-1971",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:19.675284+00:00"
     },
     "R26BK01417496-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01417496&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:56.333068+00:00"
+      "refNo": "문화정책과-2557",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:20.823280+00:00"
     },
     "R26BK01414732-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01414732&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:57.341286+00:00"
+      "refNo": "국어정책과-1919",
+      "department": "국어정책과",
+      "checkedAt": "2026-10-27T01:50:21.950163+00:00"
     },
     "R26BK01400539-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01400539&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:13:58.349651+00:00"
+      "refNo": "복원협력과-2111",
+      "department": "복원협력과",
+      "checkedAt": "2026-10-27T01:50:23.111219+00:00"
     },
     "R26BK01396478-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01396478&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:13:59.328019+00:00"
+      "refNo": "문화정책과-1970",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:24.266548+00:00"
     },
     "R26BK01384300-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01384300&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:14:00.298992+00:00"
+      "refNo": "관광정책과=-1654",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:50:25.606191+00:00"
     },
     "R26BK01384426-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01384426&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:01.432167+00:00"
+      "refNo": "국제문화정책과-2491",
+      "department": "국제문화정책과",
+      "checkedAt": "2026-10-27T01:50:27.311954+00:00"
     },
     "R26BK01383843-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01383843&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:02.413561+00:00"
+      "refNo": "문화정책과-1971",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:28.461918+00:00"
     },
     "R26BK01377117-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01377117&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:03.446751+00:00"
+      "refNo": "국어정책과-1919",
+      "department": "국어정책과",
+      "checkedAt": "2026-10-27T01:50:29.618879+00:00"
     },
     "R26BK01374808-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01374808&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:04.461127+00:00"
+      "refNo": "문화정책과-1449",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:30.960473+00:00"
     },
     "R26BK01361776-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01361776&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:05.444941+00:00"
+      "refNo": "문화정책과-967",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:32.101657+00:00"
     },
     "R26BK01345979-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01345979&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:06.438831+00:00"
+      "refNo": "문화정책과-1449",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:33.285580+00:00"
     },
     "R26BK01345101-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01345101&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:07.423274+00:00"
+      "refNo": "관광정책과=-1654",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:50:34.619334+00:00"
     },
     "R26BK01325498-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01325498&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:08.410889+00:00"
+      "refNo": "문화정책과-967",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:50:36.037225+00:00"
     },
     "R25BK01196285-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01196285&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:09.393869+00:00"
+      "refNo": "관광기반과-4827",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:50:37.181212+00:00"
     },
     "R25BK01168959-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01168959&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:10.400878+00:00"
+      "refNo": "관광정책과-7689",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:50:38.324911+00:00"
     },
     "R25BK01161067-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01161067&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:11.481126+00:00"
+      "refNo": "관광산업정책과-6405",
+      "department": "관광산업정책과",
+      "checkedAt": "2026-10-27T01:50:39.468243+00:00"
     },
     "R25BK01142570-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01142570&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:12.501304+00:00"
+      "refNo": "관광산업정책과-6158",
+      "department": "관광산업정책과",
+      "checkedAt": "2026-10-27T01:50:40.810261+00:00"
     },
     "R25BK01117506-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01117506&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:13.512184+00:00"
+      "refNo": "관광기반과-3934",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:50:41.954507+00:00"
     },
     "R25BK01117369-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01117369&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:14.539086+00:00"
+      "refNo": "국내관광진흥과-3913",
+      "department": "국내관광진흥과",
+      "checkedAt": "2026-10-27T01:50:43.097222+00:00"
     },
     "R25BK01074631-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01074631&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:15.550817+00:00"
+      "refNo": "지역문화정책과-3554",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:50:44.255860+00:00"
     },
     "R25BK01063295-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01063295&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:16.546657+00:00"
+      "refNo": "해외홍보기획과-3644",
+      "department": "해외홍보기획과",
+      "checkedAt": "2026-10-27T01:50:45.585156+00:00"
     },
     "R25BK01035786-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK01035786&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:17.612420+00:00"
+      "refNo": "문화기반과-2366",
+      "department": "문화기반과",
+      "checkedAt": "2026-10-27T01:50:46.727987+00:00"
     },
     "R25BK00992527-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00992527&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:18.645765+00:00"
+      "refNo": "관광산업정책과-4059",
+      "department": "관광산업정책과",
+      "checkedAt": "2026-10-27T01:50:47.874496+00:00"
     },
     "R25BK00974055-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00974055&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:19.670894+00:00"
+      "refNo": "지역문화정책과-2326",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:50:49.197546+00:00"
     },
     "R25BK00971222-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00971222&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:14:20.707100+00:00"
+      "refNo": "지역문화정책과-2326",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:50:50.355572+00:00"
     },
     "R25BK00947010-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00947010&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:21.721597+00:00"
+      "refNo": "스포츠산업과-3012",
+      "department": "스포츠산업과",
+      "checkedAt": "2026-10-27T01:50:51.521534+00:00"
     },
     "R25BK00943486-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00943486&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:22.767833+00:00"
+      "refNo": "문화기반과-2366",
+      "department": "문화기반과",
+      "checkedAt": "2026-10-27T01:50:52.682678+00:00"
     },
     "R25BK00923311-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00923311&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:23.766058+00:00"
+      "refNo": "지역문화정책과-2326",
+      "department": "지역문화정책과",
+      "checkedAt": "2026-10-27T01:50:53.853740+00:00"
     },
     "R25BK00859414-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00859414&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:24.777181+00:00"
+      "refNo": "예술인지원팀-1185",
+      "department": "예술인지원팀",
+      "checkedAt": "2026-10-27T01:50:54.995264+00:00"
     },
     "R25BK00852617-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00852617&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:25.786422+00:00"
+      "refNo": "도서관정책기획단-2284",
+      "department": "도서관정책기획단",
+      "checkedAt": "2026-10-27T01:50:56.147905+00:00"
     },
     "R25BK00819570-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00819570&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:26.803938+00:00"
+      "refNo": "해외홍보기획과-1493호",
+      "department": "해외홍보기획과호",
+      "checkedAt": "2026-10-27T01:50:57.307507+00:00"
     },
     "R25BK00818867-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00818867&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:27.832522+00:00"
+      "refNo": "예술인지원팀-1185",
+      "department": "예술인지원팀",
+      "checkedAt": "2026-10-27T01:50:58.474020+00:00"
     },
     "R25BK00812778-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00812778&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:28.834773+00:00"
+      "refNo": "방송영상광고과-1345",
+      "department": "방송영상광고과",
+      "checkedAt": "2026-10-27T01:50:59.631320+00:00"
     },
     "R25BK00790032-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00790032&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:29.875030+00:00"
+      "refNo": "시각예술디자인과-1499",
+      "department": "시각예술디자인과",
+      "checkedAt": "2026-10-27T01:51:00.770197+00:00"
     },
     "R25BK00789968-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00789968&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:30.858402+00:00"
+      "refNo": "문화정책과-1680",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:01.926399+00:00"
     },
     "R25BK00789245-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00789245&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:31.868579+00:00"
+      "refNo": "관광개발과-570",
+      "department": "관광개발과",
+      "checkedAt": "2026-10-27T01:51:03.076648+00:00"
     },
     "R25BK00784390-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00784390&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:32.896437+00:00"
+      "refNo": "국제문화정책과-2133",
+      "department": "국제문화정책과",
+      "checkedAt": "2026-10-27T01:51:04.222334+00:00"
     },
     "R25BK00784339-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00784339&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:33.885447+00:00"
+      "refNo": "국제문화정책과-2066",
+      "department": "국제문화정책과",
+      "checkedAt": "2026-10-27T01:51:05.373333+00:00"
     },
     "R25BK00773777-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00773777&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:34.884580+00:00"
+      "refNo": "문화시설기획과-719",
+      "department": "문화시설기획과",
+      "checkedAt": "2026-10-27T01:51:06.521626+00:00"
     },
     "R25BK00772090-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00772090&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:35.897211+00:00"
+      "refNo": "문화정책과-1519",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:07.686617+00:00"
     },
     "R25BK00770548-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00770548&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:36.937383+00:00"
+      "refNo": "문화정책과-957",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:08.879269+00:00"
     },
     "R25BK00770456-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00770456&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:37.925794+00:00"
+      "refNo": "문화정책과-956",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:10.014868+00:00"
     },
     "R25BK00749991-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00749991&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:38.926721+00:00"
+      "refNo": "관광산업정책과-1628",
+      "department": "관광산업정책과",
+      "checkedAt": "2026-10-27T01:51:11.160583+00:00"
     },
     "R25BK00743471-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00743471&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:39.927352+00:00"
+      "refNo": "체육정책과-391",
+      "department": "체육정책과",
+      "checkedAt": "2026-10-27T01:51:12.323972+00:00"
     },
     "R25BK00743435-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00743435&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:40.940626+00:00"
+      "refNo": "관광기반과-184",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:51:13.469563+00:00"
     },
     "R25BK00736165-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00736165&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:41.949353+00:00"
+      "refNo": "관광기반과-905",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:51:14.632723+00:00"
     },
     "R25BK00736112-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00736112&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:42.947286+00:00"
+      "refNo": "관광기반과-909",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:51:15.781870+00:00"
     },
     "R25BK00730203-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00730203&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:43.961278+00:00"
+      "refNo": "문화정책과1268",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:16.924058+00:00"
     },
     "R25BK00703214-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00703214&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:44.957003+00:00"
+      "refNo": "시각예술디자인과-951",
+      "department": "시각예술디자인과",
+      "checkedAt": "2026-10-27T01:51:18.062079+00:00"
     },
     "R25BK00703099-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00703099&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:45.942231+00:00"
+      "refNo": "문화정책과-957",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:19.222853+00:00"
     },
     "R25BK00703000-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00703000&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:46.927944+00:00"
+      "refNo": "문화정책과-956",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:20.363042+00:00"
     },
     "R25BK00701128-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00701128&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:47.923574+00:00"
+      "refNo": "문화시설기획과-719",
+      "department": "문화시설기획과",
+      "checkedAt": "2026-10-27T01:51:21.553902+00:00"
     },
     "R25BK00683884-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00683884&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:48.934247+00:00"
+      "refNo": "예술정책과-860",
+      "department": "예술정책과",
+      "checkedAt": "2026-10-27T01:51:22.720880+00:00"
     },
     "R25BK00683784-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00683784&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:49.968595+00:00"
+      "refNo": "문화정책과-823",
+      "department": "문화정책과",
+      "checkedAt": "2026-10-27T01:51:23.863019+00:00"
     },
     "R25BK00682425-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00682425&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:50.977781+00:00"
+      "refNo": "융합관광산업과-616",
+      "department": "융합관광산업과",
+      "checkedAt": "2026-10-27T01:51:25.004250+00:00"
     },
     "R25BK00677813-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00677813&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:52.005252+00:00"
+      "refNo": "관광산업정책과-1078",
+      "department": "관광산업정책과",
+      "checkedAt": "2026-10-27T01:51:26.163879+00:00"
     },
     "R25BK00677753-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00677753&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:53.033123+00:00"
+      "refNo": "종무1담당관-733",
+      "department": "종무담당관",
+      "checkedAt": "2026-10-27T01:51:27.318470+00:00"
     },
     "R25BK00669408-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00669408&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:54.029390+00:00"
+      "refNo": "관광정책과-1153",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:51:28.667588+00:00"
     },
     "R25BK00665734-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00665734&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:55.022509+00:00"
+      "refNo": "저작권정책과-518",
+      "department": "저작권정책과",
+      "checkedAt": "2026-10-27T01:51:29.821180+00:00"
     },
     "R25BK00648426-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00648426&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:56.148808+00:00"
+      "refNo": "관광개발과-570",
+      "department": "관광개발과",
+      "checkedAt": "2026-10-27T01:51:30.962063+00:00"
     },
     "R25BK00648776-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00648776&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:57.165933+00:00"
+      "refNo": "문화산업정책과-263",
+      "department": "문화산업정책과",
+      "checkedAt": "2026-10-27T01:51:32.105687+00:00"
     },
     "R25BK00631988-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00631988&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:58.361132+00:00"
+      "refNo": "기획혁신담당관-591",
+      "department": "기획혁신담당관",
+      "checkedAt": "2026-10-27T01:51:33.535836+00:00"
     },
     "R25BK00628140-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00628140&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:14:59.386239+00:00"
+      "refNo": "공연전통예술과-357",
+      "department": "공연전통예술과",
+      "checkedAt": "2026-10-27T01:51:34.696612+00:00"
     },
     "R25BK00628236-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00628236&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:00.427171+00:00"
+      "refNo": "스포츠유산팀-338",
+      "department": "스포츠유산팀",
+      "checkedAt": "2026-10-27T01:51:35.854064+00:00"
     },
     "R25BK00610077-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00610077&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:15:01.468598+00:00"
+      "refNo": "체육진흥과-358",
+      "department": "체육진흥과",
+      "checkedAt": "2026-10-27T01:51:37.006308+00:00"
     },
     "R25BK00609931-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00609931&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:02.746668+00:00"
+      "refNo": "체육정책과-391",
+      "department": "체육정책과",
+      "checkedAt": "2026-10-27T01:51:38.145060+00:00"
     },
     "R25BK00598376-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00598376&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:03.789392+00:00"
+      "refNo": "문화산업정책과-263",
+      "department": "문화산업정책과",
+      "checkedAt": "2026-10-27T01:51:39.291209+00:00"
     },
     "R25BK00597386-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00597386&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:04.847288+00:00"
+      "refNo": "관광기반과-184",
+      "department": "관광기반과",
+      "checkedAt": "2026-10-27T01:51:40.430729+00:00"
     },
     "R25BK00573509-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00573509&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:05.891022+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2025-1호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:41.767702+00:00"
     },
     "R25BK00556317-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R25BK00556317&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:06.921755+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-64호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:42.933722+00:00"
     },
     "20241200237-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20241200237&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:07.975083+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-64호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:44.431437+00:00"
     },
     "20241032012-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20241032012&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:08.979794+00:00"
+      "refNo": "관광정책과-7934",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:51:45.591004+00:00"
     },
     "20241031674-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20241031674&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:10.009534+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-58호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:46.734866+00:00"
     },
     "20241007967-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20241007967&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:11.147420+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-57호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:47.905191+00:00"
     },
     "20240920393-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240920393&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:12.142324+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-56호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:49.065164+00:00"
     },
     "20240918758-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240918758&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:13.139585+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-55호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:50.227707+00:00"
     },
     "20240813520-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240813520&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:14.140703+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-50호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:51.375291+00:00"
     },
     "20240733409-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240733409&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:15.123176+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-50호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:52.511289+00:00"
     },
     "20240715701-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240715701&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:16.158424+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-49 호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:51:53.663813+00:00"
     },
     "20240713069-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240713069&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:17.161735+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-48호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:54.828157+00:00"
     },
     "20240711768-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240711768&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:18.159628+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-42호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:55.967202+00:00"
     },
     "20240634721-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240634721&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:19.175497+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-45 호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:51:57.106174+00:00"
     },
     "20240632905-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240632905&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:20.305882+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-44호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:58.258744+00:00"
     },
     "20240608446-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240608446&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:21.306735+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-42호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:51:59.416215+00:00"
     },
     "20240542479-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240542479&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:22.344593+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-41호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:00.577408+00:00"
     },
     "20240533175-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240533175&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:23.347407+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-39호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:01.732737+00:00"
     },
     "20240529183-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240529183&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:24.357624+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-37호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:02.902215+00:00"
     },
     "20240525077-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240525077&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:25.380584+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-38호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:04.054924+00:00"
     },
     "20240525063-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240525063&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:15:26.388811+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-38호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:05.217279+00:00"
     },
     "20240517776-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240517776&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:27.393245+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-28호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:06.354471+00:00"
     },
     "20240516286-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240516286&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:28.523558+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-35호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:07.504856+00:00"
     },
     "20240514312-002": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240514312&bidPbancOrd=002",
-      "checkedAt": "2026-10-27T01:15:29.594134+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-33호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:08.780434+00:00"
     },
     "20240511234-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240511234&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:30.601400+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-25호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:09.933053+00:00"
     },
     "20240509608-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240509608&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:31.599350+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-23 호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:52:11.087080+00:00"
     },
     "20240445094-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240445094&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:32.590583+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-32호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:12.232439+00:00"
     },
     "20240445052-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240445052&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:33.580832+00:00"
+      "refNo": "관광정책과-2750",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:52:13.373250+00:00"
     },
     "20240437388-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240437388&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:34.598310+00:00"
+      "refNo": "관광정책과-1861",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:52:14.517644+00:00"
     },
     "20240434772-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240434772&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:35.575674+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-30호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:15.668041+00:00"
     },
     "20240431782-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240431782&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:36.578566+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-28호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:16.824489+00:00"
     },
     "20240431768-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240431768&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:37.605959+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-27호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:17.966484+00:00"
     },
     "20240431269-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240431269&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:38.624953+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-14호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:19.109560+00:00"
     },
     "20240431254-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240431254&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:39.612680+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-15호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:20.250672+00:00"
     },
     "20240431241-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240431241&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:40.592205+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-17호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:21.397268+00:00"
     },
     "20240424661-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240424661&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:41.578622+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-29호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:22.545207+00:00"
     },
     "20240417825-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240417825&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:42.562384+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-25호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:23.702025+00:00"
     },
     "20240415985-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240415985&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:43.562549+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-23 호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:52:24.840595+00:00"
     },
     "20240348312-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240348312&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:44.543829+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-20호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:25.980416+00:00"
     },
     "20240335700-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240335700&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:45.553844+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-16호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:52:27.125215+00:00"
     },
     "20240333555-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240333555&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:46.555419+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-17호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:28.271755+00:00"
     },
     "20240331205-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240331205&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:47.587077+00:00"
+      "refNo": "관광정책과-1861",
+      "department": "관광정책과",
+      "checkedAt": "2026-10-27T01:52:29.448578+00:00"
     },
     "20240329750-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240329750&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:48.577379+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-15호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:30.606241+00:00"
     },
     "20240326761-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240326761&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:49.579439+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-14호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:31.764578+00:00"
     },
     "20240321370-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240321370&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:50.620753+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-11호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:32.915031+00:00"
     },
     "20240315003-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240315003&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:51.624542+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-10호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:34.054990+00:00"
     },
     "20240314351-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240314351&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:52.645609+00:00"
+      "refNo": "문화체육관광부 용역공고 제 2024-12 호",
+      "department": "문화체육관광부 용역공고 제 호",
+      "checkedAt": "2026-10-27T01:52:35.211990+00:00"
     },
     "20240302312-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240302312&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:53.643549+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-9호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:36.364726+00:00"
     },
     "20240302281-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240302281&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:54.770580+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-7호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:37.508364+00:00"
     },
     "20240302170-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240302170&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:55.789648+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-6호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:38.645529+00:00"
     },
     "20240226580-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240226580&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:56.796637+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-3호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:39.802713+00:00"
     },
     "20240226541-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20240226541&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:57.790196+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2024-2호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:40.934764+00:00"
     },
     "20231137383-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231137383&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:58.796625+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-57호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:42.078527+00:00"
     },
     "20231132163-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231132163&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:15:59.805600+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-56호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:43.227263+00:00"
     },
     "20231109258-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231109258&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:00.805520+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-51호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:44.389016+00:00"
     },
     "20231031811-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231031811&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:01.840445+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-45호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:45.539243+00:00"
     },
     "20231006040-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231006040&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:02.909802+00:00"
+      "refNo": "문화체육관광부 용역 공고 제2023-43호",
+      "department": "문화체육관광부 용역 공고 제호",
+      "checkedAt": "2026-10-27T01:52:46.714270+00:00"
     },
     "20231000044-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20231000044&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:03.950878+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-45호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:47.865634+00:00"
     },
     "20230927118-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230927118&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:04.980595+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-44호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:49.029265+00:00"
     },
     "20230913025-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230913025&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:05.981533+00:00"
+      "refNo": "문화체육관광부 용역 공고 제2023-43호",
+      "department": "문화체육관광부 용역 공고 제호",
+      "checkedAt": "2026-10-27T01:52:50.183009+00:00"
     },
     "20230831798-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230831798&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:07.006580+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-41호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:51.338060+00:00"
     },
     "20230809541-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230809541&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:08.029093+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-29호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:52.486218+00:00"
     },
     "20230804201-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230804201&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:09.046611+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-30호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:53.628148+00:00"
     },
     "20230801809-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230801809&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:10.079610+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-38호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:54.769089+00:00"
     },
     "20230801806-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230801806&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:11.075208+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-37호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:55.907518+00:00"
     },
     "20230729395-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230729395&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:12.091745+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-33호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:52:57.064984+00:00"
     },
     "20230724108-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230724108&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:13.109250+00:00"
+      "refNo": "문화체육관광부 제2023-26호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:52:58.218254+00:00"
     },
     "20230723988-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230723988&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:14.141625+00:00"
+      "refNo": "문화체육관광부 제2023-35호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:52:59.379333+00:00"
     },
     "20230722542-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230722542&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:15.155029+00:00"
+      "refNo": "문화체육관광부 용역 공고 제2023-34호",
+      "department": "문화체육관광부 용역 공고 제호",
+      "checkedAt": "2026-10-27T01:53:00.525330+00:00"
     },
     "20230722420-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230722420&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:16.154417+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-30호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:53:01.674437+00:00"
     },
     "20230715145-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230715145&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:17.155671+00:00"
+      "refNo": "문화체육관광부 입찰공고 제2023-29호",
+      "department": "문화체육관광부 입찰공고 제호",
+      "checkedAt": "2026-10-27T01:53:02.846266+00:00"
     },
     "20230646416-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230646416&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:18.207282+00:00"
+      "refNo": "문화체육관광부 제2023-27호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:04.007244+00:00"
     },
     "20230644402-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230644402&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:19.224884+00:00"
+      "refNo": "문화체육관광부 제2023-26호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:05.184527+00:00"
     },
     "20230633839-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230633839&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:20.225435+00:00"
+      "refNo": "문화체육관광부 제2023-24호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:06.329057+00:00"
     },
     "20230621839-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230621839&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:21.260509+00:00"
+      "refNo": "문화체육관광부 제2023-18호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:07.486424+00:00"
     },
     "20230528562-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230528562&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:22.407313+00:00"
+      "refNo": "문화체육관광부 제2023-9호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:08.643269+00:00"
     },
     "20230528545-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230528545&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:23.404796+00:00"
+      "refNo": "문화체육관광부 제2023-10호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:09.786610+00:00"
     },
     "20230522858-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230522858&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:24.448700+00:00"
+      "refNo": "문화체육관광부 제2023-23호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:10.974913+00:00"
     },
     "20230522871-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230522871&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:25.433270+00:00"
+      "refNo": "문화체육관광부 제2023-24호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:12.117972+00:00"
     },
     "20230523485-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230523485&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:26.444570+00:00"
+      "refNo": "문화체육관광부 제2023-11호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:13.265464+00:00"
     },
     "20230508979-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230508979&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:27.460196+00:00"
+      "refNo": "문화체육관광부 제2023-18호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:14.499922+00:00"
     },
     "20230503966-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230503966&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:28.492582+00:00"
+      "refNo": "문화체육관광부 제2023-15호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:15.655622+00:00"
     },
     "20230503950-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230503950&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:29.619758+00:00"
+      "refNo": "문화체육관광부 제2023-14호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:16.795723+00:00"
     },
     "20230503930-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230503930&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:30.608335+00:00"
+      "refNo": "문화체육관광부 제2023-13호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:17.935253+00:00"
     },
     "20230502053-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230502053&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:31.627181+00:00"
+      "refNo": "문화체육관광부 제2023-17호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:19.105914+00:00"
     },
     "20230446077-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230446077&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:32.666876+00:00"
+      "refNo": "문화체육관광부 제2023-6호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:20.274230+00:00"
     },
     "20230443907-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230443907&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:33.676586+00:00"
+      "refNo": "문화체육관광부 제2023-5호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:21.416013+00:00"
     },
     "20230438030-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230438030&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:34.694496+00:00"
+      "refNo": "문화체육관광부 제2023-4호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:22.562774+00:00"
     },
     "20230428254-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230428254&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:35.742959+00:00"
+      "refNo": "문화체육관광부 제2023-11호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:23.724258+00:00"
     },
     "20230427946-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230427946&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:36.766552+00:00"
+      "refNo": "문화체육관광부 제2023-10호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:25.186613+00:00"
     },
     "20230427839-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230427839&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:37.771984+00:00"
+      "refNo": "문화체육관광부 제2023-9호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:26.346653+00:00"
     },
     "20230414756-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230414756&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:38.812336+00:00"
+      "refNo": "문화체육관광부 용역공고 제2023-12호",
+      "department": "문화체육관광부 용역공고 제호",
+      "checkedAt": "2026-10-27T01:53:27.521654+00:00"
     },
     "20230352369-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230352369&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:39.810600+00:00"
+      "refNo": "문화체육관광부 제2023-6호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:28.677846+00:00"
     },
     "20230352346-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230352346&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:40.816658+00:00"
+      "refNo": "문화체육관광부 제2023-5호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:29.813837+00:00"
     },
     "20230349765-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230349765&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:41.860368+00:00"
+      "refNo": "문화체육관광부 제2023-4호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:30.960261+00:00"
     },
     "20230327370-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230327370&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:42.869023+00:00"
+      "refNo": "문화체육관광부 제2023-2호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:32.115989+00:00"
     },
     "20230239138-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230239138&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:43.868350+00:00"
+      "refNo": "문화체육관광부 제2023-2호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:33.266653+00:00"
     },
     "20230234126-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20230234126&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:44.882012+00:00"
+      "refNo": "문화체육관광부 제2023-1호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:34.420586+00:00"
     },
     "20221246988-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20221246988&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:45.873055+00:00"
+      "refNo": "문화체육관광부 제2022-30호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:35.600253+00:00"
     },
     "20221220236-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20221220236&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:46.864396+00:00"
+      "refNo": "문화체육관광부 제2022-30호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:36.747711+00:00"
     },
     "20221129422-001": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20221129422&bidPbancOrd=001",
-      "checkedAt": "2026-10-27T01:16:47.880235+00:00"
+      "refNo": "문화체육관광부 제2022-28호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:37.918242+00:00"
     },
     "20220718020-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220718020&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:48.889254+00:00"
+      "refNo": "문화체육관광부 제2022-22호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:39.456917+00:00"
     },
     "20220717696-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220717696&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:49.888461+00:00"
+      "refNo": "문화체육관광부 제2022-21",
+      "department": "문화체육관광부 제",
+      "checkedAt": "2026-10-27T01:53:40.796997+00:00"
     },
     "20220710919-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220710919&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:51.182900+00:00"
+      "refNo": "문화체육관광부 제2022-20호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:41.947952+00:00"
     },
     "20220609107-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220609107&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:52.240582+00:00"
+      "refNo": "문화체육관광부 제2022-17호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:43.095680+00:00"
     },
     "20220540505-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220540505&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:53.240587+00:00"
+      "refNo": "문화체육관광부 제2022-15호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:44.252385+00:00"
     },
     "20220526021-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220526021&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:54.239324+00:00"
+      "refNo": "문화체육관광부 제2022-13호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:45.617750+00:00"
     },
     "20220423994-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220423994&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:55.257162+00:00"
+      "refNo": "문화체육관광부 제2022-10호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:46.967797+00:00"
     },
     "20220409022-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220409022&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:56.264413+00:00"
+      "refNo": "문화체육관광부 제2022-8호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:48.130258+00:00"
     },
     "20220324673-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220324673&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:57.291396+00:00"
+      "refNo": "문화체육관광부 제2022-8호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:50.098271+00:00"
     },
     "20220322013-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220322013&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:58.304870+00:00"
+      "refNo": "문화체육관광부 제2022-7호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:51.249299+00:00"
     },
     "20220319598-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220319598&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:16:59.305034+00:00"
+      "refNo": "문화체육광광부 제2022-3호",
+      "department": "문화체육광광부 제호",
+      "checkedAt": "2026-10-27T01:53:52.396775+00:00"
     },
     "20220315451-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220315451&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:17:00.349907+00:00"
+      "refNo": "문화체육관광부 제2022-5호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:53.930486+00:00"
     },
     "20220311564-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220311564&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:17:01.355385+00:00"
+      "refNo": "문화체육관광부 제2022-4호",
+      "department": "문화체육관광부 제호",
+      "checkedAt": "2026-10-27T01:53:55.300890+00:00"
     },
     "20220238607-000": {
       "status": "ok",
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=20220238607&bidPbancOrd=000",
-      "checkedAt": "2026-10-27T01:17:02.359663+00:00"
+      "refNo": "문화체육광광부 제2022-3호",
+      "department": "문화체육광광부 제호",
+      "checkedAt": "2026-10-27T01:53:56.460518+00:00"
     }
-  }
+  },
+  "processedCount": 234,
+  "totalTargets": 234,
+  "completed": true,
+  "departmentCount": 234
 }
