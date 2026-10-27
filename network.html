@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>주제어 관계 분석 | 관광산업연구실</title><link rel="stylesheet" href="assets/style.css?v=news-links-20261027"><link rel="stylesheet" href="assets/network.css?v=network-copy-20261027"></head>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>주제어 관계 분석 | 관광산업연구실</title><link rel="stylesheet" href="assets/style.css?v=news-links-20261027"><link rel="stylesheet" href="assets/network.css?v=swap-panels-20261027"></head>
 <body class="network-page"><header><a href="index.html" class="brand">연구과제 발굴</a><nav><a href="research.html">경인사연 연구현황</a><a href="network.html">경인사연 주제어 분석</a><a href="prism.html">프리즘 연구현황</a><a href="bids.html">나라장터 입찰공고</a><a href="tourism-bids.html">관광 용역공고</a><a href="news.html">주요 뉴스</a></nav></header>
 <main><a class="back" href="index.html">← 메인으로</a><p class="eyebrow">NRC RESEARCH KEYWORD NETWORK</p><h1>경제인문사회연구회 연구 주제어 관계 분석</h1><p class="intro">경제인문사회연구회 연구별 주제어를 연결해, 주제어별 관련 연구를 확인합니다.</p>
 <section class="filters" aria-label="네트워크 조건">
@@ -7,11 +7,12 @@
 <label>네트워크에 표시할 주제어<select id="node-limit"><option>30</option><option selected>50</option><option>100</option></select></label>
 <label>최소 공동 등장 보고서 수<select id="min-count"><option value="1">1건 이상</option><option value="2">2건 이상</option><option value="3">3건 이상</option><option value="5">5건 이상</option></select></label>
 <label>주제어 찾기<input id="term-search" type="search" placeholder="예: 인공지능"></label></section>
+<p id="search-feedback" role="status" aria-live="polite" hidden></p>
 <p id="coverage" role="status">분석 자료를 불러오는 중입니다…</p>
 
-<div class="analysis-layout"><section class="graph-panel" aria-label="주제어 네트워크"><div class="graph-toolbar"><span id="graph-count"></span><button id="zoom-in" aria-label="네트워크 확대">＋</button><button id="zoom-out" aria-label="네트워크 축소">－</button><button id="zoom-reset">맞춤</button></div><svg id="graph" viewBox="0 0 900 650" role="img" aria-label="주제어 공동 등장 네트워크"></svg><p id="graph-empty" hidden>이 조건에서 표시할 주제어가 없습니다.</p><p class="hint">점을 누르면 관련 보고서가 나타나며, 같은 점을 다시 누르면 선택이 해제됩니다. 아래 주제어 목록에서도 선택하거나 해제할 수 있습니다.</p></section>
-<section class="detail-panel"><h2 id="selected-title">주제어를 선택하세요</h2><p id="selected-summary">네트워크의 점이나 아래 주제어 버튼을 눌러보세요.</p><div id="neighbors"></div><h3>관련 보고서</h3><div id="report-list"></div><button id="more-reports" hidden>보고서 더 보기</button></section></div>
-<section id="terms-section" aria-label="주제어 목록"><h2>주제어 목록</h2><p>선택한 연도에 수집된 모든 주제어를 등장 보고서 수가 많은 순으로 정렬해 페이지당 50개씩 표시합니다. 통합을 선택하면 전체 연도의 주제어를 확인할 수 있습니다. 검색은 이 목록 전체에 적용됩니다.</p><p id="term-count" aria-live="polite"></p><div id="term-list" class="term-list"></div><p id="term-empty" hidden>검색 조건에 맞는 주제어가 없습니다.</p><nav id="term-pagination" class="pagination" aria-label="주제어 목록 페이지 이동" hidden></nav></section>
+<div class="analysis-layout"><section class="graph-panel" aria-label="주제어 네트워크"><div class="graph-toolbar"><span id="graph-count"></span><button id="zoom-in" aria-label="네트워크 확대">＋</button><button id="zoom-out" aria-label="네트워크 축소">－</button><button id="zoom-reset">맞춤</button></div><svg id="graph" viewBox="0 0 900 650" role="img" aria-label="주제어 공동 등장 네트워크"></svg><p id="graph-empty" hidden>이 조건에서 표시할 주제어가 없습니다.</p><p class="hint">점을 누르면 관련 보고서가 나타나며, 같은 점을 다시 누르면 선택이 해제됩니다. 주제어 목록에서도 선택하거나 해제할 수 있습니다.</p></section>
+<section id="terms-section" class="terms-panel" aria-label="주제어 목록"><h2>주제어 목록</h2><p>선택한 연도에 수집된 모든 주제어를 등장 보고서 수가 많은 순으로 정렬해 페이지당 50개씩 표시합니다. 통합을 선택하면 전체 연도의 주제어를 확인할 수 있습니다. 검색은 이 목록 전체에 적용됩니다.</p><p id="term-count" aria-live="polite"></p><div id="term-list" class="term-list"></div><p id="term-empty" hidden>검색 조건에 맞는 주제어가 없습니다.</p><nav id="term-pagination" class="pagination" aria-label="주제어 목록 페이지 이동" hidden></nav></section></div>
+<section class="detail-panel"><h2 id="selected-title">주제어를 선택하세요</h2><p id="selected-summary">네트워크의 점이나 주제어 버튼을 눌러보세요.</p><div id="neighbors"></div><h3>관련 보고서</h3><div id="report-list"></div><button id="more-reports" hidden>보고서 더 보기</button></section>
 <aside id="coverage-note">
   <p>· 같은 보고서에 등장한 주제어를 연결합니다.</p>
   <p>· 점 크기는 등장 보고서 수, 선 굵기는 공동 등장 보고서 수입니다.</p>
@@ -35,4 +36,4 @@
     <button type="button" data-direction="next" aria-label="다음 참고 사이트 보기" aria-controls="reference-sites" hidden>&gt;</button>
   </div>
 </footer>
-<script src="assets/research-list.js" defer></script><script src="assets/network-data.js?v=all-terms-20261027" defer></script><script src="assets/network.js?v=search-reports-20261027" defer></script><script src="assets/references.js" defer></script></body></html>
+<script src="assets/research-list.js" defer></script><script src="assets/network-data.js?v=all-terms-20261027" defer></script><script src="assets/network.js?v=swap-panels-20261027" defer></script><script src="assets/references.js" defer></script></body></html>

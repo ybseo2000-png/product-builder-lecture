@@ -7,6 +7,7 @@
   function details(){
     el('neighbors').replaceChildren();el('report-list').replaceChildren();
     const q=el('term-search').value.trim().toLowerCase();
+    el('search-feedback').hidden=!q&&!selected;
     if(!selected&&!q){el('selected-title').textContent='주제어를 선택하세요';el('selected-summary').textContent='네트워크의 점이나 주제어 목록을 선택하세요.';el('more-reports').hidden=true;return;}
     let docs;
     if(selected){
@@ -19,6 +20,7 @@
       el('selected-title').textContent=`“${el('term-search').value.trim()}” 검색 결과`;
       el('selected-summary').textContent=`현재 기간의 일치 주제어 ${matches.length}개 · 관련 보고서 ${docs.length}건 (중복 제외)`;
     }
+    el('search-feedback').textContent=(selected?`선택한 주제어: ${selected} · `:'')+el('selected-summary').textContent;
     const neighbors=model.edges.filter(e=>e.source===selected||e.target===selected).sort((a,b)=>b.count-a.count);
     for(const e of neighbors){const id=e.source===selected?e.target:e.source;el('neighbors').append(button(`${id} · ${e.count}건`,()=>choose(id)));}
     for(const r of docs.slice(0,shown)){

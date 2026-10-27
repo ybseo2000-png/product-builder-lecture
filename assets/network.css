@@ -2,3 +2,10 @@
 
 .network-page #coverage-note p{margin:4px 0;line-height:1.8}
 .network-page #coverage-note .collection-note{margin-top:18px}
+
+.terms-panel{background:#fff;border:1px solid #ddd;border-radius:12px;padding:18px;min-width:0}
+.terms-panel h2{font-size:23px;margin-top:0}
+.terms-panel p{font-size:13px}
+.network-page main > .detail-panel{margin-top:22px}
+#search-feedback{padding:12px 16px;border-left:3px solid #304f78;background:#f3f3f3;font-size:14px}
+.analysis-layout{align-items:start}
